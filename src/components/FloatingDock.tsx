@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 
 interface Props {
   comicSlug: string;
+  comicTitle: string;
   chapterNumber: string;
   prevChapterSlug?: string;
   nextChapterSlug?: string;
@@ -16,6 +17,7 @@ type Panel = "none" | "search" | "settings";
 
 export default function FloatingDock({
   comicSlug,
+  comicTitle,
   chapterNumber,
   prevChapterSlug,
   nextChapterSlug,
@@ -103,6 +105,29 @@ export default function FloatingDock({
   return (
     <div data-dock className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center gap-2"
       style={{ fontFamily: "'Poppins', sans-serif" }}>
+
+      {/* ── Top floating bar ───────────────────────────────────────────── */}
+      <div
+        data-dock
+        onClick={stopProp}
+        className={`fixed top-3 left-1/2 -translate-x-1/2 flex items-center gap-2 bg-surface/95 backdrop-blur-md border border-border rounded-full px-3 py-2 shadow-2xl text-sm transition-all duration-300 max-w-[90vw] ${
+          visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"
+        }`}
+      >
+        <button
+          data-dock
+          onClick={(e) => { e.stopPropagation(); router.push(`/comic/${comicSlug}`); }}
+          aria-label="Kembali ke daftar chapter"
+          className="flex items-center justify-center w-7 h-7 rounded-full hover:bg-surface2 text-muted hover:text-accent transition-colors flex-shrink-0"
+        >
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+        <span className="text-muted text-xs flex-shrink-0 truncate max-w-[40vw]">{comicTitle}</span>
+        <span className="text-border text-xs flex-shrink-0">›</span>
+        <span className="text-text text-xs font-medium flex-shrink-0">Chapter {chapterNumber}</span>
+      </div>
 
       {/* ── Pop-up panels ──────────────────────────────────────────────── */}
       {visible && activePanel === "search" && (

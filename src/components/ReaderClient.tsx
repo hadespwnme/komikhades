@@ -99,6 +99,7 @@ export default function ReaderClient({
       {/* Floating Dock */}
       <FloatingDock
         comicSlug={comicSlug}
+        comicTitle={comicTitle}
         chapterNumber={chapter.number}
         prevChapterSlug={prevChapter?.slug}
         nextChapterSlug={nextChapter?.slug}
