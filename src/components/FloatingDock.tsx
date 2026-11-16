@@ -112,6 +112,18 @@ export default function FloatingDock({
         <span className="text-muted text-xs flex-shrink-0 truncate max-w-[40vw]">{comicTitle}</span>
         <span className="text-border text-xs flex-shrink-0">›</span>
         <span className="text-text text-xs font-medium flex-shrink-0">Chapter {chapterNumber}</span>
+        {/* Home */}
+        <div className="w-px h-4 bg-border mx-0.5 flex-shrink-0" />
+        <button
+          data-dock
+          onClick={(e) => { e.stopPropagation(); router.push("/"); }}
+          aria-label="Kembali ke beranda"
+          className="flex items-center justify-center w-7 h-7 rounded-full hover:bg-surface2 text-muted hover:text-accent transition-colors flex-shrink-0"
+        >
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+          </svg>
+        </button>
       </div>
 
       {/* ── Bottom dock container ──────────────────────────────────────── */}
