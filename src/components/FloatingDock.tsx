@@ -132,7 +132,7 @@ export default function FloatingDock({
               min="0"
               placeholder="Ketik nomor chapter..."
               value={searchVal}
-              onChange={(e) => { setSearchVal(e.target.value); setSearchError(""); }}
+              onChange={(e) => { setSearchVal(e.target.value); }}
               className="w-full bg-surface2 border border-border rounded-lg px-3 py-2 text-sm text-text placeholder:text-muted focus:outline-none focus:border-accent/60 focus:ring-1 focus:ring-accent/20 transition-all"
             />
           </div>
