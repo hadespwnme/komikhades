@@ -1,43 +1,41 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function ScrollButtons() {
   const [visible, setVisible] = useState(false);
+  const pathname = usePathname();
+
+  // Hide on reader pages — reader has its own floating dock
+  const segments = pathname.split("/").filter(Boolean);
+  const isReader = segments[0] === "comic" && segments.length === 3;
 
   useEffect(() => {
-    const handleTap = (e: MouseEvent | TouchEvent) => {
-      // Jangan toggle kalau yang di-tap adalah tombol scroll itu sendiri
+    if (isReader) return;
+    const handleTap = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
       if (target.closest("[data-scroll-btn]")) return;
       setVisible((v) => !v);
     };
-
     document.addEventListener("click", handleTap);
     return () => document.removeEventListener("click", handleTap);
-  }, []);
+  }, [isReader]);
 
-  const scrollToTop = (e: React.MouseEvent) => {
-    e.stopPropagation(); // jangan trigger toggle
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
-  const scrollToBottom = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    window.scrollTo({ top: document.documentElement.scrollHeight, behavior: "smooth" });
-  };
+  if (isReader) return null;
 
   return (
     <div
       data-scroll-btn
       className={`fixed bottom-6 right-4 z-50 flex flex-col gap-2 transition-all duration-300 ${
-        visible ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 translate-y-4 pointer-events-none"
+        visible
+          ? "opacity-100 translate-y-0 pointer-events-auto"
+          : "opacity-0 translate-y-4 pointer-events-none"
       }`}
     >
-      {/* Ke atas */}
       <button
         data-scroll-btn
-        onClick={scrollToTop}
+        onClick={(e) => { e.stopPropagation(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
         aria-label="Ke atas"
         className="w-10 h-10 rounded-full bg-surface2 border border-border flex items-center justify-center hover:bg-accent hover:border-accent transition-colors active:scale-95"
       >
@@ -45,11 +43,9 @@ export default function ScrollButtons() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
         </svg>
       </button>
-
-      {/* Ke bawah */}
       <button
         data-scroll-btn
-        onClick={scrollToBottom}
+        onClick={(e) => { e.stopPropagation(); window.scrollTo({ top: document.documentElement.scrollHeight, behavior: "smooth" }); }}
         aria-label="Ke bawah"
         className="w-10 h-10 rounded-full bg-surface2 border border-border flex items-center justify-center hover:bg-accent hover:border-accent transition-colors active:scale-95"
       >

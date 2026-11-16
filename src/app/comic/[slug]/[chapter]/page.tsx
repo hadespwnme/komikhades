@@ -8,16 +8,7 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  // Only pre-render the first few chapters of each comic to avoid huge builds.
-  // The rest will be rendered on-demand (ISR).
-  const comics = await getComicList();
-  const params: { slug: string; chapter: string }[] = [];
-  for (const c of comics) {
-    // We don't have full chapter slugs in the index, skip static generation here.
-    // Pages will SSR/ISR on first access.
-    void c;
-  }
-  return params;
+  return [];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -40,14 +31,19 @@ export default async function ReaderPage({ params }: Props) {
   if (!chapterObj) notFound();
 
   const chapterIndex = comic.chapters.findIndex((c) => c.slug === chapter);
-  const prevChapter =
-    chapterIndex > 0 ? comic.chapters[chapterIndex - 1] : null;
+  const prevChapter = chapterIndex > 0 ? comic.chapters[chapterIndex - 1] : null;
   const nextChapter =
     chapterIndex < comic.chapters.length - 1
       ? comic.chapters[chapterIndex + 1]
       : null;
 
   const pages = await getChapterPages(slug, chapter);
+
+  // Pass lightweight list for search (number + slug only)
+  const allChapters = comic.chapters.map((c) => ({
+    slug: c.slug,
+    number: c.number,
+  }));
 
   return (
     <ReaderClient
@@ -57,6 +53,7 @@ export default async function ReaderPage({ params }: Props) {
       pages={pages}
       prevChapter={prevChapter ?? undefined}
       nextChapter={nextChapter ?? undefined}
+      allChapters={allChapters}
     />
   );
 }
