@@ -5,6 +5,7 @@ import Link from "next/link";
 import { getComic, getComicList } from "@/lib/data";
 import ChapterList from "@/components/ChapterList";
 import LibraryButtons from "@/components/LibraryButtons";
+import ContinueButton from "@/components/ContinueButton";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -119,17 +120,16 @@ export default async function ComicPage({ params }: Props) {
               {/* CTA buttons */}
               <div className="flex gap-2 mt-1">
                 {firstChapter && (
-                  <Link href={`/comic/${slug}/${firstChapter.slug}`}
-                    className="flex-1 sm:flex-none text-center px-4 py-2 rounded-xl bg-surface2 border border-border text-sm text-muted hover:text-text hover:border-accent/40 transition-all"
-                    style={{ fontFamily: "'Poppins', sans-serif" }}>
-                    Mulai Ch. 0
-                  </Link>
+                  <ContinueButton
+                    comicSlug={slug}
+                    firstChapterSlug={firstChapter.slug}
+                  />
                 )}
                 {latestChapter && (
                   <Link href={`/comic/${slug}/${latestChapter.slug}`}
-                    className="flex-1 sm:flex-none text-center px-4 py-2 rounded-xl bg-accent text-white text-sm font-semibold hover:bg-accent2 transition-colors shadow-lg shadow-accent/20"
+                    className="flex-1 sm:flex-none text-center px-4 py-2 rounded-xl bg-surface2 border border-border text-sm text-muted hover:text-text hover:border-accent/40 transition-all"
                     style={{ fontFamily: "'Poppins', sans-serif" }}>
-                    Ch. Terbaru →
+                    Ch. Terbaru
                   </Link>
                 )}
               </div>
