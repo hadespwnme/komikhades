@@ -99,13 +99,16 @@ def scrape_manga_page(slug: str) -> Comic:
 
     genres = [a.get_text(strip=True) for a in soup.select("a[href*='/genre/']")]
 
-    # Synopsis: first <p> inside article/div after the info table
-    synopsis_el = soup.find("div", id="Sinopsis") or soup.find("div", class_="sinopsis")
+    # Synopsis — get <p> directly after the first <h2>Sinopsis</h2>
     synopsis = ""
-    if synopsis_el:
-        synopsis = synopsis_el.get_text(separator=" ", strip=True)
-    else:
-        # Fallback: find description meta
+    for h2 in soup.find_all("h2"):
+        if h2.get_text(strip=True) == "Sinopsis":
+            p = h2.find_next_sibling("p")
+            if p:
+                synopsis = p.get_text(separator=" ", strip=True)
+            break
+    # Fallback to meta description if not found
+    if not synopsis:
         desc = soup.find("meta", attrs={"name": "description"})
         synopsis = desc["content"] if desc else ""
 

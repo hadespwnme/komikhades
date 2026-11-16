@@ -51,7 +51,7 @@ export default function ContinueButton({ comicSlug, firstChapterSlug }: Props) {
         className="flex-1 sm:flex-none text-center px-4 py-2 rounded-xl bg-accent text-white text-sm font-semibold hover:bg-accent2 transition-colors shadow-lg shadow-accent/20"
         style={{ fontFamily: "'Poppins', sans-serif" }}
       >
-        ▶ Lanjutkan Ch. {state.chapterNum}
+        <span>Lanjutkan Ch. {state.chapterNum}</span>
       </Link>
     );
   }
