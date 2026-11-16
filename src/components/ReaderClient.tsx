@@ -8,6 +8,7 @@ import type { Chapter } from "@/types/comic";
 interface Props {
   comicSlug: string;
   comicTitle: string;
+  thumbnail: string;
   chapter: Chapter;
   pages: string[];
   prevChapter?: Chapter;
@@ -18,6 +19,7 @@ interface Props {
 export default function ReaderClient({
   comicSlug,
   comicTitle,
+  thumbnail,
   chapter,
   pages,
   prevChapter,
@@ -28,7 +30,7 @@ export default function ReaderClient({
   const [currentPage, setCurrentPage] = useState(0);
   const pageRefs = useRef<(HTMLDivElement | null)[]>([]);
 
-  // Save progress
+  // Save progress locally + to Supabase history (fire and forget)
   useEffect(() => {
     setChapterProgress(comicSlug, {
       lastChapter: chapter.slug,
@@ -36,7 +38,10 @@ export default function ReaderClient({
       lastPage: currentPage,
       updatedAt: Date.now(),
     });
-  }, [comicSlug, chapter, currentPage, setChapterProgress]);
+    import("@/lib/actions").then(({ upsertHistory }) => {
+      upsertHistory(comicSlug, comicTitle, thumbnail, chapter.slug, chapter.number, currentPage).catch(() => {});
+    });
+  }, [comicSlug, comicTitle, thumbnail, chapter, currentPage, setChapterProgress]);
 
   // Track current page via IntersectionObserver
   useEffect(() => {

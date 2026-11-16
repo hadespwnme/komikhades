@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getComic, getComicList } from "@/lib/data";
 import ChapterList from "@/components/ChapterList";
+import LibraryButtons from "@/components/LibraryButtons";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -132,6 +133,13 @@ export default async function ComicPage({ params }: Props) {
                   </Link>
                 )}
               </div>
+
+              {/* Library buttons */}
+              <LibraryButtons
+                comicSlug={slug}
+                comicTitle={comic.title}
+                thumbnail={comic.thumbnail}
+              />
             </div>
           </div>
         </div>

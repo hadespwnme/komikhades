@@ -49,6 +49,7 @@ export default async function ReaderPage({ params }: Props) {
     <ReaderClient
       comicSlug={slug}
       comicTitle={comic.title}
+      thumbnail={comic.thumbnail}
       chapter={chapterObj}
       pages={pages}
       prevChapter={prevChapter ?? undefined}
