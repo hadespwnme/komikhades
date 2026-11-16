@@ -5,7 +5,7 @@ import ComicCard from "./ComicCard";
 import { useReadingProgress } from "@/hooks/useReadingProgress";
 import type { ComicSummary } from "@/types/comic";
 
-const PER_PAGE = 10;
+const PER_PAGE = 12;
 
 /** Parse DD/MM/YYYY → Date. Returns epoch 0 if invalid. */
 function parseDate(str: string): Date {
