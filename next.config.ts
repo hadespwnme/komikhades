@@ -26,6 +26,11 @@ const nextConfig: NextConfig = {
         hostname: "update.komikid.org",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "*.komiku.org",
+        pathname: "/**",
+      },
     ],
   },
 };

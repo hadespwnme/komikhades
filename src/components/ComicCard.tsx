@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import type { ComicSummary, ReadingProgress } from "@/types/comic";
 
 interface Props {
@@ -14,13 +13,13 @@ export default function ComicCard({ comic, progress }: Props) {
     <Link href={`/comic/${comic.slug}`} className="group block card-hover">
       {/* Cover — takes full card width, 2:3 ratio */}
       <div className="relative aspect-[2/3] rounded-[14px] overflow-hidden bg-surface2">
-        <Image
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
           src={comic.thumbnail}
           alt={comic.title}
-          fill
-          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
-          unoptimized
+          className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          loading="lazy"
+          referrerPolicy="no-referrer"
         />
 
         {/* Gradient overlay — always visible bottom portion for text legibility */}

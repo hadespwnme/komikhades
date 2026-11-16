@@ -113,7 +113,8 @@ function ComicList({
           <Link href={`/comic/${item.comic_slug}`}
             className="block rounded-xl overflow-hidden bg-surface border border-border hover:border-accent/40 transition-all card-hover">
             <div className="relative aspect-[2/3]">
-              <Image src={item.thumbnail} alt={item.comic_title} fill className="object-cover" unoptimized />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={item.thumbnail} alt={item.comic_title} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
               <p className="absolute bottom-2 left-2 right-2 text-white text-xs font-semibold line-clamp-2 leading-tight">
                 {item.comic_title}
@@ -149,7 +150,8 @@ function HistoryList({ items }: { items: HistoryRow[] }) {
           className="flex items-center gap-3 px-4 py-3 hover:bg-surface2 transition-colors"
         >
           <div className="relative w-10 h-14 rounded-lg overflow-hidden flex-shrink-0">
-            <Image src={item.thumbnail} alt={item.comic_title} fill className="object-cover" unoptimized />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={item.thumbnail} alt={item.comic_title} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
           </div>
           <div className="flex-1 min-w-0">
             <p className="text-text text-sm font-medium truncate">{item.comic_title}</p>
