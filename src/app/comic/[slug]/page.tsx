@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { getComic, getComicList } from "@/lib/data";
 import ChapterList from "@/components/ChapterList";
 
@@ -20,6 +21,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: comic.title,
     description: comic.synopsis?.slice(0, 160),
+    openGraph: {
+      images: [comic.thumbnail],
+    },
   };
 }
 
@@ -28,56 +32,134 @@ export default async function ComicPage({ params }: Props) {
   const comic = await getComic(slug);
   if (!comic) notFound();
 
+  const latestChapter = comic.chapters[comic.chapters.length - 1];
+  const firstChapter = comic.chapters[0];
+
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
-      {/* Hero */}
-      <div className="flex gap-6 mb-8">
-        <div className="relative w-32 sm:w-44 flex-shrink-0 rounded-xl overflow-hidden aspect-[2/3] shadow-xl">
-          <Image
-            src={comic.thumbnail}
-            alt={comic.title}
-            fill
-            sizes="176px"
-            className="object-cover"
-            unoptimized
-          />
+    <div className="min-h-screen bg-bg">
+      {/* Hero — full width with blurred backdrop */}
+      <div className="relative border-b border-border overflow-hidden">
+        {/* Blurred background cover */}
+        <div className="absolute inset-0 opacity-15 blur-2xl scale-110">
+          <Image src={comic.thumbnail} alt="" fill className="object-cover" unoptimized />
         </div>
-        <div className="flex flex-col gap-2">
-          <h1 className="text-2xl font-bold leading-tight">{comic.title}</h1>
-          {comic.alt_title && (
-            <p className="text-muted text-sm">{comic.alt_title}</p>
-          )}
-          <div className="flex flex-wrap gap-1 mt-1">
-            {comic.genres.map((g) => (
-              <span
-                key={g}
-                className="text-[11px] px-2 py-0.5 rounded-full bg-surface2 text-muted"
-              >
-                {g}
-              </span>
-            ))}
+        <div className="absolute inset-0 bg-gradient-to-b from-bg/60 via-bg/80 to-bg" />
+
+        <div className="relative max-w-4xl mx-auto px-4 py-8">
+          {/* Breadcrumb */}
+          <div className="flex items-center gap-2 text-xs text-muted mb-6"
+            style={{ fontFamily: "'Poppins', sans-serif" }}>
+            <Link href="/" className="hover:text-accent transition-colors">Beranda</Link>
+            <span>/</span>
+            <span className="text-text">{comic.title}</span>
           </div>
-          <div className="text-sm text-muted space-y-0.5 mt-1">
-            <p><span className="text-text">Tipe:</span> {comic.type}</p>
-            <p><span className="text-text">Author:</span> {comic.author}</p>
-            <p><span className="text-text">Status:</span> {comic.status}</p>
-            <p><span className="text-text">Chapters:</span> {comic.chapters.length}</p>
+
+          <div className="flex gap-5 sm:gap-7">
+            {/* Cover */}
+            <div className="relative w-28 sm:w-40 flex-shrink-0 rounded-2xl overflow-hidden aspect-[2/3] shadow-2xl ring-1 ring-white/10">
+              <Image
+                src={comic.thumbnail}
+                alt={comic.title}
+                fill
+                sizes="160px"
+                className="object-cover"
+                unoptimized
+              />
+            </div>
+
+            {/* Info */}
+            <div className="flex flex-col gap-3 flex-1 min-w-0">
+              <div>
+                <h1
+                  className="text-2xl sm:text-3xl text-text leading-tight"
+                  style={{ fontFamily: "'Righteous', sans-serif" }}
+                >
+                  {comic.title}
+                </h1>
+                {comic.alt_title && (
+                  <p className="text-muted text-sm mt-0.5">{comic.alt_title}</p>
+                )}
+              </div>
+
+              {/* Genres */}
+              <div className="flex flex-wrap gap-1.5">
+                {comic.genres.map((g) => (
+                  <span key={g}
+                    className="text-[11px] px-2.5 py-0.5 rounded-full bg-surface2 text-muted border border-border"
+                    style={{ fontFamily: "'Poppins', sans-serif" }}>
+                    {g}
+                  </span>
+                ))}
+              </div>
+
+              {/* Meta */}
+              <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm"
+                style={{ fontFamily: "'Poppins', sans-serif" }}>
+                <div>
+                  <span className="text-muted text-xs uppercase tracking-wide">Author</span>
+                  <p className="text-text font-medium">{comic.author || "—"}</p>
+                </div>
+                <div>
+                  <span className="text-muted text-xs uppercase tracking-wide">Status</span>
+                  <p className={comic.status === "End" ? "text-muted font-medium" : "text-green-400 font-medium"}>
+                    {comic.status === "End" ? "Tamat" : comic.status}
+                  </p>
+                </div>
+                <div>
+                  <span className="text-muted text-xs uppercase tracking-wide">Tipe</span>
+                  <p className="text-text font-medium">{comic.type}</p>
+                </div>
+                <div>
+                  <span className="text-muted text-xs uppercase tracking-wide">Chapter</span>
+                  <p className="text-accent font-semibold">{comic.chapters.length}</p>
+                </div>
+              </div>
+
+              {/* CTA buttons */}
+              <div className="flex gap-2 mt-1">
+                {firstChapter && (
+                  <Link href={`/comic/${slug}/${firstChapter.slug}`}
+                    className="flex-1 sm:flex-none text-center px-4 py-2 rounded-xl bg-surface2 border border-border text-sm text-muted hover:text-text hover:border-accent/40 transition-all"
+                    style={{ fontFamily: "'Poppins', sans-serif" }}>
+                    Mulai Ch. 0
+                  </Link>
+                )}
+                {latestChapter && (
+                  <Link href={`/comic/${slug}/${latestChapter.slug}`}
+                    className="flex-1 sm:flex-none text-center px-4 py-2 rounded-xl bg-accent text-white text-sm font-semibold hover:bg-accent2 transition-colors shadow-lg shadow-accent/20"
+                    style={{ fontFamily: "'Poppins', sans-serif" }}>
+                    Ch. Terbaru →
+                  </Link>
+                )}
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Synopsis */}
-      {comic.synopsis && (
-        <div className="mb-8 bg-surface rounded-xl p-4 text-sm text-muted leading-relaxed">
-          <h2 className="text-text font-semibold mb-2">Sinopsis</h2>
-          {comic.synopsis}
-        </div>
-      )}
+      <div className="max-w-4xl mx-auto px-4 py-8 space-y-8">
+        {/* Synopsis */}
+        {comic.synopsis && (
+          <div className="bg-surface rounded-2xl p-5 border border-border">
+            <h2 className="text-sm font-semibold text-muted uppercase tracking-widest mb-3"
+              style={{ fontFamily: "'Poppins', sans-serif" }}>
+              Sinopsis
+            </h2>
+            <p className="text-muted text-sm leading-relaxed"
+              style={{ fontFamily: "'Poppins', sans-serif" }}>
+              {comic.synopsis}
+            </p>
+          </div>
+        )}
 
-      {/* Chapter list */}
-      <div>
-        <h2 className="font-semibold text-lg mb-3">Daftar Chapter</h2>
-        <ChapterList chapters={comic.chapters} comicSlug={slug} />
+        {/* Chapter list */}
+        <div>
+          <h2 className="text-lg text-text mb-4"
+            style={{ fontFamily: "'Righteous', sans-serif" }}>
+            Daftar Chapter
+          </h2>
+          <ChapterList chapters={comic.chapters} comicSlug={slug} />
+        </div>
       </div>
     </div>
   );

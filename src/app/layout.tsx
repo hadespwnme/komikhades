@@ -1,19 +1,13 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-
-const geist = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: {
     default: "Komikhades",
     template: "%s | Komikhades",
   },
-  description: "Baca komik manhwa online gratis",
+  description: "Baca komik manhwa online gratis — Komikhades",
 };
 
 export default function RootLayout({
@@ -22,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="id" className={`${geist.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col bg-bg text-text">
+    <html lang="id" className="h-full">
+      <body className="min-h-full flex flex-col bg-bg text-text antialiased">
         <Navbar />
         <main className="flex-1">{children}</main>
         <footer className="text-center text-xs text-muted py-6 border-t border-border">

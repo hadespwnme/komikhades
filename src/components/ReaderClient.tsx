@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import Link from "next/link";
 import { useReadingProgress } from "@/hooks/useReadingProgress";
 import type { Chapter } from "@/types/comic";
@@ -24,9 +24,11 @@ export default function ReaderClient({
 }: Props) {
   const { setChapterProgress } = useReadingProgress();
   const [currentPage, setCurrentPage] = useState(0);
+  const [headerVisible, setHeaderVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
   const pageRefs = useRef<(HTMLDivElement | null)[]>([]);
 
-  // Save progress whenever the visible page changes
+  // Save progress
   useEffect(() => {
     setChapterProgress(comicSlug, {
       lastChapter: chapter.slug,
@@ -36,7 +38,7 @@ export default function ReaderClient({
     });
   }, [comicSlug, chapter, currentPage, setChapterProgress]);
 
-  // Track which page is in view using IntersectionObserver
+  // Track current page
   useEffect(() => {
     if (pages.length === 0) return;
     const observer = new IntersectionObserver(
@@ -48,110 +50,149 @@ export default function ReaderClient({
           }
         });
       },
-      { threshold: 0.4 }
+      { threshold: 0.3 }
     );
     pageRefs.current.forEach((el) => el && observer.observe(el));
     return () => observer.disconnect();
   }, [pages]);
 
+  // Auto-hide header on scroll down
+  const handleScroll = useCallback(() => {
+    const y = window.scrollY;
+    setHeaderVisible(y < lastScrollY || y < 60);
+    setLastScrollY(y);
+  }, [lastScrollY]);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [handleScroll]);
+
+  const progress = pages.length > 0 ? ((currentPage + 1) / pages.length) * 100 : 0;
+
   return (
-    <div className="max-w-3xl mx-auto px-2 pb-16 pt-4">
-      {/* Top nav */}
-      <div className="flex items-center justify-between px-4 py-3 bg-surface border border-border rounded-xl text-sm mb-4">
-        <Link
-          href={`/comic/${comicSlug}`}
-          className="text-muted hover:text-text transition-colors text-xs"
-        >
-          ← {comicTitle}
-        </Link>
-        <span className="font-semibold">Chapter {chapter.number}</span>
-        <span className="text-muted text-xs">
-          {pages.length > 0 ? `${currentPage + 1} / ${pages.length}` : ""}
-        </span>
+    <div className="min-h-screen bg-bg" style={{ fontFamily: "'Poppins', sans-serif" }}>
+      {/* Sticky header — auto-hides on scroll */}
+      <div
+        className={`sticky top-14 z-40 transition-transform duration-300 ${
+          headerVisible ? "translate-y-0" : "-translate-y-full"
+        }`}
+      >
+        <div className="bg-surface/95 backdrop-blur-md border-b border-border">
+          <div className="max-w-3xl mx-auto px-4 h-12 flex items-center justify-between gap-4">
+            <Link
+              href={`/comic/${comicSlug}`}
+              className="flex items-center gap-1.5 text-muted hover:text-accent transition-colors text-xs flex-shrink-0"
+            >
+              <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+              <span className="hidden sm:inline">{comicTitle}</span>
+              <span className="sm:hidden">Kembali</span>
+            </Link>
+
+            <span
+              className="text-text font-normal text-sm truncate"
+              style={{ fontFamily: "'Righteous', sans-serif" }}
+            >
+              Chapter {chapter.number}
+            </span>
+
+            <span className="text-muted text-xs flex-shrink-0">
+              {pages.length > 0 ? `${currentPage + 1}/${pages.length}` : "—"}
+            </span>
+          </div>
+
+          {/* Progress bar */}
+          <div className="h-0.5 bg-surface2">
+            <div
+              className="h-full bg-accent transition-all duration-300"
+              style={{ width: `${progress}%` }}
+            />
+          </div>
+        </div>
       </div>
 
-      {/* Chapter navigation */}
-      <div className="flex gap-2 mb-4">
+      {/* Chapter nav */}
+      <div className="max-w-3xl mx-auto px-4 py-3 flex gap-2">
         {prevChapter ? (
           <Link
             href={`/comic/${comicSlug}/${prevChapter.slug}`}
-            className="flex-1 text-center py-2 rounded-lg bg-surface2 border border-border text-sm hover:border-accent transition-colors"
+            className="flex-1 text-center py-2.5 rounded-xl bg-surface border border-border text-sm text-muted hover:text-text hover:border-accent/40 transition-all"
           >
             ← Ch. {prevChapter.number}
           </Link>
-        ) : (
-          <div className="flex-1" />
-        )}
+        ) : <div className="flex-1" />}
         {nextChapter ? (
           <Link
             href={`/comic/${comicSlug}/${nextChapter.slug}`}
-            className="flex-1 text-center py-2 rounded-lg bg-surface2 border border-border text-sm hover:border-accent transition-colors"
+            className="flex-1 text-center py-2.5 rounded-xl bg-accent text-white text-sm font-semibold hover:bg-accent2 transition-colors"
           >
             Ch. {nextChapter.number} →
           </Link>
-        ) : (
-          <div className="flex-1" />
-        )}
+        ) : <div className="flex-1" />}
       </div>
 
       {/* Pages */}
-      {pages.length === 0 ? (
-        <div className="text-center py-24 text-muted">
-          <p className="text-4xl mb-3">⚠️</p>
-          <p>Gagal memuat gambar chapter ini.</p>
-          <p className="text-xs mt-1">Coba refresh halaman.</p>
-        </div>
-      ) : (
-        <div className="flex flex-col gap-1">
-          {pages.map((src, idx) => (
-            <div
-              key={idx}
-              ref={(el) => { pageRefs.current[idx] = el; }}
-              className="relative w-full"
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={src}
-                alt={`Page ${idx + 1}`}
-                className="reader-img"
-                loading={idx < 3 ? "eager" : "lazy"}
-                onError={(e) => {
-                  (e.target as HTMLImageElement).style.display = "none";
-                }}
-              />
+      <div className="max-w-3xl mx-auto">
+        {pages.length === 0 ? (
+          <div className="flex flex-col items-center justify-center py-32 gap-4 text-muted">
+            <div className="w-14 h-14 rounded-2xl bg-surface2 flex items-center justify-center text-2xl">⚠️</div>
+            <div className="text-center">
+              <p className="text-text font-medium mb-1">Gagal memuat gambar</p>
+              <p className="text-sm">Coba refresh halaman</p>
             </div>
-          ))}
-        </div>
-      )}
+          </div>
+        ) : (
+          <div className="flex flex-col">
+            {pages.map((src, idx) => (
+              <div
+                key={idx}
+                ref={(el) => { pageRefs.current[idx] = el; }}
+                className="relative w-full"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={src}
+                  alt={`Halaman ${idx + 1}`}
+                  className="reader-img"
+                  loading={idx < 2 ? "eager" : "lazy"}
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).style.display = "none";
+                  }}
+                />
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
 
       {/* Bottom nav */}
-      <div className="flex items-center justify-between px-4 py-3 bg-surface border border-border rounded-xl text-sm mt-6">
-        {prevChapter ? (
-          <Link
-            href={`/comic/${comicSlug}/${prevChapter.slug}`}
-            className="text-muted hover:text-accent transition-colors"
-          >
-            ← Ch. {prevChapter.number}
-          </Link>
-        ) : (
-          <span />
-        )}
+      <div className="max-w-3xl mx-auto px-4 py-6">
+        <div className="flex gap-2 mb-4">
+          {prevChapter ? (
+            <Link href={`/comic/${comicSlug}/${prevChapter.slug}`}
+              className="flex-1 text-center py-3 rounded-xl bg-surface border border-border text-sm text-muted hover:text-text hover:border-accent/40 transition-all">
+              ← Ch. {prevChapter.number}
+            </Link>
+          ) : <div className="flex-1" />}
+          {nextChapter ? (
+            <Link href={`/comic/${comicSlug}/${nextChapter.slug}`}
+              className="flex-1 text-center py-3 rounded-xl bg-accent text-white text-sm font-semibold hover:bg-accent2 transition-colors shadow-lg shadow-accent/20">
+              Ch. {nextChapter.number} →
+            </Link>
+          ) : (
+            <div className="flex-1 flex items-center justify-center py-3 rounded-xl bg-surface border border-border text-sm text-muted">
+              🎉 Selesai
+            </div>
+          )}
+        </div>
         <Link
           href={`/comic/${comicSlug}`}
-          className="text-xs text-muted hover:text-text transition-colors"
+          className="block w-full text-center py-3 rounded-xl bg-surface2 border border-border text-sm text-muted hover:text-text transition-colors"
         >
-          Daftar Chapter
+          ☰ Daftar Chapter
         </Link>
-        {nextChapter ? (
-          <Link
-            href={`/comic/${comicSlug}/${nextChapter.slug}`}
-            className="text-accent hover:text-accent-hover transition-colors font-medium"
-          >
-            Ch. {nextChapter.number} →
-          </Link>
-        ) : (
-          <span className="text-muted text-xs">Selesai 🎉</span>
-        )}
       </div>
     </div>
   );

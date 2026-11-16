@@ -11,54 +11,63 @@ interface Props {
 
 export default function ComicCard({ comic, progress }: Props) {
   return (
-    <Link
-      href={`/comic/${comic.slug}`}
-      className="group relative flex flex-col rounded-xl overflow-hidden bg-surface border border-border hover:border-accent transition-all hover:-translate-y-1 shadow-lg"
-    >
-      {/* Cover */}
-      <div className="relative aspect-[2/3] overflow-hidden">
+    <Link href={`/comic/${comic.slug}`} className="group block card-hover">
+      {/* Cover — takes full card width, 2:3 ratio */}
+      <div className="relative aspect-[2/3] rounded-[14px] overflow-hidden bg-surface2">
         <Image
           src={comic.thumbnail}
           alt={comic.title}
           fill
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
-          className="object-cover group-hover:scale-105 transition-transform duration-300"
+          className="object-cover transition-transform duration-500 group-hover:scale-105"
           unoptimized
         />
-        {/* Status badge */}
-        <span
-          className={`absolute top-2 left-2 text-[10px] font-semibold px-2 py-0.5 rounded-full ${
-            comic.status === "End"
-              ? "bg-gray-700 text-gray-300"
-              : "bg-green-700 text-green-200"
-          }`}
-        >
-          {comic.status || "Ongoing"}
-        </span>
-        {/* Type badge */}
-        <span className="absolute top-2 right-2 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-accent text-white">
+
+        {/* Gradient overlay — always visible bottom portion for text legibility */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+
+        {/* Type badge top-right */}
+        <span className="absolute top-2 right-2 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-accent/90 text-white backdrop-blur-sm">
           {comic.type}
         </span>
-      </div>
 
-      {/* Info */}
-      <div className="p-3 flex flex-col gap-1 flex-1">
-        <h3 className="font-semibold text-sm leading-tight line-clamp-2">
-          {comic.title}
-        </h3>
-        <p className="text-xs text-muted">{comic.author}</p>
+        {/* Status badge top-left */}
+        <span
+          className={`absolute top-2 left-2 text-[10px] font-semibold px-2 py-0.5 rounded-full backdrop-blur-sm ${
+            comic.status === "End"
+              ? "bg-black/60 text-muted border border-border"
+              : "bg-green-900/80 text-green-300"
+          }`}
+        >
+          {comic.status === "End" ? "Tamat" : "Ongoing"}
+        </span>
 
-        <div className="mt-auto pt-2 flex items-center justify-between text-xs">
-          <span className="text-muted">{comic.chapter_count} chapter</span>
-          <span className="text-accent">Ch. {comic.latest_chapter}</span>
-        </div>
+        {/* Bottom overlay: title + latest chapter */}
+        <div className="absolute bottom-0 left-0 right-0 p-3">
+          <h3
+            className="font-display text-sm font-normal text-white leading-tight line-clamp-2 mb-1"
+            style={{ fontFamily: "'Righteous', sans-serif" }}
+          >
+            {comic.title}
+          </h3>
 
-        {/* Reading progress */}
-        {progress && (
-          <div className="mt-1 text-[10px] rounded-md bg-surface2 px-2 py-1 text-muted">
-            Lanjut Ch. {progress.lastChapterNum} · Hal. {progress.lastPage + 1}
+          <div className="flex items-center justify-between">
+            <span className="text-[11px] text-accent font-semibold">
+              Ch. {comic.latest_chapter}
+            </span>
+            <span className="text-[10px] text-white/50">
+              {comic.chapter_count} ch
+            </span>
           </div>
-        )}
+
+          {/* Progress badge */}
+          {progress && (
+            <div className="mt-1.5 text-[10px] rounded-md bg-accent/15 border border-accent/25 px-2 py-0.5 text-accent font-medium flex items-center gap-1">
+              <span>▶</span>
+              <span>Ch. {progress.lastChapterNum} · Hal. {progress.lastPage + 1}</span>
+            </div>
+          )}
+        </div>
       </div>
     </Link>
   );
