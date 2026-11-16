@@ -21,7 +21,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1">{children}</main>
         <footer className="text-center text-xs text-muted py-6 border-t border-border">
-          © {new Date().getFullYear()} Komikhades · Data from komiku.org
+          © {new Date().getFullYear()} Komikhades
         </footer>
       </body>
     </html>

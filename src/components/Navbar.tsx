@@ -7,8 +7,8 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <span
-            className="text-xl font-display font-normal text-accent group-hover:text-accent2 transition-colors duration-200"
-            style={{ fontFamily: "'Righteous', sans-serif", letterSpacing: "0.03em" }}
+            className="text-lg text-accent group-hover:text-accent2 transition-colors duration-200"
+            style={{ fontFamily: "'Press Start 2P', cursive", fontSize: "13px", letterSpacing: "0.05em" }}
           >
             KOMIKHADES
           </span>
