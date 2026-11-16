@@ -30,7 +30,6 @@ export default function FloatingDock({
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(2); // px per frame
   const [searchVal, setSearchVal] = useState("");
-  const [searchError, setSearchError] = useState("");
 
   const rafRef = useRef<number | null>(null);
 
@@ -70,18 +69,6 @@ export default function FloatingDock({
     document.addEventListener("click", handleTap);
     return () => document.removeEventListener("click", handleTap);
   }, [visible]);
-
-  // ── Search ───────────────────────────────────────────────────────────────
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    const num = searchVal.trim();
-    const found = allChapters.find((c) => c.number === num);
-    if (!found) {
-      setSearchError(`Chapter ${num} tidak ada`);
-      return;
-    }
-    router.push(`/comic/${comicSlug}/${found.slug}`);
-  };
 
   // ── Scroll shortcuts ─────────────────────────────────────────────────────
   const toTop = (e: React.MouseEvent) => {
@@ -136,27 +123,43 @@ export default function FloatingDock({
         <div
           data-dock
           onClick={stopProp}
-          className="bg-surface border border-border rounded-2xl px-4 py-3 shadow-2xl w-64"
+          className="bg-surface border border-border rounded-2xl shadow-2xl w-64 overflow-hidden"
         >
-          <p className="text-xs text-muted mb-2 text-center">Pergi ke chapter</p>
-          <form onSubmit={handleSearch} className="flex gap-2">
+          <div className="px-3 pt-3 pb-2">
             <input
               autoFocus
               type="number"
               min="0"
-              placeholder={`0 – ${allChapters[allChapters.length - 1]?.number}`}
+              placeholder="Ketik nomor chapter..."
               value={searchVal}
               onChange={(e) => { setSearchVal(e.target.value); setSearchError(""); }}
-              className="flex-1 bg-surface2 border border-border rounded-lg px-3 py-2 text-sm text-text placeholder:text-muted focus:outline-none focus:border-accent/60 w-0"
+              className="w-full bg-surface2 border border-border rounded-lg px-3 py-2 text-sm text-text placeholder:text-muted focus:outline-none focus:border-accent/60 focus:ring-1 focus:ring-accent/20 transition-all"
             />
-            <button
-              type="submit"
-              className="px-3 py-2 rounded-lg bg-accent text-white text-sm font-semibold hover:bg-accent2 transition-colors"
-            >
-              Go
-            </button>
-          </form>
-          {searchError && <p className="text-xs text-red-400 mt-1.5 text-center">{searchError}</p>}
+          </div>
+          {/* Live results */}
+          <div className="max-h-48 overflow-y-auto divide-y divide-border">
+            {searchVal === "" ? (
+              <p className="text-xs text-muted text-center py-3">Ketik angka untuk cari chapter</p>
+            ) : (() => {
+              const results = allChapters.filter((c) => c.number.includes(searchVal));
+              if (results.length === 0) return (
+                <p className="text-xs text-muted text-center py-3">Tidak ada chapter yang cocok</p>
+              );
+              return results.map((c) => (
+                <button
+                  key={c.slug}
+                  data-dock
+                  onClick={(e) => { e.stopPropagation(); router.push(`/comic/${comicSlug}/${c.slug}`); }}
+                  className="w-full text-left px-4 py-2.5 text-sm text-text hover:bg-surface2 hover:text-accent transition-colors flex items-center justify-between group"
+                >
+                  <span>Chapter <span className="font-semibold">{c.number}</span></span>
+                  <svg className="w-3.5 h-3.5 text-muted group-hover:text-accent transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+              ));
+            })()}
+          </div>
         </div>
       )}
 
