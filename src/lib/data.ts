@@ -61,9 +61,9 @@ async function fetchChapterPagesLive(chapterSlug: string): Promise<string[]> {
     if (!res.ok) return [];
     const html = await res.text();
 
-    // Extract data-src image URLs
+    // Extract ALL data-src image URLs from img.komiku.org (any path)
     const matches = html.matchAll(
-      /data-src="(https:\/\/img\.komiku\.org\/wp-content\/uploads\/[^"]+)"/g
+      /data-src="(https:\/\/img\.komiku\.org\/[^"]+\.(?:jpg|jpeg|png|webp))"/gi
     );
     const pages: string[] = [];
     for (const m of matches) {
@@ -71,17 +71,18 @@ async function fetchChapterPagesLive(chapterSlug: string): Promise<string[]> {
     }
     if (pages.length > 0) return pages;
 
-    // Fallback: construct from chapterData
+    // Fallback: construct from chapterData (try common path patterns)
     const dataMatch = html.match(
       /var chapterData\s*=\s*\{id:(\d+)[^}]*jumlahgambar:(\d+)/
     );
     if (dataMatch) {
       const id = dataMatch[1];
       const count = parseInt(dataMatch[2], 10);
+      // Try uploads path first (most common), wp-content as fallback handled by browser
       return Array.from(
         { length: count },
         (_, i) =>
-          `https://img.komiku.org/wp-content/uploads/${id}-${i + 1}.jpg`
+          `https://img.komiku.org/uploads/${id}-${i + 1}.jpg`
       );
     }
   } catch {

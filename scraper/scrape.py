@@ -179,9 +179,9 @@ def scrape_chapter_pages(chapter: Chapter) -> list[str]:
         except Exception as e:
             print(f"    Warning: could not parse chapterData: {e}")
 
-    # Collect image URLs from data-src
+    # Collect image URLs from data-src — match ALL img.komiku.org paths
     pages = []
-    for img in soup.select("#Baca_Komik img[data-src], img.ww[data-src], img[data-src]"):
+    for img in soup.select("img[data-src]"):
         src = img.get("data-src", "")
         if src and "img.komiku.org" in src:
             pages.append(src)
