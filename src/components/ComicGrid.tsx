@@ -103,13 +103,13 @@ export default function ComicGrid({ comics }: Props) {
         )}
       </div>
 
-      {/* Result info */}
+      {/* Result info — only show when searching */}
       <div className="flex items-center justify-between mb-4"
         style={{ fontFamily: "'Poppins', sans-serif" }}>
         <p className="text-xs text-muted">
           {query
             ? <>{filtered.length} hasil untuk &ldquo;<span className="text-accent">{query}</span>&rdquo;</>
-            : <>{filtered.length} komik tersedia</>
+            : null
           }
         </p>
         {totalPages > 1 && (

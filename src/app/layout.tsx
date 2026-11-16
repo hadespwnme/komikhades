@@ -8,6 +8,10 @@ export const metadata: Metadata = {
     template: "%s | Komikhades",
   },
   description: "Baca komik manhwa online gratis — Komikhades",
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
