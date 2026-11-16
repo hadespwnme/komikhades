@@ -103,14 +103,12 @@ export default function FloatingDock({
   const speedLabels: Record<number, string> = { 1: "Lambat", 2: "Sedang", 3: "Cepat", 5: "Sangat Cepat" };
 
   return (
-    <div data-dock className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center gap-2"
-      style={{ fontFamily: "'Poppins', sans-serif" }}>
-
+    <>
       {/* ── Top floating bar ───────────────────────────────────────────── */}
       <div
         data-dock
         onClick={stopProp}
-        className={`fixed top-3 left-1/2 -translate-x-1/2 flex items-center gap-2 bg-surface/95 backdrop-blur-md border border-border rounded-full px-3 py-2 shadow-2xl text-sm transition-all duration-300 max-w-[90vw] ${
+        className={`fixed top-3 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 bg-surface/95 backdrop-blur-md border border-border rounded-full px-3 py-2 shadow-2xl text-sm transition-all duration-300 max-w-[90vw] ${
           visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"
         }`}
       >
@@ -128,6 +126,10 @@ export default function FloatingDock({
         <span className="text-border text-xs flex-shrink-0">›</span>
         <span className="text-text text-xs font-medium flex-shrink-0">Chapter {chapterNumber}</span>
       </div>
+
+      {/* ── Bottom dock container ──────────────────────────────────────── */}
+      <div data-dock className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center gap-2"
+        style={{ fontFamily: "'Poppins', sans-serif" }}>
 
       {/* ── Pop-up panels ──────────────────────────────────────────────── */}
       {visible && activePanel === "search" && (
@@ -285,6 +287,7 @@ export default function FloatingDock({
         </div>
       )}
     </div>
+    </>
   );
 }
 
