@@ -13,7 +13,7 @@ export default function ComicGrid({ comics }: Props) {
 
   if (comics.length === 0) {
     return (
-      <div className="text-center py-24 text-[var(--muted)]">
+      <div className="text-center py-24 text-muted">
         <p className="text-5xl mb-4">📚</p>
         <p>Belum ada komik. Jalankan scraper dulu.</p>
       </div>

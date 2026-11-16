@@ -13,7 +13,7 @@ export default function ComicCard({ comic, progress }: Props) {
   return (
     <Link
       href={`/comic/${comic.slug}`}
-      className="group relative flex flex-col rounded-xl overflow-hidden bg-[var(--surface)] border border-[var(--border)] hover:border-[var(--accent)] transition-all hover:-translate-y-1 shadow-lg"
+      className="group relative flex flex-col rounded-xl overflow-hidden bg-surface border border-border hover:border-accent transition-all hover:-translate-y-1 shadow-lg"
     >
       {/* Cover */}
       <div className="relative aspect-[2/3] overflow-hidden">
@@ -36,7 +36,7 @@ export default function ComicCard({ comic, progress }: Props) {
           {comic.status || "Ongoing"}
         </span>
         {/* Type badge */}
-        <span className="absolute top-2 right-2 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-[var(--accent)] text-white">
+        <span className="absolute top-2 right-2 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-accent text-white">
           {comic.type}
         </span>
       </div>
@@ -46,20 +46,16 @@ export default function ComicCard({ comic, progress }: Props) {
         <h3 className="font-semibold text-sm leading-tight line-clamp-2">
           {comic.title}
         </h3>
-        <p className="text-xs text-[var(--muted)]">{comic.author}</p>
+        <p className="text-xs text-muted">{comic.author}</p>
 
         <div className="mt-auto pt-2 flex items-center justify-between text-xs">
-          <span className="text-[var(--muted)]">
-            {comic.chapter_count} chapter
-          </span>
-          <span className="text-[var(--accent)]">
-            Ch. {comic.latest_chapter}
-          </span>
+          <span className="text-muted">{comic.chapter_count} chapter</span>
+          <span className="text-accent">Ch. {comic.latest_chapter}</span>
         </div>
 
         {/* Reading progress */}
         {progress && (
-          <div className="mt-1 text-[10px] rounded-md bg-[var(--surface2)] px-2 py-1 text-[var(--muted)]">
+          <div className="mt-1 text-[10px] rounded-md bg-surface2 px-2 py-1 text-muted">
             Lanjut Ch. {progress.lastChapterNum} · Hal. {progress.lastPage + 1}
           </div>
         )}

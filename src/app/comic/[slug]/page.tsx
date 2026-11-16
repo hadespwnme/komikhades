@@ -45,40 +45,31 @@ export default async function ComicPage({ params }: Props) {
         <div className="flex flex-col gap-2">
           <h1 className="text-2xl font-bold leading-tight">{comic.title}</h1>
           {comic.alt_title && (
-            <p className="text-[var(--muted)] text-sm">{comic.alt_title}</p>
+            <p className="text-muted text-sm">{comic.alt_title}</p>
           )}
           <div className="flex flex-wrap gap-1 mt-1">
             {comic.genres.map((g) => (
               <span
                 key={g}
-                className="text-[11px] px-2 py-0.5 rounded-full bg-[var(--surface2)] text-[var(--muted)]"
+                className="text-[11px] px-2 py-0.5 rounded-full bg-surface2 text-muted"
               >
                 {g}
               </span>
             ))}
           </div>
-          <div className="text-sm text-[var(--muted)] space-y-0.5 mt-1">
-            <p>
-              <span className="text-[var(--text)]">Tipe:</span> {comic.type}
-            </p>
-            <p>
-              <span className="text-[var(--text)]">Author:</span> {comic.author}
-            </p>
-            <p>
-              <span className="text-[var(--text)]">Status:</span> {comic.status}
-            </p>
-            <p>
-              <span className="text-[var(--text)]">Chapters:</span>{" "}
-              {comic.chapters.length}
-            </p>
+          <div className="text-sm text-muted space-y-0.5 mt-1">
+            <p><span className="text-text">Tipe:</span> {comic.type}</p>
+            <p><span className="text-text">Author:</span> {comic.author}</p>
+            <p><span className="text-text">Status:</span> {comic.status}</p>
+            <p><span className="text-text">Chapters:</span> {comic.chapters.length}</p>
           </div>
         </div>
       </div>
 
       {/* Synopsis */}
       {comic.synopsis && (
-        <div className="mb-8 bg-[var(--surface)] rounded-xl p-4 text-sm text-[var(--muted)] leading-relaxed">
-          <h2 className="text-[var(--text)] font-semibold mb-2">Sinopsis</h2>
+        <div className="mb-8 bg-surface rounded-xl p-4 text-sm text-muted leading-relaxed">
+          <h2 className="text-text font-semibold mb-2">Sinopsis</h2>
           {comic.synopsis}
         </div>
       )}

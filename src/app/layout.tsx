@@ -23,10 +23,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id" className={`${geist.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col bg-[var(--bg)] text-[var(--text)]">
+      <body className="min-h-full flex flex-col bg-bg text-text">
         <Navbar />
         <main className="flex-1">{children}</main>
-        <footer className="text-center text-xs text-[var(--muted)] py-6 border-t border-[var(--border)]">
+        <footer className="text-center text-xs text-muted py-6 border-t border-border">
           © {new Date().getFullYear()} Komikhades · Data from komiku.org
         </footer>
       </body>

@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { useReadingProgress } from "@/hooks/useReadingProgress";
 import type { Chapter } from "@/types/comic";
@@ -44,9 +43,7 @@ export default function ReaderClient({
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            const idx = pageRefs.current.indexOf(
-              entry.target as HTMLDivElement
-            );
+            const idx = pageRefs.current.indexOf(entry.target as HTMLDivElement);
             if (idx >= 0) setCurrentPage(idx);
           }
         });
@@ -57,23 +54,18 @@ export default function ReaderClient({
     return () => observer.disconnect();
   }, [pages]);
 
-  const navClass =
-    "flex items-center justify-between px-4 py-3 bg-[var(--surface)] border border-[var(--border)] rounded-xl text-sm";
-
   return (
     <div className="max-w-3xl mx-auto px-2 pb-16 pt-4">
       {/* Top nav */}
-      <div className={`${navClass} mb-4`}>
+      <div className="flex items-center justify-between px-4 py-3 bg-surface border border-border rounded-xl text-sm mb-4">
         <Link
           href={`/comic/${comicSlug}`}
-          className="text-[var(--muted)] hover:text-[var(--text)] transition-colors text-xs flex items-center gap-1"
+          className="text-muted hover:text-text transition-colors text-xs"
         >
           ← {comicTitle}
         </Link>
-        <span className="font-semibold">
-          Chapter {chapter.number}
-        </span>
-        <span className="text-[var(--muted)] text-xs">
+        <span className="font-semibold">Chapter {chapter.number}</span>
+        <span className="text-muted text-xs">
           {pages.length > 0 ? `${currentPage + 1} / ${pages.length}` : ""}
         </span>
       </div>
@@ -83,7 +75,7 @@ export default function ReaderClient({
         {prevChapter ? (
           <Link
             href={`/comic/${comicSlug}/${prevChapter.slug}`}
-            className="flex-1 text-center py-2 rounded-lg bg-[var(--surface2)] border border-[var(--border)] text-sm hover:border-[var(--accent)] transition-colors"
+            className="flex-1 text-center py-2 rounded-lg bg-surface2 border border-border text-sm hover:border-accent transition-colors"
           >
             ← Ch. {prevChapter.number}
           </Link>
@@ -93,7 +85,7 @@ export default function ReaderClient({
         {nextChapter ? (
           <Link
             href={`/comic/${comicSlug}/${nextChapter.slug}`}
-            className="flex-1 text-center py-2 rounded-lg bg-[var(--surface2)] border border-[var(--border)] text-sm hover:border-[var(--accent)] transition-colors"
+            className="flex-1 text-center py-2 rounded-lg bg-surface2 border border-border text-sm hover:border-accent transition-colors"
           >
             Ch. {nextChapter.number} →
           </Link>
@@ -104,7 +96,7 @@ export default function ReaderClient({
 
       {/* Pages */}
       {pages.length === 0 ? (
-        <div className="text-center py-24 text-[var(--muted)]">
+        <div className="text-center py-24 text-muted">
           <p className="text-4xl mb-3">⚠️</p>
           <p>Gagal memuat gambar chapter ini.</p>
           <p className="text-xs mt-1">Coba refresh halaman.</p>
@@ -114,9 +106,7 @@ export default function ReaderClient({
           {pages.map((src, idx) => (
             <div
               key={idx}
-              ref={(el) => {
-                pageRefs.current[idx] = el;
-              }}
+              ref={(el) => { pageRefs.current[idx] = el; }}
               className="relative w-full"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -135,11 +125,11 @@ export default function ReaderClient({
       )}
 
       {/* Bottom nav */}
-      <div className={`${navClass} mt-6`}>
+      <div className="flex items-center justify-between px-4 py-3 bg-surface border border-border rounded-xl text-sm mt-6">
         {prevChapter ? (
           <Link
             href={`/comic/${comicSlug}/${prevChapter.slug}`}
-            className="text-[var(--muted)] hover:text-[var(--accent)] transition-colors"
+            className="text-muted hover:text-accent transition-colors"
           >
             ← Ch. {prevChapter.number}
           </Link>
@@ -148,19 +138,19 @@ export default function ReaderClient({
         )}
         <Link
           href={`/comic/${comicSlug}`}
-          className="text-xs text-[var(--muted)] hover:text-[var(--text)] transition-colors"
+          className="text-xs text-muted hover:text-text transition-colors"
         >
           Daftar Chapter
         </Link>
         {nextChapter ? (
           <Link
             href={`/comic/${comicSlug}/${nextChapter.slug}`}
-            className="text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors font-medium"
+            className="text-accent hover:text-accent-hover transition-colors font-medium"
           >
             Ch. {nextChapter.number} →
           </Link>
         ) : (
-          <span className="text-[var(--muted)] text-xs">Selesai 🎉</span>
+          <span className="text-muted text-xs">Selesai 🎉</span>
         )}
       </div>
     </div>

@@ -28,17 +28,17 @@ export default function ChapterList({ chapters, comicSlug }: Props) {
         placeholder="Cari chapter..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        className="w-full mb-3 px-3 py-2 rounded-lg bg-[var(--surface2)] border border-[var(--border)] text-sm placeholder-[var(--muted)] focus:outline-none focus:border-[var(--accent)]"
+        className="w-full mb-3 px-3 py-2 rounded-lg bg-surface2 border border-border text-sm placeholder:text-muted focus:outline-none focus:border-accent"
       />
 
       {progress && (
-        <div className="mb-3 flex items-center gap-2 text-sm bg-[var(--accent)]/10 border border-[var(--accent)]/30 rounded-lg px-3 py-2">
-          <span className="text-[var(--accent)] font-medium">▶</span>
+        <div className="mb-3 flex items-center gap-2 text-sm bg-accent/10 border border-accent/30 rounded-lg px-3 py-2">
+          <span className="text-accent font-medium">▶</span>
           <span>
             Lanjutkan membaca:{" "}
             <Link
               href={`/comic/${comicSlug}/${progress.lastChapter}`}
-              className="text-[var(--accent)] hover:underline font-medium"
+              className="text-accent hover:underline font-medium"
             >
               Chapter {progress.lastChapterNum}
             </Link>
@@ -46,26 +46,24 @@ export default function ChapterList({ chapters, comicSlug }: Props) {
         </div>
       )}
 
-      <div className="rounded-xl overflow-hidden border border-[var(--border)] divide-y divide-[var(--border)]">
+      <div className="rounded-xl overflow-hidden border border-border divide-y divide-border">
         {filtered.map((ch) => {
           const isCurrent = progress?.lastChapter === ch.slug;
           return (
             <Link
               key={ch.slug}
               href={`/comic/${comicSlug}/${ch.slug}`}
-              className={`flex items-center justify-between px-4 py-3 text-sm hover:bg-[var(--surface2)] transition-colors ${
-                isCurrent
-                  ? "bg-[var(--accent)]/10 text-[var(--accent)]"
-                  : "text-[var(--text)]"
+              className={`flex items-center justify-between px-4 py-3 text-sm hover:bg-surface2 transition-colors ${
+                isCurrent ? "bg-accent/10 text-accent" : "text-text"
               }`}
             >
               <span className="font-medium">Chapter {ch.number}</span>
-              <span className="text-[var(--muted)] text-xs">{ch.date}</span>
+              <span className="text-muted text-xs">{ch.date}</span>
             </Link>
           );
         })}
         {filtered.length === 0 && (
-          <div className="px-4 py-6 text-center text-[var(--muted)] text-sm">
+          <div className="px-4 py-6 text-center text-muted text-sm">
             Tidak ditemukan
           </div>
         )}
