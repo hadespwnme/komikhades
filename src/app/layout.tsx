@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import ScrollButtons from "@/components/ScrollButtons";
 
 export const metadata: Metadata = {
   title: {
@@ -23,6 +24,7 @@ export default function RootLayout({
         <footer className="text-center text-xs text-muted py-6 border-t border-border">
           © {new Date().getFullYear()} Komikhades
         </footer>
+        <ScrollButtons />
       </body>
     </html>
   );
