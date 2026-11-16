@@ -2,10 +2,11 @@
 
 import { useState, useEffect, useCallback } from "react";
 import type { ProgressMap, ReadingProgress } from "@/types/comic";
+import { createClient } from "@/lib/supabase/client";
 
 const STORAGE_KEY = "komikhades_progress";
 
-function loadProgress(): ProgressMap {
+function loadLocalProgress(): ProgressMap {
   if (typeof window === "undefined") return {};
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
@@ -15,7 +16,7 @@ function loadProgress(): ProgressMap {
   }
 }
 
-function saveProgress(map: ProgressMap) {
+function saveLocalProgress(map: ProgressMap) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(map));
   } catch {
@@ -26,9 +27,47 @@ function saveProgress(map: ProgressMap) {
 export function useReadingProgress() {
   const [progress, setProgress] = useState<ProgressMap>({});
 
-  // Load on mount
+  // On mount: load localStorage first, then merge with Supabase if logged in
   useEffect(() => {
-    setProgress(loadProgress());
+    const local = loadLocalProgress();
+    setProgress(local);
+
+    // Try to fetch from Supabase and merge (Supabase is source of truth for logged-in)
+    const supabase = createClient();
+    supabase.auth.getUser().then(async ({ data: { user } }) => {
+      if (!user) return;
+
+      const { data: rows } = await supabase
+        .from("reading_history")
+        .select("comic_slug, chapter_slug, chapter_num, last_page, read_at")
+        .eq("user_id", user.id);
+
+      if (!rows || rows.length === 0) return;
+
+      // Build progress map from Supabase data
+      const supabaseMap: ProgressMap = {};
+      for (const row of rows) {
+        supabaseMap[row.comic_slug] = {
+          lastChapter: row.chapter_slug,
+          lastChapterNum: row.chapter_num,
+          lastPage: row.last_page,
+          updatedAt: new Date(row.read_at).getTime(),
+        };
+      }
+
+      // Merge: take whichever has the newer updatedAt per comic
+      setProgress((prev) => {
+        const merged: ProgressMap = { ...prev };
+        for (const [slug, supaEntry] of Object.entries(supabaseMap)) {
+          const localEntry = prev[slug];
+          if (!localEntry || supaEntry.updatedAt > localEntry.updatedAt) {
+            merged[slug] = supaEntry;
+          }
+        }
+        saveLocalProgress(merged);
+        return merged;
+      });
+    });
   }, []);
 
   const getProgress = useCallback(
@@ -42,7 +81,7 @@ export function useReadingProgress() {
     (comicSlug: string, entry: ReadingProgress) => {
       setProgress((prev) => {
         const next = { ...prev, [comicSlug]: entry };
-        saveProgress(next);
+        saveLocalProgress(next);
         return next;
       });
     },
@@ -53,7 +92,7 @@ export function useReadingProgress() {
     setProgress((prev) => {
       const next = { ...prev };
       delete next[comicSlug];
-      saveProgress(next);
+      saveLocalProgress(next);
       return next;
     });
   }, []);

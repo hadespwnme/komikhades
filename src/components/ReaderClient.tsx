@@ -29,18 +29,30 @@ export default function ReaderClient({
   const { setChapterProgress } = useReadingProgress();
   const [currentPage, setCurrentPage] = useState(0);
   const pageRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // Save progress locally + to Supabase history (fire and forget)
+  // Save progress locally + to Supabase (debounced 2s to avoid spam)
   useEffect(() => {
+    // Always save to localStorage immediately
     setChapterProgress(comicSlug, {
       lastChapter: chapter.slug,
       lastChapterNum: chapter.number,
       lastPage: currentPage,
       updatedAt: Date.now(),
     });
-    import("@/lib/actions").then(({ upsertHistory }) => {
-      upsertHistory(comicSlug, comicTitle, thumbnail, chapter.slug, chapter.number, currentPage).catch(() => {});
-    });
+
+    // Debounce Supabase save
+    if (saveTimer.current) clearTimeout(saveTimer.current);
+    saveTimer.current = setTimeout(() => {
+      import("@/lib/actions").then(({ upsertHistory }) => {
+        upsertHistory(comicSlug, comicTitle, thumbnail, chapter.slug, chapter.number, currentPage)
+          .catch(() => {});
+      });
+    }, 2000);
+
+    return () => {
+      if (saveTimer.current) clearTimeout(saveTimer.current);
+    };
   }, [comicSlug, comicTitle, thumbnail, chapter, currentPage, setChapterProgress]);
 
   // Track current page via IntersectionObserver
