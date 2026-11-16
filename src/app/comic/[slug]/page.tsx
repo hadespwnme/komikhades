@@ -44,7 +44,7 @@ export default async function ComicPage({ params }: Props) {
         {/* Blurred background cover */}
         <div className="absolute inset-0 opacity-15 blur-2xl scale-110">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={comic.thumbnail} alt="" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+          <img src={comic.thumbnail} alt="" className="w-full object-cover" style={{ height: "100%" }} referrerPolicy="no-referrer" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-bg/60 via-bg/80 to-bg" />
 
@@ -64,7 +64,8 @@ export default async function ComicPage({ params }: Props) {
               <img
                 src={comic.thumbnail}
                 alt={comic.title}
-                className="w-full h-full object-cover"
+                className="w-full object-cover"
+                style={{ height: "100%" }}
                 referrerPolicy="no-referrer"
               />
             </div>

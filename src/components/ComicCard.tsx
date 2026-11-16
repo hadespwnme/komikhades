@@ -17,7 +17,8 @@ export default function ComicCard({ comic, progress }: Props) {
         <img
           src={comic.thumbnail}
           alt={comic.title}
-          className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="absolute inset-0 w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          style={{ height: "100%" }}
           loading="lazy"
           referrerPolicy="no-referrer"
         />
