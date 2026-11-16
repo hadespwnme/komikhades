@@ -6,12 +6,13 @@ import type { ComicSummary, ReadingProgress } from "@/types/comic";
 interface Props {
   comic: ComicSummary;
   progress?: ReadingProgress;
+  updatedAgo?: string;
 }
 
-export default function ComicCard({ comic, progress }: Props) {
+export default function ComicCard({ comic, progress, updatedAgo }: Props) {
   return (
     <Link href={`/comic/${comic.slug}`} className="group block card-hover">
-      {/* Cover — takes full card width, 2:3 ratio */}
+      {/* Cover */}
       <div className="relative aspect-[2/3] rounded-[14px] overflow-hidden bg-surface2">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
@@ -23,44 +24,45 @@ export default function ComicCard({ comic, progress }: Props) {
           referrerPolicy="no-referrer"
         />
 
-        {/* Gradient overlay — always visible bottom portion for text legibility */}
+        {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
 
-        {/* Type badge top-right */}
+        {/* Type badge */}
         <span className="absolute top-2 right-2 text-[10px] font-semibold px-2 py-0.5 rounded-full bg-accent/90 text-white backdrop-blur-sm">
           {comic.type}
         </span>
 
-        {/* Status badge top-left */}
-        <span
-          className={`absolute top-2 left-2 text-[10px] font-semibold px-2 py-0.5 rounded-full backdrop-blur-sm ${
-            comic.status === "End"
-              ? "bg-black/60 text-muted border border-border"
-              : "bg-green-900/80 text-green-300"
-          }`}
-        >
+        {/* Status badge */}
+        <span className={`absolute top-2 left-2 text-[10px] font-semibold px-2 py-0.5 rounded-full backdrop-blur-sm ${
+          comic.status === "End"
+            ? "bg-black/60 text-muted border border-border"
+            : "bg-green-900/80 text-green-300"
+        }`}>
           {comic.status === "End" ? "Tamat" : "Ongoing"}
         </span>
 
-        {/* Bottom overlay: title + latest chapter */}
+        {/* Bottom overlay: title + info */}
         <div className="absolute bottom-0 left-0 right-0 p-3">
           <h3
-            className="font-display text-sm font-normal text-white leading-tight line-clamp-2 mb-1"
+            className="text-sm font-normal text-white leading-tight line-clamp-2 mb-1"
             style={{ fontFamily: "'Righteous', sans-serif" }}
           >
             {comic.title}
           </h3>
 
-          <div className="flex items-center justify-between">
+          {/* Chapter + relative time */}
+          <div className="flex items-center justify-between gap-1">
             <span className="text-[11px] text-accent font-semibold">
               Ch. {comic.latest_chapter}
             </span>
-            <span className="text-[10px] text-white/50">
-              {comic.chapter_count} ch
-            </span>
+            {updatedAgo && (
+              <span className="text-[10px] text-white/50 truncate">
+                {updatedAgo}
+              </span>
+            )}
           </div>
 
-          {/* Progress badge */}
+          {/* Reading progress badge */}
           {progress && (
             <div className="mt-1.5 text-[10px] rounded-md bg-accent/15 border border-accent/25 px-2 py-0.5 text-accent font-medium flex items-center gap-1">
               <span>▶</span>

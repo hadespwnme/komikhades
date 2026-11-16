@@ -7,6 +7,36 @@ import type { ComicSummary } from "@/types/comic";
 
 const PER_PAGE = 10;
 
+/** Parse DD/MM/YYYY → Date. Returns epoch 0 if invalid. */
+function parseDate(str: string): Date {
+  if (!str) return new Date(0);
+  const [d, m, y] = str.split("/");
+  if (!d || !m || !y) return new Date(0);
+  return new Date(Number(y), Number(m) - 1, Number(d));
+}
+
+/** "2 jam lalu", "3 hari lalu", etc. */
+function relativeTime(str: string): string {
+  const date = parseDate(str);
+  if (date.getTime() === 0) return "";
+  const now = Date.now();
+  const diff = now - date.getTime(); // ms
+  const mins = Math.floor(diff / 60000);
+  const hours = Math.floor(diff / 3600000);
+  const days = Math.floor(diff / 86400000);
+  const weeks = Math.floor(days / 7);
+  const months = Math.floor(days / 30);
+  const years = Math.floor(days / 365);
+
+  if (mins < 1) return "Baru saja";
+  if (mins < 60) return `${mins} menit lalu`;
+  if (hours < 24) return `${hours} jam lalu`;
+  if (days < 7) return `${days} hari lalu`;
+  if (weeks < 5) return `${weeks} minggu lalu`;
+  if (months < 12) return `${months} bulan lalu`;
+  return `${years} tahun lalu`;
+}
+
 interface Props {
   comics: ComicSummary[];
 }
@@ -16,11 +46,18 @@ export default function ComicGrid({ comics }: Props) {
   const [query, setQuery] = useState("");
   const [page, setPage] = useState(1);
 
+  // Sort by latest_date descending (newest chapter first)
+  const sorted = useMemo(() => {
+    return [...comics].sort(
+      (a, b) => parseDate(b.latest_date).getTime() - parseDate(a.latest_date).getTime()
+    );
+  }, [comics]);
+
   const filtered = useMemo(() => {
-    setPage(1); // reset ke halaman 1 saat query berubah
-    if (!query.trim()) return comics;
+    setPage(1);
+    if (!query.trim()) return sorted;
     const q = query.toLowerCase();
-    return comics.filter(
+    return sorted.filter(
       (c) =>
         c.title.toLowerCase().includes(q) ||
         c.alt_title?.toLowerCase().includes(q) ||
@@ -28,7 +65,7 @@ export default function ComicGrid({ comics }: Props) {
         c.genres?.some((g) => g.toLowerCase().includes(q))
     );
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [comics, query]);
+  }, [sorted, query]);
 
   const totalPages = Math.ceil(filtered.length / PER_PAGE);
   const paginated = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
@@ -98,6 +135,7 @@ export default function ComicGrid({ comics }: Props) {
               key={comic.slug}
               comic={comic}
               progress={getProgress(comic.slug)}
+              updatedAgo={relativeTime(comic.latest_date)}
             />
           ))}
         </div>
@@ -107,50 +145,31 @@ export default function ComicGrid({ comics }: Props) {
       {totalPages > 1 && (
         <div className="flex items-center justify-center gap-2 mt-8"
           style={{ fontFamily: "'Poppins', sans-serif" }}>
-          {/* Prev */}
-          <button
-            onClick={() => goTo(page - 1)}
-            disabled={page === 1}
-            className="w-9 h-9 rounded-xl flex items-center justify-center bg-surface border border-border text-muted hover:text-text hover:border-accent/40 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
-          >
+          <button onClick={() => goTo(page - 1)} disabled={page === 1}
+            className="w-9 h-9 rounded-xl flex items-center justify-center bg-surface border border-border text-muted hover:text-text hover:border-accent/40 disabled:opacity-30 disabled:cursor-not-allowed transition-all">
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
           </button>
 
-          {/* Page numbers */}
           {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => {
-            // Show first, last, current ±1
-            const show =
-              p === 1 || p === totalPages || Math.abs(p - page) <= 1;
-            const showDot =
-              (p === 2 && page > 3) || (p === totalPages - 1 && page < totalPages - 2);
+            const show = p === 1 || p === totalPages || Math.abs(p - page) <= 1;
+            const showDot = (p === 2 && page > 3) || (p === totalPages - 1 && page < totalPages - 2);
             if (!show && !showDot) return null;
-            if (showDot && !show)
-              return (
-                <span key={p} className="text-muted text-sm px-1">…</span>
-              );
+            if (showDot && !show) return <span key={p} className="text-muted text-sm px-1">…</span>;
             return (
-              <button
-                key={p}
-                onClick={() => goTo(p)}
+              <button key={p} onClick={() => goTo(p)}
                 className={`w-9 h-9 rounded-xl text-sm font-medium transition-all ${
-                  p === page
-                    ? "bg-accent text-white shadow-lg shadow-accent/20"
+                  p === page ? "bg-accent text-white shadow-lg shadow-accent/20"
                     : "bg-surface border border-border text-muted hover:text-text hover:border-accent/40"
-                }`}
-              >
+                }`}>
                 {p}
               </button>
             );
           })}
 
-          {/* Next */}
-          <button
-            onClick={() => goTo(page + 1)}
-            disabled={page === totalPages}
-            className="w-9 h-9 rounded-xl flex items-center justify-center bg-surface border border-border text-muted hover:text-text hover:border-accent/40 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
-          >
+          <button onClick={() => goTo(page + 1)} disabled={page === totalPages}
+            className="w-9 h-9 rounded-xl flex items-center justify-center bg-surface border border-border text-muted hover:text-text hover:border-accent/40 disabled:opacity-30 disabled:cursor-not-allowed transition-all">
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
