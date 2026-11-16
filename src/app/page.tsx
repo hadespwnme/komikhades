@@ -28,7 +28,7 @@ export default async function HomePage() {
                 <span className="text-accent"> Favoritmu</span>
               </h1>
               <p className="text-muted text-sm mt-2" style={{ fontFamily: "'Poppins', sans-serif" }}>
-                {comics.length} komik tersedia · Update otomatis setiap hari
+                Tanpa khawatir dengan ads.
               </p>
             </div>
           </div>
