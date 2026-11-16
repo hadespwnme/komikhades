@@ -129,7 +129,6 @@ export default function FloatingDock({
       {/* ── Bottom dock container ──────────────────────────────────────── */}
       <div data-dock className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center gap-2"
         style={{ fontFamily: "'Poppins', sans-serif" }}>
-
       {/* ── Pop-up panels ──────────────────────────────────────────────── */}
       {visible && activePanel === "search" && (
         <div
@@ -200,23 +199,14 @@ export default function FloatingDock({
         </div>
       )}
 
-      {/* ── Main dock bar ──────────────────────────────────────────────── */}
+      {/* ── Main dock — individual circle buttons ──────────────────────── */}
       <div
         data-dock
         onClick={stopProp}
-        className={`flex items-center gap-1 bg-surface/95 backdrop-blur-md border border-border rounded-full px-2 py-2 shadow-2xl transition-all duration-300 ${
+        className={`flex items-center gap-2.5 transition-all duration-300 ${
           visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6 pointer-events-none"
         }`}
       >
-        {/* Scroll to top */}
-        <DockBtn onClick={toTop} label="Atas">
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
-          </svg>
-        </DockBtn>
-
-        <div className="w-px h-5 bg-border mx-0.5" />
-
         {/* Prev chapter */}
         {prevChapterSlug ? (
           <DockBtn onClick={(e) => { e.stopPropagation(); router.push(`/comic/${comicSlug}/${prevChapterSlug}`); }} label="Chapter Sebelumnya">
@@ -245,13 +235,14 @@ export default function FloatingDock({
           label={playing ? "Pause" : "Auto Scroll"}
           active={playing}
           accent={playing}
+          large
         >
           {playing ? (
-            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
               <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
             </svg>
           ) : (
-            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
               <path d="M8 5v14l11-7z" />
             </svg>
           )}
@@ -280,15 +271,6 @@ export default function FloatingDock({
             </svg>
           </DockBtn>
         )}
-
-        <div className="w-px h-5 bg-border mx-0.5" />
-
-        {/* Scroll to bottom */}
-        <DockBtn onClick={toBottom} label="Bawah">
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-          </svg>
-        </DockBtn>
       </div>
 
       {/* Chapter indicator pill */}
@@ -302,6 +284,35 @@ export default function FloatingDock({
         </div>
       )}
     </div>
+
+      {/* ── Scroll buttons — fixed right side ─────────────────────────── */}
+      <div
+        data-dock
+        className={`fixed right-4 bottom-24 z-50 flex flex-col gap-2 transition-all duration-300 ${
+          visible ? "opacity-100 translate-x-0 pointer-events-auto" : "opacity-0 translate-x-4 pointer-events-none"
+        }`}
+      >
+        <button
+          data-dock
+          onClick={toTop}
+          aria-label="Ke atas"
+          className="w-10 h-10 rounded-full bg-surface/95 backdrop-blur-md border border-border flex items-center justify-center text-muted hover:text-text hover:border-accent/40 transition-all active:scale-90 shadow-lg"
+        >
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+          </svg>
+        </button>
+        <button
+          data-dock
+          onClick={toBottom}
+          aria-label="Ke bawah"
+          className="w-10 h-10 rounded-full bg-surface/95 backdrop-blur-md border border-border flex items-center justify-center text-muted hover:text-text hover:border-accent/40 transition-all active:scale-90 shadow-lg"
+        >
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+      </div>
     </>
   );
 }
@@ -314,6 +325,7 @@ function DockBtn({
   active,
   accent,
   disabled,
+  large,
 }: {
   children: React.ReactNode;
   onClick?: (e: React.MouseEvent) => void;
@@ -321,6 +333,7 @@ function DockBtn({
   active?: boolean;
   accent?: boolean;
   disabled?: boolean;
+  large?: boolean;
 }) {
   return (
     <button
@@ -329,14 +342,16 @@ function DockBtn({
       disabled={disabled}
       title={label}
       aria-label={label}
-      className={`w-9 h-9 rounded-full flex items-center justify-center transition-all duration-150 active:scale-90 ${
+      className={`rounded-full flex items-center justify-center transition-all duration-150 active:scale-90 shadow-lg backdrop-blur-md border ${
+        large ? "w-12 h-12" : "w-10 h-10"
+      } ${
         disabled
-          ? "cursor-not-allowed"
+          ? "cursor-not-allowed bg-surface/80 border-border"
           : accent
-          ? "bg-accent text-white shadow-lg shadow-accent/30"
+          ? "bg-accent border-accent text-white shadow-accent/30"
           : active
-          ? "bg-surface2 text-accent border border-accent/40"
-          : "text-muted hover:text-text hover:bg-surface2"
+          ? "bg-surface border-accent/50 text-accent"
+          : "bg-surface/95 border-border text-muted hover:text-text hover:border-accent/40"
       }`}
     >
       {children}
