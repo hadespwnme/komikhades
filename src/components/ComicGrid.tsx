@@ -5,6 +5,8 @@ import ComicCard from "./ComicCard";
 import { useReadingProgress } from "@/hooks/useReadingProgress";
 import type { ComicSummary } from "@/types/comic";
 
+const PER_PAGE = 10;
+
 interface Props {
   comics: ComicSummary[];
 }
@@ -12,8 +14,10 @@ interface Props {
 export default function ComicGrid({ comics }: Props) {
   const { getProgress } = useReadingProgress();
   const [query, setQuery] = useState("");
+  const [page, setPage] = useState(1);
 
   const filtered = useMemo(() => {
+    setPage(1); // reset ke halaman 1 saat query berubah
     if (!query.trim()) return comics;
     const q = query.toLowerCase();
     return comics.filter(
@@ -23,7 +27,16 @@ export default function ComicGrid({ comics }: Props) {
         c.author?.toLowerCase().includes(q) ||
         c.genres?.some((g) => g.toLowerCase().includes(q))
     );
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [comics, query]);
+
+  const totalPages = Math.ceil(filtered.length / PER_PAGE);
+  const paginated = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+
+  const goTo = (p: number) => {
+    setPage(p);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <div>
@@ -37,19 +50,15 @@ export default function ComicGrid({ comics }: Props) {
           className="w-full pl-10 pr-10 py-3 rounded-2xl bg-surface border border-border text-sm text-text placeholder:text-muted focus:outline-none focus:border-accent/50 focus:ring-1 focus:ring-accent/20 transition-all"
           style={{ fontFamily: "'Poppins', sans-serif" }}
         />
-        <svg
-          className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-muted pointer-events-none"
-          fill="none" viewBox="0 0 24 24" stroke="currentColor"
-        >
+        <svg className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-muted pointer-events-none"
+          fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
         {query && (
-          <button
-            onClick={() => setQuery("")}
+          <button onClick={() => setQuery("")}
             className="absolute right-3.5 top-1/2 -translate-y-1/2 w-5 h-5 rounded-full bg-surface2 flex items-center justify-center text-muted hover:text-text transition-colors"
-            aria-label="Hapus pencarian"
-          >
+            aria-label="Hapus pencarian">
             <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             </svg>
@@ -57,15 +66,24 @@ export default function ComicGrid({ comics }: Props) {
         )}
       </div>
 
-      {/* Result count */}
-      {query && (
-        <p className="text-xs text-muted mb-4" style={{ fontFamily: "'Poppins', sans-serif" }}>
-          {filtered.length} hasil untuk &ldquo;<span className="text-accent">{query}</span>&rdquo;
+      {/* Result info */}
+      <div className="flex items-center justify-between mb-4"
+        style={{ fontFamily: "'Poppins', sans-serif" }}>
+        <p className="text-xs text-muted">
+          {query
+            ? <>{filtered.length} hasil untuk &ldquo;<span className="text-accent">{query}</span>&rdquo;</>
+            : <>{filtered.length} komik tersedia</>
+          }
         </p>
-      )}
+        {totalPages > 1 && (
+          <p className="text-xs text-muted">
+            Halaman <span className="text-text font-medium">{page}</span> / {totalPages}
+          </p>
+        )}
+      </div>
 
-      {/* Grid or empty state */}
-      {filtered.length === 0 ? (
+      {/* Grid */}
+      {paginated.length === 0 ? (
         <div className="flex flex-col items-center justify-center py-24 text-muted gap-4">
           <div className="w-14 h-14 rounded-2xl bg-surface2 flex items-center justify-center text-2xl">🔍</div>
           <div className="text-center" style={{ fontFamily: "'Poppins', sans-serif" }}>
@@ -74,14 +92,69 @@ export default function ComicGrid({ comics }: Props) {
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 sm:gap-4">
-          {filtered.map((comic) => (
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4">
+          {paginated.map((comic) => (
             <ComicCard
               key={comic.slug}
               comic={comic}
               progress={getProgress(comic.slug)}
             />
           ))}
+        </div>
+      )}
+
+      {/* Pagination */}
+      {totalPages > 1 && (
+        <div className="flex items-center justify-center gap-2 mt-8"
+          style={{ fontFamily: "'Poppins', sans-serif" }}>
+          {/* Prev */}
+          <button
+            onClick={() => goTo(page - 1)}
+            disabled={page === 1}
+            className="w-9 h-9 rounded-xl flex items-center justify-center bg-surface border border-border text-muted hover:text-text hover:border-accent/40 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+          >
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+
+          {/* Page numbers */}
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => {
+            // Show first, last, current ±1
+            const show =
+              p === 1 || p === totalPages || Math.abs(p - page) <= 1;
+            const showDot =
+              (p === 2 && page > 3) || (p === totalPages - 1 && page < totalPages - 2);
+            if (!show && !showDot) return null;
+            if (showDot && !show)
+              return (
+                <span key={p} className="text-muted text-sm px-1">…</span>
+              );
+            return (
+              <button
+                key={p}
+                onClick={() => goTo(p)}
+                className={`w-9 h-9 rounded-xl text-sm font-medium transition-all ${
+                  p === page
+                    ? "bg-accent text-white shadow-lg shadow-accent/20"
+                    : "bg-surface border border-border text-muted hover:text-text hover:border-accent/40"
+                }`}
+              >
+                {p}
+              </button>
+            );
+          })}
+
+          {/* Next */}
+          <button
+            onClick={() => goTo(page + 1)}
+            disabled={page === totalPages}
+            className="w-9 h-9 rounded-xl flex items-center justify-center bg-surface border border-border text-muted hover:text-text hover:border-accent/40 disabled:opacity-30 disabled:cursor-not-allowed transition-all"
+          >
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
         </div>
       )}
     </div>
