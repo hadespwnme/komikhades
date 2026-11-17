@@ -95,7 +95,7 @@ export default function FloatingDock({
       <div
         data-dock
         onClick={stopProp}
-        className={`fixed top-3 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 bg-surface/95 backdrop-blur-md border border-border rounded-full px-3 py-2 shadow-2xl text-sm transition-all duration-300 max-w-[90vw] ${
+        className={`fixed top-3 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 bg-surface/95 backdrop-blur-md border border-border rounded-full px-2 py-1.5 shadow-2xl transition-all duration-300 w-[90vw] max-w-sm ${
           visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"
         }`}
       >
@@ -103,25 +103,35 @@ export default function FloatingDock({
           data-dock
           onClick={(e) => { e.stopPropagation(); router.push(`/comic/${comicSlug}`); }}
           aria-label="Kembali ke daftar chapter"
-          className="flex items-center justify-center w-7 h-7 rounded-full hover:bg-surface2 text-muted hover:text-accent transition-colors flex-shrink-0"
+          className="flex items-center justify-center w-8 h-8 rounded-full hover:bg-surface2 text-muted hover:text-accent transition-colors flex-shrink-0"
         >
-          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          {/* Back arrow */}
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+            <path d="M15 19l-7-7 7-7" />
           </svg>
         </button>
-        <span className="text-muted text-xs flex-shrink-0 truncate max-w-[40vw]">{comicTitle}</span>
-        <span className="text-border text-xs flex-shrink-0">›</span>
-        <span className="text-text text-xs font-medium flex-shrink-0">Chapter {chapterNumber}</span>
+
+        <div className="flex items-center gap-1 flex-1 min-w-0 justify-center">
+          <span className="text-muted text-xs truncate max-w-[25vw]">{comicTitle}</span>
+          <svg className="w-3 h-3 text-muted flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+          <span className="text-text text-xs font-medium flex-shrink-0 whitespace-nowrap">Ch. {chapterNumber}</span>
+        </div>
+
+        {/* Divider */}
+        <div className="w-px h-4 bg-border flex-shrink-0" />
+
         {/* Home */}
-        <div className="w-px h-4 bg-border mx-0.5 flex-shrink-0" />
         <button
           data-dock
           onClick={(e) => { e.stopPropagation(); router.push("/"); }}
           aria-label="Kembali ke beranda"
-          className="flex items-center justify-center w-7 h-7 rounded-full hover:bg-surface2 text-muted hover:text-accent transition-colors flex-shrink-0"
+          className="flex items-center justify-center w-8 h-8 rounded-full hover:bg-surface2 text-muted hover:text-accent transition-colors flex-shrink-0"
         >
-          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+            <path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H5a1 1 0 01-1-1V9.5z" />
+            <path d="M9 21V12h6v9" />
           </svg>
         </button>
       </div>
@@ -266,8 +276,9 @@ export default function FloatingDock({
           </DockBtn>
         ) : (
           <DockBtn onClick={(e) => { e.stopPropagation(); router.push("/"); }} label="Kembali ke Beranda">
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+              <path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H5a1 1 0 01-1-1V9.5z" />
+              <path d="M9 21V12h6v9" />
             </svg>
           </DockBtn>
         )}
