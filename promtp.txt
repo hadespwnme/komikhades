@@ -1,1 +1,0 @@
-kiro-cli chat --trust-all-tools --resume-id 4a967bda-8c48-46f8-857c-dd37e445bdc3

@@ -47,3 +47,7 @@ __pycache__/
 .env.local
 .github/
 .github/
+
+# Skills dan notes lokal
+.kiro/skills/
+promtp.txt
