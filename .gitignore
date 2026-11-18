@@ -45,8 +45,6 @@ next-env.d.ts
 __pycache__/
 *.pyc
 .env.local
-.github/
-.github/
 
 # Skills dan notes lokal
 .kiro/skills/
