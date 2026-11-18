@@ -5,7 +5,8 @@ import ComicCard from "./ComicCard";
 import { useReadingProgress } from "@/hooks/useReadingProgress";
 import type { ComicSummary } from "@/types/comic";
 
-const PER_PAGE = 12;
+const PER_PAGE_MOBILE = 12;
+const PER_PAGE_DESKTOP = 15;
 
 /** Parse DD/MM/YYYY → Date. Returns epoch 0 if invalid. */
 function parseDate(str: string): Date {
@@ -45,6 +46,15 @@ export default function ComicGrid({ comics }: Props) {
   const { getProgress } = useReadingProgress();
   const [query, setQuery] = useState("");
   const [page, setPage] = useState(1);
+  const [perPage, setPerPage] = useState(PER_PAGE_MOBILE);
+
+  // Detect desktop (>= 1024px) on mount and resize
+  useEffect(() => {
+    const update = () => setPerPage(window.innerWidth >= 1024 ? PER_PAGE_DESKTOP : PER_PAGE_MOBILE);
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
+  }, []);
 
   // Sort by latest_date descending (newest chapter first)
   const sorted = useMemo(() => {
@@ -67,8 +77,8 @@ export default function ComicGrid({ comics }: Props) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [sorted, query]);
 
-  const totalPages = Math.ceil(filtered.length / PER_PAGE);
-  const paginated = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+  const totalPages = Math.ceil(filtered.length / perPage);
+  const paginated = filtered.slice((page - 1) * perPage, page * perPage);
 
   const goTo = (p: number) => {
     setPage(p);
