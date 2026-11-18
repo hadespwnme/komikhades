@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import ComicCard from "./ComicCard";
 import { useReadingProgress } from "@/hooks/useReadingProgress";
 import type { ComicSummary } from "@/types/comic";
