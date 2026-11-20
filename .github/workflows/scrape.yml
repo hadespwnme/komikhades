@@ -45,6 +45,8 @@ jobs:
           else
             python scraper/scrape.py --comics "$COMICS" --no-pages
           fi
+          # Scrape kiryuu comics (detective-conan, etc.)
+          python scraper/scrape_kiryuu.py --comics "detective-conan"
 
       - name: Backfill missing chapter pages
         # Store image URLs in public/data/ so the reader does not depend on

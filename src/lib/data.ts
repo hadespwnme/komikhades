@@ -49,44 +49,59 @@ export async function getChapterPages(
 }
 
 async function fetchChapterPagesLive(chapterSlug: string): Promise<string[]> {
+  // Detect source from slug — kiryuu slugs: "detective-conan-chapter-1145"
+  // Try kiryuu first if it matches a known kiryuu comic pattern
+  const kiryuuMatch = chapterSlug.match(/^(.+)-chapter-([\d.]+)$/);
+
+  if (kiryuuMatch) {
+    const comicSlug = kiryuuMatch[1];
+    const chapterNum = kiryuuMatch[2];
+    const kiryuuUrl = `https://v7.kiryuu.to/manga/${comicSlug}/chapter-${chapterNum}/`;
+    try {
+      const res = await fetch(kiryuuUrl, {
+        headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" },
+        next: { revalidate: 3600 },
+      });
+      if (res.ok) {
+        const html = await res.text();
+        const matches = html.matchAll(
+          /(https:\/\/cdn\.kiryuu\.io\/D\/[^\s"'<>]+\.(?:webp|jpg|jpeg|png))/gi
+        );
+        const pages: string[] = [];
+        const seen = new Set<string>();
+        for (const m of matches) {
+          if (!seen.has(m[1])) { seen.add(m[1]); pages.push(m[1]); }
+        }
+        if (pages.length > 0) return pages;
+      }
+    } catch { /* fall through to komiku */ }
+  }
+
+  // Fallback: try komiku.org
   const url = `https://komiku.org/${chapterSlug}/`;
   try {
     const res = await fetch(url, {
-      headers: {
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-      },
+      headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" },
       next: { revalidate: 3600 },
     });
     if (!res.ok) return [];
     const html = await res.text();
 
-    // Extract ALL data-src image URLs from img.komiku.org (any path)
     const matches = html.matchAll(
       /data-src="(https:\/\/img\.komiku\.org\/[^"]+\.(?:jpg|jpeg|png|webp))"/gi
     );
     const pages: string[] = [];
-    for (const m of matches) {
-      pages.push(m[1]);
-    }
+    for (const m of matches) pages.push(m[1]);
     if (pages.length > 0) return pages;
 
-    // Fallback: construct from chapterData (try common path patterns)
-    const dataMatch = html.match(
-      /var chapterData\s*=\s*\{id:(\d+)[^}]*jumlahgambar:(\d+)/
-    );
+    const dataMatch = html.match(/var chapterData\s*=\s*\{id:(\d+)[^}]*jumlahgambar:(\d+)/);
     if (dataMatch) {
       const id = dataMatch[1];
       const count = parseInt(dataMatch[2], 10);
-      // Try uploads path first (most common), wp-content as fallback handled by browser
-      return Array.from(
-        { length: count },
-        (_, i) =>
-          `https://img.komiku.org/uploads/${id}-${i + 1}.jpg`
+      return Array.from({ length: count }, (_, i) =>
+        `https://img.komiku.org/uploads/${id}-${i + 1}.jpg`
       );
     }
-  } catch {
-    // ignore
-  }
+  } catch { /* ignore */ }
   return [];
 }

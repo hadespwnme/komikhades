@@ -753,5 +753,28 @@
     "chapter_count": 225,
     "latest_chapter": "225",
     "latest_date": "18/11/2026"
+  },
+  {
+    "slug": "detective-conan",
+    "title": "Detective Conan",
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Detective-Conan.jpg",
+    "alt_title": "",
+    "type": "Manga",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Mystery",
+      "Romance",
+      "School Life",
+      "Shounen"
+    ],
+    "author": "",
+    "status": "",
+    "synopsis": "",
+    "source": "kiryuu",
+    "chapter_count": 1129,
+    "latest_chapter": "1.148122",
+    "latest_date": ""
   }
 ]
