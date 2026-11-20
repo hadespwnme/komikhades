@@ -6,7 +6,9 @@ import type { Chapter } from "@/types/comic";
 import { useState } from "react";
 
 interface Props {
-  chapters: Chapter[];
+  // `pages` is intentionally omitted: the chapter list only needs metadata,
+  // and serializing thousands of image URLs would bloat the page payload.
+  chapters: Omit<Chapter, "pages">[];
   comicSlug: string;
 }
 

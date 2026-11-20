@@ -46,6 +46,13 @@ jobs:
             python scraper/scrape.py --comics "$COMICS" --no-pages
           fi
 
+      - name: Backfill missing chapter pages
+        # Store image URLs in public/data/ so the reader does not depend on
+        # fetching komiku.org at request time (blocked from Vercel).
+        # Resume-safe: chapters that already have pages are skipped.
+        continue-on-error: true
+        run: python scraper/backfill_pages.py --workers 4 --delay 0.25
+
       - name: Check for changes
         id: changes
         run: |

@@ -210,6 +210,35 @@ def run(slugs: list[str], scrape_pages: bool = True, delay: float = 0.5):
             print(f"Error scraping {slug}: {e}")
             continue
 
+        # Keep previously scraped page URLs. Running with --no-pages used to
+        # overwrite them with empty lists, which broke the reader because the
+        # live fallback is not always reachable from the hosting environment.
+        out = OUT_DIR / f"{slug}.json"
+        old_chapters: dict[str, dict] = {}
+        if out.exists():
+            try:
+                old_comic = json.loads(out.read_text())
+                old_chapters = {
+                    c.get("slug"): c for c in old_comic.get("chapters", [])
+                }
+            except (OSError, ValueError):
+                old_chapters = {}
+
+        def restore_saved_pages(chapter: Chapter) -> None:
+            old = old_chapters.get(chapter.slug)
+            if not old:
+                return
+            if not chapter.pages and old.get("pages"):
+                chapter.pages = old["pages"]
+                chapter.page_count = old.get("page_count") or len(chapter.pages)
+            if not chapter.chapter_id and old.get("chapter_id"):
+                chapter.chapter_id = old["chapter_id"]
+            if not chapter.page_count and old.get("page_count"):
+                chapter.page_count = old["page_count"]
+
+        for chapter in comic.chapters:
+            restore_saved_pages(chapter)
+
         if scrape_pages:
             for chapter in comic.chapters:
                 try:
@@ -217,10 +246,10 @@ def run(slugs: list[str], scrape_pages: bool = True, delay: float = 0.5):
                     time.sleep(delay)
                 except Exception as e:
                     print(f"  Error scraping chapter {chapter.number}: {e}")
+                    restore_saved_pages(chapter)
 
         # Save per-comic data
         comic_data = asdict(comic)
-        out = OUT_DIR / f"{slug}.json"
         out.write_text(json.dumps(comic_data, ensure_ascii=False, indent=2))
         print(f"  Saved {out}")
 

@@ -36,6 +36,16 @@ export default async function ComicPage({ params }: Props) {
 
   const latestChapter = comic.chapters[comic.chapters.length - 1];
   const firstChapter = comic.chapters[0];
+  // Only send chapter metadata to the client, not every page image URL.
+  const chapterList = comic.chapters.map(
+    ({ slug: chapterSlug, number, date, chapter_id, page_count }) => ({
+      slug: chapterSlug,
+      number,
+      date,
+      chapter_id,
+      page_count,
+    })
+  );
 
   return (
     <div className="min-h-screen bg-bg">
@@ -167,7 +177,7 @@ export default async function ComicPage({ params }: Props) {
             style={{ fontFamily: "'Righteous', sans-serif" }}>
             Daftar Chapter
           </h2>
-          <ChapterList chapters={comic.chapters} comicSlug={slug} />
+          <ChapterList chapters={chapterList} comicSlug={slug} />
         </div>
       </div>
     </div>
