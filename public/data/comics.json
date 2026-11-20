@@ -753,5 +753,27 @@
     "chapter_count": 224,
     "latest_chapter": "224",
     "latest_date": "12/11/2026"
+  },
+  {
+    "slug": "detective-conan",
+    "title": "Detective Conan",
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Detective-Conan.jpg",
+    "alt_title": "Case Closed, Detective Conan, Detektiv Conan, Thám tử lừng danh Conan, Детектив Конан, المتحري كونان, المحقق كونان, ยอดนักสืบจิ๋วโคนัน, 名偵探柯南, 名探偵コナン, 명탐정 코난",
+    "type": "Manga",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Mystery",
+      "Romance",
+      "School Life",
+      "Shounen"
+    ],
+    "author": "AOYAMA Gosho",
+    "status": "Ongoing",
+    "synopsis": "Shinichi Kudo is a high-school student who, by using observation and deduction, is good at solving mysteries. While investigating one, he is caught by the criminals that he was watching and forced to take an experimental drug. Leaving him for dead, the criminals disappear. Instead of killing him, however, the drug turns Shinichi into a little kid. To preserve the illusion of his 'disappearance,' Shinichi adopts a new name based on his favorite author (Arthur Conan Doyle) and becomes Conan Edogawa. Ran, his (actually Shinichi's) childhood friend takes this little boy under her wing and bring...",
+    "chapter_count": 1129,
+    "latest_chapter": "1145",
+    "latest_date": "22/10/2026"
   }
 ]
