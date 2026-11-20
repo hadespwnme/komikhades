@@ -58,7 +58,7 @@ async function fetchChapterPagesLive(chapterSlug: string, source = "komiku"): Pr
       try {
         const res = await fetch(kiryuuUrl, {
           headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" },
-          next: { revalidate: 3600 },
+          cache: "no-store",
         });
         if (res.ok) {
           const html = await res.text();
@@ -82,7 +82,7 @@ async function fetchChapterPagesLive(chapterSlug: string, source = "komiku"): Pr
   try {
     const res = await fetch(url, {
       headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" },
-      next: { revalidate: 3600 },
+      cache: "no-store",
     });
     if (!res.ok) return [];
     const html = await res.text();

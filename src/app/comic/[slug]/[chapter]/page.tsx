@@ -3,6 +3,9 @@ import type { Metadata } from "next";
 import { getComic, getChapterPages, getComicList } from "@/lib/data";
 import ReaderClient from "@/components/ReaderClient";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 interface Props {
   params: Promise<{ slug: string; chapter: string }>;
 }
