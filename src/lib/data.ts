@@ -44,40 +44,40 @@ export async function getChapterPages(
     return chapter.pages;
   }
 
-  // Otherwise fetch on-demand from komiku.org
-  return fetchChapterPagesLive(chapterSlug);
+  // Use source field to determine which CDN to fetch from
+  const source = (comic as Comic & { source?: string }).source ?? "komiku";
+  return fetchChapterPagesLive(chapterSlug, source);
 }
 
-async function fetchChapterPagesLive(chapterSlug: string): Promise<string[]> {
-  // Detect source from slug — kiryuu slugs: "detective-conan-chapter-1145"
-  // Try kiryuu first if it matches a known kiryuu comic pattern
-  const kiryuuMatch = chapterSlug.match(/^(.+)-chapter-([\d.]+)$/);
-
-  if (kiryuuMatch) {
-    const comicSlug = kiryuuMatch[1];
-    const chapterNum = kiryuuMatch[2];
-    const kiryuuUrl = `https://v7.kiryuu.to/manga/${comicSlug}/chapter-${chapterNum}/`;
-    try {
-      const res = await fetch(kiryuuUrl, {
-        headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" },
-        next: { revalidate: 3600 },
-      });
-      if (res.ok) {
-        const html = await res.text();
-        const matches = html.matchAll(
-          /(https:\/\/cdn\.kiryuu\.io\/D\/[^\s"'<>]+\.(?:webp|jpg|jpeg|png))/gi
-        );
-        const pages: string[] = [];
-        const seen = new Set<string>();
-        for (const m of matches) {
-          if (!seen.has(m[1])) { seen.add(m[1]); pages.push(m[1]); }
+async function fetchChapterPagesLive(chapterSlug: string, source = "komiku"): Promise<string[]> {
+  // If source is kiryuu, fetch from kiryuu CDN
+  if (source === "kiryuu") {
+    const m = chapterSlug.match(/^(.+)-chapter-([\d.]+)$/);
+    if (m) {
+      const kiryuuUrl = `https://v7.kiryuu.to/manga/${m[1]}/chapter-${m[2]}/`;
+      try {
+        const res = await fetch(kiryuuUrl, {
+          headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" },
+          next: { revalidate: 3600 },
+        });
+        if (res.ok) {
+          const html = await res.text();
+          const matches = html.matchAll(
+            /(https:\/\/cdn\.kiryuu\.io\/D\/[^\s"'<>]+\.(?:webp|jpg|jpeg|png))/gi
+          );
+          const pages: string[] = [];
+          const seen = new Set<string>();
+          for (const m of matches) {
+            if (!seen.has(m[1])) { seen.add(m[1]); pages.push(m[1]); }
+          }
+          if (pages.length > 0) return pages;
         }
-        if (pages.length > 0) return pages;
-      }
-    } catch { /* fall through to komiku */ }
+      } catch { /* ignore */ }
+    }
+    return [];
   }
 
-  // Fallback: try komiku.org
+  // Default: fetch from komiku.org
   const url = `https://komiku.org/${chapterSlug}/`;
   try {
     const res = await fetch(url, {
