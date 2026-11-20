@@ -67,9 +67,9 @@ export default async function ComicPage({ params }: Props) {
             <span className="text-text">{comic.title}</span>
           </div>
 
-          <div className="flex gap-5 sm:gap-7">
+          <div className="flex flex-col sm:flex-row gap-5 sm:gap-7">
             {/* Cover */}
-            <div className="relative w-28 sm:w-40 flex-shrink-0 rounded-2xl overflow-hidden aspect-[2/3] shadow-2xl ring-1 ring-white/10">
+            <div className="relative w-36 sm:w-40 flex-shrink-0 rounded-2xl overflow-hidden aspect-[2/3] shadow-2xl ring-1 ring-white/10 mx-auto sm:mx-0">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={comic.thumbnail}
@@ -81,7 +81,7 @@ export default async function ComicPage({ params }: Props) {
             </div>
 
             {/* Info */}
-            <div className="flex flex-col gap-3 flex-1 min-w-0">
+            <div className="flex flex-col gap-3 flex-1 min-w-0 w-full">
               <div>
                 <h1
                   className="text-2xl sm:text-3xl text-text leading-tight"
