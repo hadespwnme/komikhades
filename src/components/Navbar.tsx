@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { createClient } from "@/lib/supabase/client";
 import { signOut } from "@/lib/actions";
 import type { User } from "@supabase/supabase-js";
@@ -14,6 +14,7 @@ export default function Navbar() {
   const [user, setUser] = useState<User | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState("");
 
   const segments = pathname.split("/").filter(Boolean);
   const isReader = segments[0] === "comic" && segments.length === 3;
@@ -30,8 +31,11 @@ export default function Navbar() {
     return () => subscription.unsubscribe();
   }, []);
 
-  const handleLogin = () => {
-    router.push("/login");
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      router.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
+    }
   };
 
   const handleSignOut = async () => {
@@ -47,20 +51,38 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-bg/80 backdrop-blur-md">
-      <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 group">
-          <span
-            className="text-accent group-hover:text-accent2 transition-colors duration-200"
-            style={{ fontFamily: "'Press Start 2P', cursive", fontSize: "13px", letterSpacing: "0.05em" }}
-          >
-            KOMIKHADES
-          </span>
-        </Link>
+      <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between gap-4">
+        {/* Logo + Search */}
+        <div className="flex items-center gap-4 flex-1 min-w-0">
+          <Link href="/" className="flex-shrink-0">
+            <span
+              className="text-accent hover:text-accent2 transition-colors duration-200"
+              style={{ fontFamily: "'Press Start 2P', cursive", fontSize: "13px", letterSpacing: "0.05em" }}
+            >
+              KOMIKHADES
+            </span>
+          </Link>
+
+          {/* Search bar */}
+          <form onSubmit={handleSearch} className="flex-1 max-w-xs sm:max-w-md relative">
+            <input
+              type="text"
+              placeholder="Cari komik..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-9 pr-3 py-1.5 rounded-lg bg-surface2 border border-border text-sm text-text placeholder:text-muted focus:outline-none focus:border-accent/50 transition-all"
+              style={{ fontFamily: "'Poppins', sans-serif" }}
+            />
+            <svg className="absolute left-2.5 top-1/2 -translate-y-1/2 w-4 h-4 text-muted pointer-events-none"
+              fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </form>
+        </div>
 
         {/* Right side */}
-        <div className="flex items-center gap-2">
-          {/* Library link */}
+        <div className="flex items-center gap-2 flex-shrink-0">
           {user && (
             <Link
               href="/library"
@@ -75,7 +97,6 @@ export default function Navbar() {
             </Link>
           )}
 
-          {/* Auth button */}
           {loading ? (
             <div className="w-8 h-8 rounded-full bg-surface2 animate-pulse" />
           ) : user ? (
@@ -94,7 +115,6 @@ export default function Navbar() {
                 )}
               </button>
 
-              {/* Dropdown */}
               {menuOpen && (
                 <>
                   <div className="fixed inset-0 z-40" onClick={() => setMenuOpen(false)} />
@@ -124,7 +144,7 @@ export default function Navbar() {
             </div>
           ) : (
             <button
-              onClick={handleLogin}
+              onClick={() => router.push("/login")}
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-accent text-white text-sm font-medium hover:bg-accent2 transition-colors"
               style={{ fontFamily: "'Poppins', sans-serif" }}
             >
