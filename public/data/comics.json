@@ -853,5 +853,116 @@
     "chapter_count": 236,
     "latest_chapter": "235",
     "latest_date": "20/11/2026"
+  },
+  {
+    "slug": "versatile-mage",
+    "title": "Versatile Mage",
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Versatile-Mage.png",
+    "alt_title": "",
+    "type": "Manga",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "School Life",
+      "Shounen",
+      "Supernatural"
+    ],
+    "author": "",
+    "status": "",
+    "synopsis": "",
+    "source": "kiryuu",
+    "chapter_count": 788,
+    "latest_chapter": "1.174677",
+    "latest_date": ""
+  },
+  {
+    "slug": "the-hero-cant-rest",
+    "title": "The Hero Can't Rest",
+    "thumbnail": "http://v7.kiryuu.to/wp-content/uploads/2026/09/image_2026-09-26_105616155.png",
+    "alt_title": "",
+    "type": "Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Isekai"
+    ],
+    "author": "",
+    "status": "",
+    "synopsis": "",
+    "source": "kiryuu",
+    "chapter_count": 18,
+    "latest_chapter": "1.810126",
+    "latest_date": ""
+  },
+  {
+    "slug": "martial-peak",
+    "title": "Martial Peak",
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Martial-Peak.jpg",
+    "alt_title": "",
+    "type": "Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Harem",
+      "Historical",
+      "Martial Arts",
+      "Romance",
+      "Sci-fi",
+      "Shounen"
+    ],
+    "author": "",
+    "status": "",
+    "synopsis": "",
+    "source": "kiryuu",
+    "chapter_count": 3872,
+    "latest_chapter": "1.147609",
+    "latest_date": ""
+  },
+  {
+    "slug": "the-apocalypses-ultimate-veteran",
+    "title": "The Apocalypse's Ultimate Veteran",
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2025/12/Cover-7-scaled.jpg",
+    "alt_title": "",
+    "type": "Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "apocalypse",
+      "Comedy",
+      "Fantasy",
+      "Supernatural",
+      "System"
+    ],
+    "author": "",
+    "status": "",
+    "synopsis": "",
+    "source": "kiryuu",
+    "chapter_count": 62,
+    "latest_chapter": "1.692300",
+    "latest_date": ""
+  },
+  {
+    "slug": "infinite-evolution-starting-from-zero",
+    "title": "Infinite Evolution Starting From Zero",
+    "thumbnail": "http://v7.kiryuu.to/wp-content/uploads/2025/09/infinite-evolution-starting-from-zero-213688-CNwA5CiJ.png",
+    "alt_title": "",
+    "type": "Manga",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Shounen"
+    ],
+    "author": "",
+    "status": "",
+    "synopsis": "",
+    "source": "kiryuu",
+    "chapter_count": 145,
+    "latest_chapter": "1.643231",
+    "latest_date": ""
   }
 ]
