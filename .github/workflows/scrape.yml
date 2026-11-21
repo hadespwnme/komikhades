@@ -47,6 +47,10 @@ jobs:
           fi
           # Scrape kiryuu comics (detective-conan, etc.)
           python scraper/scrape_kiryuu.py --comics "detective-conan"
+          # Scrape Popular Today from kiryuu
+          python scraper/scrape_popular.py
+          # Scrape Popular Today from kiryuu
+          python scraper/scrape_popular.py
 
       - name: Backfill missing chapter pages
         # Store image URLs in public/data/ so the reader does not depend on
