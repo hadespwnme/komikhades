@@ -797,5 +797,23 @@
     "chapter_count": 18,
     "latest_chapter": "18",
     "latest_date": "13/02/2020"
+  },
+  {
+    "slug": "murim-login",
+    "title": "Murim Login",
+    "thumbnail": "https://thumbnail.komiku.org/uploads/manga/murim-login/manga_thumbnail-Manhwa-Murim-Login.jpg?w=1200",
+    "alt_title": "Masuk Dunia Murim",
+    "type": "Manhwa",
+    "genres": [
+      "Action",
+      "Game",
+      "Martial Arts"
+    ],
+    "author": "JooSeoCheol",
+    "status": "Hiatus",
+    "synopsis": "Kim Soo-Hyun adalah seorang pemuda yang tiba-tiba terlibat dalam dunia Murim melalui sebuah aplikasi misterius bernama Murim Login. Dalam dunia ini, ia harus bertahan hidup dengan mempelajari seni bela diri dan menghadapi berbagai tantangan serta musuh yang kuat. Perjalanan ini mengubahnya dari orang biasa menjadi pejuang yang tangguh dan bijaksana.\r\n\r\nSeiring waktu, Soo-Hyun menemukan rahasia di balik dunia Murim dan mengungkap intrik serta konflik yang mengancam keseimbangan kekuasaan di sana. Dengan tekad kuat dan bantuan teman-teman seperjuangan, ia berusaha menyelamatkan dunia tersebut dari kehancuran sambil mengungkap jati dirinya yang sebenarnya.",
+    "chapter_count": 256,
+    "latest_chapter": "254",
+    "latest_date": "20/11/2026"
   }
 ]
