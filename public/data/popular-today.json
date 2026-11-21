@@ -18,18 +18,6 @@
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/07/71991ab35fab0c0a145530942eb5d7248f805128-s2-n2-y1-730914-piVf8mFP-207x300.webp"
   },
   {
-    "slug": "versatile-mage",
-    "title": "Versatile Mage",
-    "score": 7.2,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Versatile-Mage-225x300.png"
-  },
-  {
-    "slug": "apotheosis",
-    "title": "Apotheosis",
-    "score": 6.8,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Apotheosis-225x300.jpg"
-  },
-  {
     "slug": "chronicles-of-the-demon-faction",
     "title": "Chronicles of the Demon Faction",
     "score": 7.0,
@@ -42,10 +30,10 @@
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Magic-Emeperor-186x300.jpg"
   },
   {
-    "slug": "murim-login",
-    "title": "Murim Login",
-    "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/07/murim-login-287459-Q8HPls6m-210x300.jpeg"
+    "slug": "second-life-ranker",
+    "title": "Second Life Ranker",
+    "score": 7.7,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/10/second-life-ranker-260159-4SaWMlKV-222x300.jpg"
   },
   {
     "slug": "the-hero-cant-rest",
@@ -54,10 +42,46 @@
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/09/image_2026-09-26_105616155-234x300.png"
   },
   {
-    "slug": "second-life-ranker",
-    "title": "Second Life Ranker",
-    "score": 7.7,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/10/second-life-ranker-260159-4SaWMlKV-222x300.jpg"
+    "slug": "murim-login",
+    "title": "Murim Login",
+    "score": 7.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/07/murim-login-287459-Q8HPls6m-210x300.jpeg"
+  },
+  {
+    "slug": "my-dad-is-the-strongest-under-heaven",
+    "title": "My Dad Is The Strongest Under Heaven",
+    "score": 7.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/08/image_2026-08-18_123618901-210x300.png"
+  },
+  {
+    "slug": "the-demon-king-overrun-by-heroes",
+    "title": "The Demon King Overrun by Heroes",
+    "score": 7.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2025/11/The-Demon-King-Overrun-by-Heroes-207x300.webp"
+  },
+  {
+    "slug": "i-took-over-the-academy-with-a-single-sashimi-knife",
+    "title": "I Took over The Academy With a Single Sashimi Knife",
+    "score": 7.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/09/i-took-over-the-academy-with-a-single-sashimi-knife-195862-XT0ElSiA.webp"
+  },
+  {
+    "slug": "kingdom",
+    "title": "Kingdom",
+    "score": 9.1,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/a98af85b-ff57-49c3-b7bc-d48b996cc77b-978099-eKZjY7ni-211x300.jpg"
+  },
+  {
+    "slug": "eleceed",
+    "title": "Eleceed",
+    "score": 8.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/eleceed-956931-TSsUlrrh-206x300.jpg"
+  },
+  {
+    "slug": "lazy-prince-becomes-a-genius-reformation-of-the-deadbeat-noble",
+    "title": "Lazy Prince Becomes a Genius (Reformation of the Deadbeat Noble)",
+    "score": 7.8,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/05/the-lazy-prince-becomes-a-genius-642184-w1MnKvsS-210x300.jpg"
   },
   {
     "slug": "the-dragon-of-kunlun",
@@ -70,29 +94,5 @@
     "title": "Killer Peter",
     "score": 7.0,
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2023/09/killer-peter-604773-2IBc3wwQ.png"
-  },
-  {
-    "slug": "the-villain-wants-to-live",
-    "title": "The Villain Wants To Live",
-    "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2025/03/the-villain-wants-to-live-833225-K5COe95A-210x300.jpg"
-  },
-  {
-    "slug": "eleceed",
-    "title": "Eleceed",
-    "score": 8.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/eleceed-956931-TSsUlrrh-206x300.jpg"
-  },
-  {
-    "slug": "infinite-evolution-starting-from-zero",
-    "title": "Infinite Evolution Starting From Zero",
-    "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2025/09/infinite-evolution-starting-from-zero-213688-CNwA5CiJ-212x300.png"
-  },
-  {
-    "slug": "kingdom",
-    "title": "Kingdom",
-    "score": 9.1,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/a98af85b-ff57-49c3-b7bc-d48b996cc77b-978099-eKZjY7ni-211x300.jpg"
   }
 ]
