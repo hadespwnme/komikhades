@@ -1,15 +1,21 @@
 [
   {
+    "slug": "magic-emperor",
+    "title": "Magic Emperor",
+    "score": 8.4,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Magic-Emeperor-186x300.jpg"
+  },
+  {
     "slug": "damn-reincarnation-2",
     "title": "Damn Reincarnation",
     "score": 27.4,
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/11/image_2026-11-16_101644439-209x300.png"
   },
   {
-    "slug": "magic-emperor",
-    "title": "Magic Emperor",
-    "score": 8.4,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Magic-Emeperor-186x300.jpg"
+    "slug": "damn-reincarnation",
+    "title": "Damn Reincarnation",
+    "score": 7.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/06/damn-reincarnation-226616-2SWDSjmr-210x300.webp"
   },
   {
     "slug": "noble-lady-reformation-guide",
@@ -18,16 +24,40 @@
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/08/image_2026-08-31_094138528-231x300.png"
   },
   {
+    "slug": "the-invincible-escort",
+    "title": "The Invincible Escort",
+    "score": 7.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/09/image_2026-09-09_113621296-226x300.png"
+  },
+  {
+    "slug": "eleceed",
+    "title": "Eleceed",
+    "score": 8.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/eleceed-956931-TSsUlrrh-206x300.jpg"
+  },
+  {
+    "slug": "reincarnation-of-the-demonic-god-reincarnation-of-the-divine-demon",
+    "title": "Reincarnation Of The Demonic God (Reincarnation of the Divine Demon)",
+    "score": 7.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2025/09/reincarnation-of-the-demonic-god-reincarnation-of-the-divine-demon-071405-VOv4j8is-231x300.jpg"
+  },
+  {
+    "slug": "overgeared-team-argo",
+    "title": "Overgeared (Team Argo)",
+    "score": 7.7,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/12/overgeared-team-argo-090033-omDKAl0T-222x300.jpg"
+  },
+  {
     "slug": "magic-academys-genius-blinker",
     "title": "Magic Academy's Genius Blinker",
     "score": 8.4,
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/06/magic-academys-genius-blinker1-229747-0LRpXdcE-210x300.webp"
   },
   {
-    "slug": "swordmasters-youngest-son",
-    "title": "Swordmaster's Youngest Son",
-    "score": 7.7,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/05/swordmasters-youngest-son-323844-c4gW11mK-222x300.jpg"
+    "slug": "genius-archers-streaming",
+    "title": "Genius Archer's Streaming",
+    "score": 7.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/05/genius-archers-streaming-348326-pYSh5ms9-210x300.jpg"
   },
   {
     "slug": "the-genius-professor-wants-an-easy-life",
@@ -42,10 +72,10 @@
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2025/01/mount-hua-sects-genius-phantom-swordsman-631140-5USyaWvy-221x300.webp"
   },
   {
-    "slug": "damn-reincarnation",
-    "title": "Damn Reincarnation",
-    "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/06/damn-reincarnation-226616-2SWDSjmr-210x300.webp"
+    "slug": "swordmasters-youngest-son",
+    "title": "Swordmaster's Youngest Son",
+    "score": 7.7,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/05/swordmasters-youngest-son-323844-c4gW11mK-222x300.jpg"
   },
   {
     "slug": "nano-machine",
@@ -54,45 +84,15 @@
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/vol-2-766x1024-241277-OCDAuWmC-224x300.jpg"
   },
   {
-    "slug": "legendary-hero-is-an-academy-honors-student",
-    "title": "Legendary Hero Is an Academy Honors Student",
-    "score": 8.5,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/12/image-2024-12-29-212737102-179710-NYLulgxY-209x300.png"
+    "slug": "kingdom",
+    "title": "Kingdom",
+    "score": 9.1,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/a98af85b-ff57-49c3-b7bc-d48b996cc77b-978099-eKZjY7ni-211x300.jpg"
   },
   {
     "slug": "a-painter-who-draws-dungeons",
     "title": "A Painter Who Draws Dungeons",
     "score": 7.0,
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/07/image_2026-07-13_101447253-206x300.png"
-  },
-  {
-    "slug": "executioner",
-    "title": "Executioner",
-    "score": 7.3,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/04/executioner-741443-u6cm4z1i-231x300.jpg"
-  },
-  {
-    "slug": "the-invincible-escort",
-    "title": "The Invincible Escort",
-    "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/09/image_2026-09-09_113621296-226x300.png"
-  },
-  {
-    "slug": "ode-of-the-brave",
-    "title": "Ode Of The Brave",
-    "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/09/image_2026-09-17_094627185-210x300.png"
-  },
-  {
-    "slug": "terminally-ill-genius-dark-knight",
-    "title": "Terminally-Ill Genius Dark Knight",
-    "score": 8.5,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2023/05/terminallyilldarkknightcover01-241857-EcSos63t-210x300.webp"
-  },
-  {
-    "slug": "solo-max-level-newbie",
-    "title": "Solo Max-Level Newbie",
-    "score": 8.6,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/07/71991ab35fab0c0a145530942eb5d7248f805128-s2-n2-y1-730914-piVf8mFP-207x300.webp"
   }
 ]
