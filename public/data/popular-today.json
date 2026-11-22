@@ -1,27 +1,9 @@
 [
   {
-    "slug": "nano-machine",
-    "title": "Nano Machine",
-    "score": 8.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/vol-2-766x1024-241277-OCDAuWmC-224x300.jpg"
-  },
-  {
-    "slug": "overgeared-team-argo",
-    "title": "Overgeared (Team Argo)",
-    "score": 7.7,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/12/overgeared-team-argo-090033-omDKAl0T-222x300.jpg"
-  },
-  {
-    "slug": "solo-max-level-newbie",
-    "title": "Solo Max-Level Newbie",
-    "score": 8.6,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/07/71991ab35fab0c0a145530942eb5d7248f805128-s2-n2-y1-730914-piVf8mFP-207x300.webp"
-  },
-  {
-    "slug": "chronicles-of-the-demon-faction",
-    "title": "Chronicles of the Demon Faction",
-    "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2023/03/chronicles-of-the-demon-faction-275727-v4GsvSyQ.jpg"
+    "slug": "damn-reincarnation-2",
+    "title": "Damn Reincarnation",
+    "score": 27.4,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/11/image_2026-11-16_101644439-209x300.png"
   },
   {
     "slug": "magic-emperor",
@@ -30,69 +12,87 @@
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Magic-Emeperor-186x300.jpg"
   },
   {
-    "slug": "second-life-ranker",
-    "title": "Second Life Ranker",
+    "slug": "noble-lady-reformation-guide",
+    "title": "Noble Lady Reformation Guide",
+    "score": 7.3,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/08/image_2026-08-31_094138528-231x300.png"
+  },
+  {
+    "slug": "magic-academys-genius-blinker",
+    "title": "Magic Academy's Genius Blinker",
+    "score": 8.4,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/06/magic-academys-genius-blinker1-229747-0LRpXdcE-210x300.webp"
+  },
+  {
+    "slug": "swordmasters-youngest-son",
+    "title": "Swordmaster's Youngest Son",
     "score": 7.7,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/10/second-life-ranker-260159-4SaWMlKV-222x300.jpg"
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/05/swordmasters-youngest-son-323844-c4gW11mK-222x300.jpg"
   },
   {
-    "slug": "the-hero-cant-rest",
-    "title": "The Hero Can't Rest",
-    "score": 7.2,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/09/image_2026-09-26_105616155-234x300.png"
+    "slug": "the-genius-professor-wants-an-easy-life",
+    "title": "The Genius Professor Wants an Easy Life",
+    "score": 7.4,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/09/image_2026-09-12_155901189-210x300.png"
   },
   {
-    "slug": "murim-login",
-    "title": "Murim Login",
+    "slug": "mount-hua-sects-genius-phantom-swordsman",
+    "title": "Mount Hua Sect's Genius Phantom Swordsman",
     "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/07/murim-login-287459-Q8HPls6m-210x300.jpeg"
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2025/01/mount-hua-sects-genius-phantom-swordsman-631140-5USyaWvy-221x300.webp"
   },
   {
-    "slug": "my-dad-is-the-strongest-under-heaven",
-    "title": "My Dad Is The Strongest Under Heaven",
+    "slug": "damn-reincarnation",
+    "title": "Damn Reincarnation",
     "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/08/image_2026-08-18_123618901-210x300.png"
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/06/damn-reincarnation-226616-2SWDSjmr-210x300.webp"
   },
   {
-    "slug": "the-demon-king-overrun-by-heroes",
-    "title": "The Demon King Overrun by Heroes",
-    "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2025/11/The-Demon-King-Overrun-by-Heroes-207x300.webp"
-  },
-  {
-    "slug": "i-took-over-the-academy-with-a-single-sashimi-knife",
-    "title": "I Took over The Academy With a Single Sashimi Knife",
-    "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/09/i-took-over-the-academy-with-a-single-sashimi-knife-195862-XT0ElSiA.webp"
-  },
-  {
-    "slug": "kingdom",
-    "title": "Kingdom",
-    "score": 9.1,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/a98af85b-ff57-49c3-b7bc-d48b996cc77b-978099-eKZjY7ni-211x300.jpg"
-  },
-  {
-    "slug": "eleceed",
-    "title": "Eleceed",
+    "slug": "nano-machine",
+    "title": "Nano Machine",
     "score": 8.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/eleceed-956931-TSsUlrrh-206x300.jpg"
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/vol-2-766x1024-241277-OCDAuWmC-224x300.jpg"
   },
   {
-    "slug": "lazy-prince-becomes-a-genius-reformation-of-the-deadbeat-noble",
-    "title": "Lazy Prince Becomes a Genius (Reformation of the Deadbeat Noble)",
-    "score": 7.8,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/05/the-lazy-prince-becomes-a-genius-642184-w1MnKvsS-210x300.jpg"
+    "slug": "legendary-hero-is-an-academy-honors-student",
+    "title": "Legendary Hero Is an Academy Honors Student",
+    "score": 8.5,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/12/image-2024-12-29-212737102-179710-NYLulgxY-209x300.png"
   },
   {
-    "slug": "the-dragon-of-kunlun",
-    "title": "The Dragon of Kunlun",
+    "slug": "a-painter-who-draws-dungeons",
+    "title": "A Painter Who Draws Dungeons",
     "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/07/image_2026-07-26_075752697-207x300.png"
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/07/image_2026-07-13_101447253-206x300.png"
   },
   {
-    "slug": "killer-peter",
-    "title": "Killer Peter",
+    "slug": "executioner",
+    "title": "Executioner",
+    "score": 7.3,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/04/executioner-741443-u6cm4z1i-231x300.jpg"
+  },
+  {
+    "slug": "the-invincible-escort",
+    "title": "The Invincible Escort",
     "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2023/09/killer-peter-604773-2IBc3wwQ.png"
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/09/image_2026-09-09_113621296-226x300.png"
+  },
+  {
+    "slug": "ode-of-the-brave",
+    "title": "Ode Of The Brave",
+    "score": 7.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/09/image_2026-09-17_094627185-210x300.png"
+  },
+  {
+    "slug": "terminally-ill-genius-dark-knight",
+    "title": "Terminally-Ill Genius Dark Knight",
+    "score": 8.5,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2023/05/terminallyilldarkknightcover01-241857-EcSos63t-210x300.webp"
+  },
+  {
+    "slug": "solo-max-level-newbie",
+    "title": "Solo Max-Level Newbie",
+    "score": 8.6,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/07/71991ab35fab0c0a145530942eb5d7248f805128-s2-n2-y1-730914-piVf8mFP-207x300.webp"
   }
 ]
