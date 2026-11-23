@@ -56,6 +56,7 @@ class Comic:
     author: str
     status: str
     synopsis: str
+    source: str = "komiku"
     chapters: list[Chapter] = field(default_factory=list)
 
 
@@ -156,6 +157,7 @@ def scrape_manga_page(slug: str) -> Comic:
         author=info.get("Author", ""),
         status=info.get("Status", ""),
         synopsis=synopsis,
+        source="komiku",
         chapters=chapters,
     )
 

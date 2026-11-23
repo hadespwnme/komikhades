@@ -36,28 +36,37 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r scraper/requirements.txt
 
-      - name: Run scraper
+      - name: Run scraper — all komiku comics
         run: |
-          COMICS="${{ github.event.inputs.comics || 'gosu' }}"
-          PAGES="${{ github.event.inputs.scrape_pages || 'false' }}"
-          if [ "$PAGES" = "true" ]; then
-            python scraper/scrape.py --comics "$COMICS"
-          else
-            python scraper/scrape.py --comics "$COMICS" --no-pages
-          fi
-          # Scrape kiryuu comics (detective-conan, etc.)
-          python scraper/scrape_kiryuu.py --comics "detective-conan"
-          # Scrape Popular Today from kiryuu
-          python scraper/scrape_popular.py
-          # Scrape Popular Today from kiryuu
-          python scraper/scrape_popular.py
+          # Get all komiku comic slugs from comics.json (exclude kiryuu source)
+          KOMIKU_SLUGS=$(python -c "
+          import json
+          d = json.load(open('public/data/comics.json'))
+          slugs = [c['slug'] for c in d if c.get('source','komiku') != 'kiryuu']
+          print(','.join(slugs))
+          ")
+          echo "Scraping $KOMIKU_SLUGS"
+          python scraper/scrape.py --comics "$KOMIKU_SLUGS" --no-pages
 
-      - name: Backfill missing chapter pages
+      - name: Run scraper — all kiryuu comics
+        run: |
+          KIRYUU_SLUGS=$(python -c "
+          import json
+          d = json.load(open('public/data/comics.json'))
+          slugs = [c['slug'] for c in d if c.get('source','kiryuu') == 'kiryuu']
+          print(','.join(slugs))
+          ")
+          if [ -n "$KIRYUU_SLUGS" ]; then
+            echo "Scraping kiryuu: $KIRYUU_SLUGS"
+            python scraper/scrape_kiryuu.py --comics "$KIRYUU_SLUGS"
+          fi
+
+      - name: Scrape Popular Today (auto-scrape missing comics)
+        run: python scraper/scrape_popular.py
+
         # Store image URLs in public/data/ so the reader does not depend on
         # fetching komiku.org at request time (blocked from Vercel).
         # Resume-safe: chapters that already have pages are skipped.
-        continue-on-error: true
-        run: python scraper/backfill_pages.py --workers 4 --delay 0.25
 
       - name: Check for changes
         id: changes

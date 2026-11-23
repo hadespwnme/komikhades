@@ -14,6 +14,7 @@
   "author": "Masashi Kishimoto",
   "status": "Ongoing",
   "synopsis": "The Ultimate of All Ages mengeksplorasi petualangan seorang protagonis muda yang secara tak sengaja menemukan kekuatan luar biasa yang mengubah hidupnya selamanya. Dalam perjalanannya, dia bertemu dengan berbagai karakter unik dan menghadapi tantangan yang menguji keberanian serta kebijaksanaannya dalam dunia yang penuh misteri dan bahaya. \r\n\r\nCerita berfokus pada bagaimana sang tokoh utama berusaha memahami dan mengendalikan kekuatannya, sembari mengungkap rahasia masa lalu yang misterius serta ancaman masa depan yang mengintai. Selain itu, kisah ini juga memperlihatkan dinamika persahabatan dan konflik internal yang berkembang seiring dengan perjalanan waktu.",
+  "source": "komiku",
   "chapters": [
     {
       "slug": "the-ultimate-of-all-ages-chapter-01",
@@ -32694,6 +32695,22 @@
         "https://img.komiku.org/upload5/the-ultimate-of-all-ages/584/2026-11-16/54_part1.webp",
         "https://img.komiku.org/upload5/the-ultimate-of-all-ages/584/2026-11-16/54_part2.webp"
       ]
+    },
+    {
+      "slug": "the-ultimate-of-all-ages-chapter-585",
+      "number": "585",
+      "date": "23/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": []
+    },
+    {
+      "slug": "the-ultimate-of-all-ages-chapter-586",
+      "number": "586",
+      "date": "23/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": []
     }
   ]
 }

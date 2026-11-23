@@ -15,6 +15,7 @@
   "author": "Jolly Jae",
   "status": "Ongoing",
   "synopsis": "God of Martial Arts mengisahkan perjalanan seorang pemuda berbakat yang berjuang menguasai seni bela diri tertinggi di dunia yang dipenuhi tantangan dan rival. Dalam usahanya, dia tidak hanya menghadapi musuh kuat, tetapi juga menggali potensi diri serta mempelajari makna sejati kekuatan dan kehormatan.\n\nCerita ini menyoroti pertumbuhan karakter utama dari seorang pemula hingga menjadi legenda di dunia seni bela diri. Disertai dengan berbagai konflik, persahabatan, dan latar dunia yang kaya, komik ini mengajak pembaca untuk menyelami perjalanan penuh inspirasi dan aksi yang mendebarkan.",
+  "source": "komiku",
   "chapters": [
     {
       "slug": "god-of-martial-arts-chapter-1-1",
@@ -52740,7 +52741,7 @@
       "number": "1250",
       "date": "19/11/2026",
       "chapter_id": 0,
-      "page_count": 0,
+      "page_count": 30,
       "pages": [
         "https://img.komiku.org/upload5/god-of-martial-arts/1250/2026-11-19/1.webp",
         "https://img.komiku.org/upload5/god-of-martial-arts/1250/2026-11-19/2_part1.webp",
@@ -52779,7 +52780,7 @@
       "number": "1251",
       "date": "20/11/2026",
       "chapter_id": 0,
-      "page_count": 0,
+      "page_count": 33,
       "pages": [
         "https://img.komiku.org/upload5/god-of-martial-arts/1251/2026-11-20/1.webp",
         "https://img.komiku.org/upload5/god-of-martial-arts/1251/2026-11-20/2_part1.webp",
@@ -52815,6 +52816,30 @@
         "https://img.komiku.org/upload5/god-of-martial-arts/1251/2026-11-20/19_part1.webp",
         "https://img.komiku.org/upload5/god-of-martial-arts/1251/2026-11-20/19_part2.webp"
       ]
+    },
+    {
+      "slug": "god-of-martial-arts-chapter-1252",
+      "number": "1252",
+      "date": "21/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": []
+    },
+    {
+      "slug": "god-of-martial-arts-chapter-1253",
+      "number": "1253",
+      "date": "22/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": []
+    },
+    {
+      "slug": "god-of-martial-arts-chapter-1254",
+      "number": "1254",
+      "date": "23/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": []
     }
   ]
 }

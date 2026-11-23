@@ -15,6 +15,7 @@
   "author": "Rui Tsukiyo",
   "status": "Ongoing",
   "synopsis": "Magic Emperor menceritakan tentang kisah seorang pemuda yang terlahir kembali dengan keahlian sihir tingkat tinggi di dunia fantasi yang dipenuhi dengan konflik dan intrik politik. Dengan kekuatan sihir yang luar biasa, ia berusaha membangun kekaisaran yang damai sekaligus menghadapi berbagai ancaman baik dari dalam maupun luar kerajaannya.\r\n\r\nDalam perjalanannya, sang Kaisar tidak hanya bertarung menghadapi musuh, tetapi juga menggali misteri masa lalu serta berusaha memahami arti kekuasaan dan tanggung jawab. Cerita ini penuh dengan aksi epik, strategi cerdas, dan pengembangan karakter yang dalam, memperlihatkan bagaimana ia tumbuh menjadi pemimpin sejati.",
+  "source": "komiku",
   "chapters": [
     {
       "slug": "magic-emperor-chapter-01",
@@ -43955,7 +43956,7 @@
       "number": "937",
       "date": "20/11/2026",
       "chapter_id": 0,
-      "page_count": 0,
+      "page_count": 40,
       "pages": [
         "https://img.komiku.org/upload5/magic-emperor/937/2026-11-20/1.webp",
         "https://img.komiku.org/upload5/magic-emperor/937/2026-11-20/2.webp",
@@ -43998,6 +43999,22 @@
         "https://img.komiku.org/upload5/magic-emperor/937/2026-11-20/36.webp",
         "https://img.komiku.org/upload5/magic-emperor/937/2026-11-20/37.webp"
       ]
+    },
+    {
+      "slug": "magic-emperor-chapter-938",
+      "number": "938",
+      "date": "21/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": []
+    },
+    {
+      "slug": "magic-emperor-chapter-939",
+      "number": "939",
+      "date": "22/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": []
     }
   ]
 }

@@ -1522,22 +1522,8 @@
       "number": "187.5",
       "date": "",
       "chapter_id": 0,
-      "page_count": 13,
-      "pages": [
-        "https://img.komiku.org/wp-content/uploads/2211415-1.jpg",
-        "https://img.komiku.org/wp-content/uploads/2211415-2.jpg",
-        "https://img.komiku.org/wp-content/uploads/2211415-3.jpg",
-        "https://img.komiku.org/wp-content/uploads/2211415-4.jpg",
-        "https://img.komiku.org/wp-content/uploads/2211415-5.jpg",
-        "https://img.komiku.org/wp-content/uploads/2211415-6.jpg",
-        "https://img.komiku.org/wp-content/uploads/2211415-7.jpg",
-        "https://img.komiku.org/wp-content/uploads/2211415-8.jpg",
-        "https://img.komiku.org/wp-content/uploads/2211415-9.jpg",
-        "https://img.komiku.org/wp-content/uploads/2211415-10.jpg",
-        "https://img.komiku.org/wp-content/uploads/2211415-11.jpg",
-        "https://img.komiku.org/wp-content/uploads/2211415-12.jpg",
-        "https://img.komiku.org/wp-content/uploads/2211415-13.jpg"
-      ]
+      "page_count": 0,
+      "pages": []
     },
     {
       "slug": "martial-peak-chapter-188.149358",
@@ -18004,16 +17990,16 @@
       "pages": []
     },
     {
-      "slug": "martial-peak-chapter-2243.366758",
-      "number": "2243.366758",
+      "slug": "martial-peak-chapter-2243.381041",
+      "number": "2243.381041",
       "date": "",
       "chapter_id": 0,
       "page_count": 0,
       "pages": []
     },
     {
-      "slug": "martial-peak-chapter-2243.381041",
-      "number": "2243.381041",
+      "slug": "martial-peak-chapter-2243.366758",
+      "number": "2243.366758",
       "date": "",
       "chapter_id": 0,
       "page_count": 0,
@@ -30532,16 +30518,16 @@
       "pages": []
     },
     {
-      "slug": "martial-peak-chapter-3806.579252",
-      "number": "3806.579252",
+      "slug": "martial-peak-chapter-3806.574794",
+      "number": "3806.574794",
       "date": "",
       "chapter_id": 0,
       "page_count": 0,
       "pages": []
     },
     {
-      "slug": "martial-peak-chapter-3806.574794",
-      "number": "3806.574794",
+      "slug": "martial-peak-chapter-3806.579252",
+      "number": "3806.579252",
       "date": "",
       "chapter_id": 0,
       "page_count": 0,
