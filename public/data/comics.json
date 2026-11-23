@@ -83,9 +83,9 @@
     "status": "Ongoing",
     "synopsis": "Damn Reincarnation bercerita tentang seorang pria yang terbangun di dunia baru setelah kematiannya, hanya untuk menyadari bahwa dia kembali dalam tubuh seseorang yang telah dicap sebagai kutukan. Dengan ingatan hidup dari kehidupan sebelumnya, dia harus menghadapi berbagai rintangan dan ancaman di dunia yang penuh dengan kekuatan mistis dan intrik politik. Dalam perjalanannya, ia berusaha membersihkan namanya dan mencari makna sebenarnya dari reinkarnasinya.\n\nNamun, semakin jauh ia menggali masa lalunya dan rahasia dunia ini, semakin banyak bahaya yang mengintai. Dia bertemu dengan sekutu dan musuh yang tak terduga, serta menemukan bahwa takdirnya lebih rumit daripada yang ia bayangkan. Pertarungan antara nasib dan kehendak bebas menjadi inti dari perjalanannya untuk mengubah masa depan dan mengatasi kutukan yang melekat padanya.",
     "source": "komiku",
-    "chapter_count": 97,
-    "latest_chapter": "96",
-    "latest_date": "22/11/2026"
+    "chapter_count": 102,
+    "latest_chapter": "101",
+    "latest_date": "23/11/2026"
   },
   {
     "slug": "rebirth-monarch-of-the-dead",
@@ -483,9 +483,9 @@
     "status": "Ongoing",
     "synopsis": "Absolute Sword Sense mengisahkan seorang pendekar pedang yang memiliki kemampuan luar biasa dalam menguasai teknik pedang. Di dunia yang penuh dengan persaingan dan konflik antara berbagai aliran pedang, sang tokoh utama berusaha mengasah kemampuannya demi mencapai puncak kekuatan dan melindungi orang terdekatnya. Perjalanan ini penuh dengan tantangan, mulai dari berhadapan dengan musuh tangguh hingga mengungkap rahasia keterampilan legendaris yang diwariskan turun temurun.\r\n\r\nCerita ini juga mengeksplorasi nilai-nilai persahabatan dan kepercayaan diri, saat sang pendekar bertemu dengan sekutu yang membantunya dalam menghadapi ancaman besar. Dengan latar dunia fantasi yang kaya akan elemen budaya dan teknik bela diri, Absolute Sword Sense menawarkan pengalaman membaca yang mendalam dan penuh inspirasi bagi para penggemar komik petualangan dan aksi bela diri.",
     "source": "komiku",
-    "chapter_count": 211,
-    "latest_chapter": "210",
-    "latest_date": "16/11/2026"
+    "chapter_count": 212,
+    "latest_chapter": "211",
+    "latest_date": "23/11/2026"
   },
   {
     "slug": "absolute-dominion",
@@ -1592,6 +1592,25 @@
     "source": "kiryuu",
     "chapter_count": 371,
     "latest_chapter": "1.327142",
+    "latest_date": ""
+  },
+  {
+    "slug": "mr-kim-strikes-it-rich-with-auto-hunting",
+    "title": "Mr. Kim Strikes It Rich with Auto-Hunting",
+    "thumbnail": "http://v7.kiryuu.to/wp-content/uploads/2026/09/image_2026-09-15_104505440-737x1024.png",
+    "alt_title": "",
+    "type": "Manga",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Shoujo"
+    ],
+    "author": "",
+    "status": "",
+    "synopsis": "",
+    "source": "kiryuu",
+    "chapter_count": 30,
+    "latest_chapter": "1.805560",
     "latest_date": ""
   }
 ]
