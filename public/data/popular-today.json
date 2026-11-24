@@ -1,15 +1,9 @@
 [
   {
-    "slug": "magic-emperor",
-    "title": "Magic Emperor",
-    "score": 8.4,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Magic-Emeperor-186x300.jpg"
-  },
-  {
-    "slug": "revenge-of-the-iron-blooded-sword-hound",
-    "title": "Revenge Of The Iron-Blooded Sword Hound",
-    "score": 7.9,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2023/04/revenge-of-the-iron-blooded-sword-hound-944663-zy1008Cv.webp"
+    "slug": "martial-peak",
+    "title": "Martial Peak",
+    "score": 7.6,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Martial-Peak-225x300.jpg"
   },
   {
     "slug": "overgeared-team-argo",
@@ -18,22 +12,16 @@
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/12/overgeared-team-argo-090033-omDKAl0T-222x300.jpg"
   },
   {
-    "slug": "martial-peak",
-    "title": "Martial Peak",
-    "score": 7.6,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Martial-Peak-225x300.jpg"
+    "slug": "damn-reincarnation-2",
+    "title": "Damn Reincarnation",
+    "score": 27.4,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/11/image_2026-11-16_101644439-209x300.png"
   },
   {
-    "slug": "never-mind-the-heir-ill-focus-on-healing",
-    "title": "Never Mind the Heir, I'll Focus On Healing",
-    "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/07/image_2026-07-16_070142994-210x300.png"
-  },
-  {
-    "slug": "leveling-in-the-future-apex-future-martial-arts",
-    "title": "Leveling In The Future (Apex Future Martial Arts)",
-    "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2023/01/leveling-in-the-future-apex-future-martial-arts-765816-xMorRiCB-210x300.jpg"
+    "slug": "magic-emperor",
+    "title": "Magic Emperor",
+    "score": 8.4,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Magic-Emeperor-186x300.jpg"
   },
   {
     "slug": "eleceed",
@@ -42,40 +30,34 @@
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/eleceed-956931-TSsUlrrh-206x300.jpg"
   },
   {
-    "slug": "kingdom",
-    "title": "Kingdom",
-    "score": 9.1,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/a98af85b-ff57-49c3-b7bc-d48b996cc77b-978099-eKZjY7ni-211x300.jpg"
-  },
-  {
-    "slug": "a-dragonslayers-peerless-regression",
-    "title": "A Dragonslayer's Peerless Regression",
+    "slug": "the-heavenly-demon-cant-live-a-normal-life",
+    "title": "The Heavenly Demon Can’t Live a Normal Life",
     "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2025/03/a-dragonslayers-peerless-regression-284393-dvBZHgzX-209x300.jpg"
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/06/the-heavenly-demon-cant-live-a-normal-life-479885-JAexTBK5-210x300.jpg"
   },
   {
-    "slug": "damn-reincarnation",
-    "title": "Damn Reincarnation",
-    "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/06/damn-reincarnation-226616-2SWDSjmr-210x300.webp"
+    "slug": "tales-of-demons-and-gods",
+    "title": "Tales of Demons and Gods",
+    "score": 8.2,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Tales-of-Demons-and-Gods-212x300.jpg"
   },
   {
-    "slug": "versatile-mage",
-    "title": "Versatile Mage",
+    "slug": "the-necromancer-who-spares-no-expense",
+    "title": "The Necromancer Who Spares No Expense",
     "score": 7.2,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Versatile-Mage-225x300.png"
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/10/image_2026-10-17_191744269-210x300.png"
   },
   {
-    "slug": "childhood-friend-of-the-zenith",
-    "title": "Childhood Friend Of The Zenith",
+    "slug": "gakuenmono-no-otome-game-no-sekai-ni-tensei-shita-kedo-cheat-mochi-no-haikei-danshi-seitodatta-you-desu",
+    "title": "Gakuenmono No Otome Game No Sekai Ni Tensei Shita Kedo, Cheat-Mochi No Haikei Danshi Seitodatta You Desu",
     "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/08/childhood-friend-of-the-zenith-207475-auffZQbp-221x300.png"
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/05/gakuenmono-no-otome-game-no-sekai-ni-tensei-shita-kedo-cheat-mochi-no-haikei-danshi-seitodatta-you-desu-295893-yfWA0AUt-211x300.jpg"
   },
   {
-    "slug": "the-regressed-son-of-a-duke-is-an-assassin",
-    "title": "The Regressed Son of a Duke is an Assassin",
-    "score": 8.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/02/the-regressed-son-of-a-duke-is-an-assassin-914970-J1j6Ke82-207x300.jpg"
+    "slug": "never-mind-the-heir-ill-focus-on-healing",
+    "title": "Never Mind the Heir, I'll Focus On Healing",
+    "score": 7.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/07/image_2026-07-16_070142994-210x300.png"
   },
   {
     "slug": "nano-machine",
@@ -84,15 +66,33 @@
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/vol-2-766x1024-241277-OCDAuWmC-224x300.jpg"
   },
   {
-    "slug": "the-villain-of-destiny",
-    "title": "The Villain Of Destiny",
+    "slug": "revenge-of-the-iron-blooded-sword-hound",
+    "title": "Revenge Of The Iron-Blooded Sword Hound",
     "score": 7.9,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/11/the-villain-of-destiny-227257-HYBMawD7-195x300.jpg"
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2023/04/revenge-of-the-iron-blooded-sword-hound-944663-zy1008Cv.webp"
   },
   {
-    "slug": "mr-kim-strikes-it-rich-with-auto-hunting",
-    "title": "Mr. Kim Strikes It Rich with Auto-Hunting",
-    "score": 7.2,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/09/image_2026-09-15_104505440-216x300.png"
+    "slug": "fate-reroll-toppler-of-kings",
+    "title": "Fate Reroll: Toppler of Kings",
+    "score": 7.4,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/11/image_2026-11-16_101122665-214x300.png"
+  },
+  {
+    "slug": "emperors-domination-novel",
+    "title": "Emperor’s Domination (Novel)",
+    "score": 7.9,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2025/11/Emperors-Domination.jpg"
+  },
+  {
+    "slug": "surviving-as-a-genius-on-borrowed-time",
+    "title": "Surviving as a Genius on Borrowed Time",
+    "score": 7.3,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/11/borrowed-675811-fVdhSV5S.jpg"
+  },
+  {
+    "slug": "damn-reincarnation",
+    "title": "Damn Reincarnation",
+    "score": 7.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/06/damn-reincarnation-226616-2SWDSjmr-210x300.webp"
   }
 ]
