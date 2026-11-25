@@ -124,12 +124,15 @@ def scrape_manga(slug):
 
 
 def scrape_chapter_images(slug, chapter_number):
-    """Fetch images from kiryuu chapter page. CDN pattern: cdn.kiryuu.io/D/{slug}/{num}/{page}.webp"""
+    """Fetch images from kiryuu chapter page. Supports multiple CDN hosts."""
     url = f"{BASE_URL}/manga/{slug}/chapter-{chapter_number}/"
     try:
         html = get(url).text
-        imgs = re.findall(r'(https://cdn\.kiryuu\.io/D/[^\s"\'<>]+\.(?:webp|jpg|jpeg|png))', html)
-        # deduplicate
+        # Match all known kiryuu CDN hosts
+        imgs = re.findall(
+            r'(https?://(?:cdn\.kiryuu\.io|yuucdn\.com|cdnkuma\.my\.id|img\.kiryuu\.to)/[^\s"\'<>]+\.(?:webp|jpg|jpeg|png))',
+            html, re.I
+        )
         seen, result = set(), []
         for img in imgs:
             if img not in seen:

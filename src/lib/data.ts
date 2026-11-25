@@ -57,13 +57,17 @@ async function fetchChapterPagesLive(chapterSlug: string, source = "komiku"): Pr
       const kiryuuUrl = `https://v7.kiryuu.to/manga/${m[1]}/chapter-${m[2]}/`;
       try {
         const res = await fetch(kiryuuUrl, {
-          headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" },
+          headers: {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Referer": "https://v7.kiryuu.to/",
+          },
           cache: "no-store",
         });
         if (res.ok) {
           const html = await res.text();
+          // Match all known kiryuu CDN hosts
           const matches = html.matchAll(
-            /(https:\/\/cdn\.kiryuu\.io\/D\/[^\s"'<>]+\.(?:webp|jpg|jpeg|png))/gi
+            /(https?:\/\/(?:cdn\.kiryuu\.io|yuucdn\.com|cdnkuma\.my\.id|img\.kiryuu\.to)\/[^\s"'<>]+\.(?:webp|jpg|jpeg|png))/gi
           );
           const pages: string[] = [];
           const seen = new Set<string>();
