@@ -226,8 +226,8 @@ export default function FloatingDock({
                       : "bg-surface2 text-muted hover:text-text border border-border"
                   }`}
                   style={speed === s ? {
-                    background: "linear-gradient(135deg, #f5c518, #c9a227)",
-                    boxShadow: "0 2px 8px rgba(197,159,34,0.35)"
+                    background: "linear-gradient(135deg, #f97316, #f5c518)",
+                    boxShadow: "0 2px 8px rgba(249,115,22,0.35)"
                   } : {}}
                 >
                   {speedLabels[s]}
@@ -252,8 +252,8 @@ export default function FloatingDock({
                 onClick={(e) => { e.stopPropagation(); setInfinityOn(v => !v); }}
                 className="relative w-11 h-6 rounded-full transition-all duration-300 flex-shrink-0"
                 style={infinityOn ? {
-                  background: "linear-gradient(135deg, #f5c518, #c9a227)",
-                  boxShadow: "0 2px 8px rgba(197,159,34,0.4)"
+                  background: "linear-gradient(135deg, #f97316, #f5c518)",
+                  boxShadow: "0 2px 8px rgba(249,115,22,0.4)"
                 } : { background: "#2a2a30" }}
               >
                 <span
@@ -274,8 +274,8 @@ export default function FloatingDock({
                     onClick={(e) => { e.stopPropagation(); setInfinityDelay(d); }}
                     className="w-full flex items-center justify-between px-3 py-2 rounded-xl text-sm transition-all border"
                     style={infinityDelay === d ? {
-                      background: "linear-gradient(135deg, rgba(245,197,24,0.15), rgba(201,162,39,0.1))",
-                      borderColor: "#c9a227",
+                      background: "linear-gradient(135deg, rgba(249,115,22,0.15), rgba(245,197,24,0.1))",
+                      borderColor: "#f5c518",
                       color: "#f5c518",
                     } : {
                       background: "transparent",
@@ -455,8 +455,8 @@ function DockBtn({
           : "bg-surface/95 border-border text-muted hover:text-text hover:border-accent/40"
       }`}
       style={accent ? {
-        background: "linear-gradient(135deg, #f5c518, #c9a227)",
-        boxShadow: "0 4px 16px rgba(197,159,34,0.4)"
+        background: "linear-gradient(135deg, #f97316, #f5c518)",
+        boxShadow: "0 4px 16px rgba(249,115,22,0.4)"
       } : {}}
     >
       {children}

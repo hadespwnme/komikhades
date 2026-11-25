@@ -10,9 +10,9 @@
   --color-border:    rgba(255,255,255,0.08);
   --color-text:      #EDEDEF;
   --color-muted:     #8A8F98;
-  --color-accent:    #f5c518;
-  --color-accent2:   #c9a227;
-  --color-accentglow: rgba(245,197,24,0.18);
+  --color-accent:    #f97316;
+  --color-accent2:   #fb923c;
+  --color-accentglow: rgba(249,115,22,0.18);
 
   /* Fonts */
   --font-display: 'Righteous', sans-serif;
@@ -66,10 +66,10 @@ h1, h2, h3, h4 {
 
 /* Gold gradient utility */
 .gold-gradient {
-  background: linear-gradient(135deg, #f5c518, #c9a227);
+  background: linear-gradient(135deg, #f97316, #f5c518);
 }
 .gold-gradient-text {
-  background: linear-gradient(135deg, #f5c518, #c9a227);
+  background: linear-gradient(135deg, #f97316, #f5c518);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -89,8 +89,8 @@ h1, h2, h3, h4 {
 
 /* Gold gradient button */
 .btn-gold {
-  background: linear-gradient(135deg, #f5c518, #c9a227);
-  box-shadow: 0 4px 16px rgba(197,159,34,0.35);
+  background: linear-gradient(135deg, #f97316, #f5c518);
+  box-shadow: 0 4px 16px rgba(249,115,22,0.35);
   color: #0a0a0f;
   font-weight: 600;
   transition: opacity 0.15s ease, transform 0.1s ease;
