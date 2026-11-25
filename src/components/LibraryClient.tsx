@@ -54,7 +54,7 @@ export default function LibraryClient({ bookmarks, readlist, history }: Props) {
             onClick={() => setTab(t.key)}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
               tab === t.key
-                ? "bg-accent text-white shadow-md"
+                ? "btn-gold shadow-md"
                 : "text-muted hover:text-text"
             }`}
           >

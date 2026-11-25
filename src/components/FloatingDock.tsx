@@ -32,7 +32,7 @@ export default function FloatingDock({
   const [searchVal, setSearchVal] = useState("");
   // Infinity chapter
   const [infinityOn, setInfinityOn] = useState(false);
-  const [infinityDelay, setInfinityDelay] = useState<"instant" | 5 | 33>("instant");
+  const [infinityDelay, setInfinityDelay] = useState<"instant" | 3 | 5>("instant");
   const infinityTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const rafRef = useRef<number | null>(null);
@@ -267,7 +267,7 @@ export default function FloatingDock({
             {infinityOn && (
               <div className="space-y-1">
                 <p className="text-[10px] text-muted uppercase tracking-wide mb-2">Jeda antar chapter</p>
-                {(["instant", 5, 33] as const).map((d) => (
+                {(["instant", 5, 3] as const).map((d) => (
                   <button
                     key={String(d)}
                     data-dock
@@ -284,7 +284,7 @@ export default function FloatingDock({
                     }}
                   >
                     <span className="font-medium">
-                      {d === "instant" ? "⚡ Instan" : d === 5 ? "⏱ 5 detik" : "⏳ 33 detik"}
+                      {d === "instant" ? "⚡ Instan" : d === 5 ? "⏱ 5 detik" : "⏳ 3 detik"}
                     </span>
                     {infinityDelay === d && (
                       <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">

@@ -10,9 +10,9 @@
   --color-border:    rgba(255,255,255,0.08);
   --color-text:      #EDEDEF;
   --color-muted:     #8A8F98;
-  --color-accent:    #F97316;
-  --color-accent2:   #FB923C;
-  --color-accentglow: rgba(249,115,22,0.18);
+  --color-accent:    #f5c518;
+  --color-accent2:   #c9a227;
+  --color-accentglow: rgba(245,197,24,0.18);
 
   /* Fonts */
   --font-display: 'Righteous', sans-serif;
@@ -64,9 +64,18 @@ h1, h2, h3, h4 {
   image-rendering: auto;
 }
 
-/* Accent glow on hover utility */
-.glow-accent {
-  box-shadow: 0 0 20px rgba(249,115,22,0.25), 0 0 60px rgba(249,115,22,0.08);
+/* Gold gradient utility */
+.gold-gradient {
+  background: linear-gradient(135deg, #f5c518, #c9a227);
+}
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f5c518, #c9a227);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.gold-glow {
+  box-shadow: 0 4px 16px rgba(197, 159, 34, 0.4);
 }
 
 /* Card hover lift */
@@ -75,7 +84,22 @@ h1, h2, h3, h4 {
 }
 .card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 40px rgba(0,0,0,0.5), 0 0 0 1px rgba(249,115,22,0.3);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5), 0 0 0 1px rgba(245,197,24,0.3);
+}
+
+/* Gold gradient button */
+.btn-gold {
+  background: linear-gradient(135deg, #f5c518, #c9a227);
+  box-shadow: 0 4px 16px rgba(197,159,34,0.35);
+  color: #0a0a0f;
+  font-weight: 600;
+  transition: opacity 0.15s ease, transform 0.1s ease;
+}
+.btn-gold:hover {
+  opacity: 0.9;
+}
+.btn-gold:active {
+  transform: scale(0.95);
 }
 
 /* Shimmer skeleton */

@@ -81,7 +81,7 @@ export default function PopularToday({ items }: Props) {
                 #{(idx % items.length) + 1}
               </span>
 
-              <span className="absolute top-1.5 right-1.5 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-accent/90 text-white backdrop-blur-sm">
+              <span className="absolute top-1.5 right-1.5 text-[10px] font-bold px-1.5 py-0.5 rounded-full backdrop-blur-sm text-black" style={{background:"linear-gradient(135deg,#f5c518,#c9a227)"}}>
                 {item.score.toFixed(1)}
               </span>
 

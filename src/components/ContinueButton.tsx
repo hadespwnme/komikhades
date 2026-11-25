@@ -61,7 +61,7 @@ export default function ContinueButton({ comicSlug, firstChapterSlug }: Props) {
     return (
       <Link
         href={`/comic/${comicSlug}/${state.chapterSlug}`}
-        className="flex-1 sm:flex-none text-center px-4 py-2 rounded-xl bg-accent text-white text-sm font-semibold hover:bg-accent2 transition-colors shadow-lg shadow-accent/20"
+        className="flex-1 sm:flex-none text-center px-4 py-2 rounded-xl btn-gold text-sm"
         style={{ fontFamily: "'Poppins', sans-serif" }}
       >
         Lanjutkan Ch. {state.chapterNum}
@@ -72,7 +72,7 @@ export default function ContinueButton({ comicSlug, firstChapterSlug }: Props) {
   return (
     <Link
       href={`/comic/${comicSlug}/${firstChapterSlug}`}
-      className="flex-1 sm:flex-none text-center px-4 py-2 rounded-xl bg-accent text-white text-sm font-semibold hover:bg-accent2 transition-colors shadow-lg shadow-accent/20"
+      className="flex-1 sm:flex-none text-center px-4 py-2 rounded-xl btn-gold text-sm"
       style={{ fontFamily: "'Poppins', sans-serif" }}
     >
       Baca

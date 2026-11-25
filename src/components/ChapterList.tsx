@@ -50,7 +50,7 @@ export default function ChapterList({ chapters, comicSlug }: Props) {
           </div>
           <Link
             href={`/comic/${comicSlug}/${progress.lastChapter}`}
-            className="flex-shrink-0 px-3 py-1.5 rounded-lg bg-accent text-white text-xs font-semibold hover:bg-accent2 transition-colors"
+            className="flex-shrink-0 px-3 py-1.5 rounded-lg btn-gold text-xs"
           >
             Lanjut →
           </Link>
