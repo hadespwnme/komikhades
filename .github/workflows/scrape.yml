@@ -68,6 +68,9 @@ jobs:
         # fetching komiku.org at request time (blocked from Vercel).
         # Resume-safe: chapters that already have pages are skipped.
 
+      - name: Backfill missing chapter pages (komiku only)
+        run: python scraper/backfill_pages.py --delay 0.3
+
       - name: Check for changes
         id: changes
         run: |
