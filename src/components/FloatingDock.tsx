@@ -28,33 +28,55 @@ export default function FloatingDock({
   const [visible, setVisible] = useState(false);
   const [activePanel, setActivePanel] = useState<Panel>("none");
   const [playing, setPlaying] = useState(false);
-  const [speed, setSpeed] = useState(2); // px per frame
+  const [speed, setSpeed] = useState(2);
   const [searchVal, setSearchVal] = useState("");
+  // Infinity chapter
+  const [infinityOn, setInfinityOn] = useState(false);
+  const [infinityDelay, setInfinityDelay] = useState<"instant" | 5 | 33>("instant");
+  const infinityTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const rafRef = useRef<number | null>(null);
 
   // ── Auto-scroll ──────────────────────────────────────────────────────────
+  const goNextChapter = useCallback(() => {
+    if (nextChapterSlug) {
+      router.push(`/comic/${comicSlug}/${nextChapterSlug}`);
+    }
+  }, [router, comicSlug, nextChapterSlug]);
+
   const autoScroll = useCallback(() => {
     window.scrollBy({ top: speed, behavior: "instant" });
 
-    // Stop at bottom
     const atBottom =
       window.scrollY + window.innerHeight >=
       document.documentElement.scrollHeight - 10;
+
     if (atBottom) {
       setPlaying(false);
+      // Infinity chapter: auto-navigate to next chapter
+      if (infinityOn && nextChapterSlug) {
+        if (infinityDelay === "instant") {
+          goNextChapter();
+        } else {
+          infinityTimer.current = setTimeout(goNextChapter, infinityDelay * 1000);
+        }
+      }
       return;
     }
     rafRef.current = requestAnimationFrame(autoScroll);
-  }, [speed]);
+  }, [speed, infinityOn, infinityDelay, nextChapterSlug, goNextChapter]);
 
   useEffect(() => {
     if (playing) {
       rafRef.current = requestAnimationFrame(autoScroll);
     } else {
       if (rafRef.current) cancelAnimationFrame(rafRef.current);
+      if (infinityTimer.current) clearTimeout(infinityTimer.current);
     }
-    return () => { if (rafRef.current) cancelAnimationFrame(rafRef.current); };
+    return () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+      if (infinityTimer.current) clearTimeout(infinityTimer.current);
+    };
   }, [playing, autoScroll]);
 
   // ── Tap-to-toggle dock ───────────────────────────────────────────────────
@@ -188,23 +210,91 @@ export default function FloatingDock({
         <div
           data-dock
           onClick={stopProp}
-          className="bg-surface border border-border rounded-2xl px-4 py-3 shadow-2xl w-64"
+          className="bg-surface border border-border rounded-2xl px-4 py-4 shadow-2xl w-72 space-y-4"
         >
-          <p className="text-xs text-muted mb-2 text-center">Kecepatan Auto-Scroll</p>
-          <div className="flex justify-between gap-1">
-            {([1, 2, 3, 5] as const).map((s) => (
+          {/* Auto-scroll speed */}
+          <div>
+            <p className="text-xs text-muted mb-2 text-center uppercase tracking-wide">Kecepatan Scroll</p>
+            <div className="flex justify-between gap-1">
+              {([1, 2, 3, 5] as const).map((s) => (
+                <button
+                  key={s}
+                  onClick={() => setSpeed(s)}
+                  className={`flex-1 py-1.5 rounded-lg text-xs font-semibold transition-colors ${
+                    speed === s
+                      ? "text-white"
+                      : "bg-surface2 text-muted hover:text-text border border-border"
+                  }`}
+                  style={speed === s ? {
+                    background: "linear-gradient(135deg, #f5c518, #c9a227)",
+                    boxShadow: "0 2px 8px rgba(197,159,34,0.35)"
+                  } : {}}
+                >
+                  {speedLabels[s]}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Divider */}
+          <div className="h-px bg-border" />
+
+          {/* Infinity Chapter */}
+          <div>
+            <div className="flex items-center justify-between mb-3">
+              <div>
+                <p className="text-xs text-text font-semibold">∞ Infinity Chapter</p>
+                <p className="text-[10px] text-muted mt-0.5">Auto pindah chapter saat halaman habis</p>
+              </div>
+              {/* Toggle */}
               <button
-                key={s}
-                onClick={() => setSpeed(s)}
-                className={`flex-1 py-1.5 rounded-lg text-xs font-semibold transition-colors ${
-                  speed === s
-                    ? "bg-accent text-white"
-                    : "bg-surface2 text-muted hover:text-text border border-border"
-                }`}
+                data-dock
+                onClick={(e) => { e.stopPropagation(); setInfinityOn(v => !v); }}
+                className="relative w-11 h-6 rounded-full transition-all duration-300 flex-shrink-0"
+                style={infinityOn ? {
+                  background: "linear-gradient(135deg, #f5c518, #c9a227)",
+                  boxShadow: "0 2px 8px rgba(197,159,34,0.4)"
+                } : { background: "#2a2a30" }}
               >
-                {speedLabels[s]}
+                <span
+                  className="absolute top-0.5 w-5 h-5 rounded-full bg-white shadow transition-all duration-300"
+                  style={{ left: infinityOn ? "calc(100% - 1.375rem)" : "0.125rem" }}
+                />
               </button>
-            ))}
+            </div>
+
+            {/* Delay options — only shown when infinity is on */}
+            {infinityOn && (
+              <div className="space-y-1">
+                <p className="text-[10px] text-muted uppercase tracking-wide mb-2">Jeda antar chapter</p>
+                {(["instant", 5, 33] as const).map((d) => (
+                  <button
+                    key={String(d)}
+                    data-dock
+                    onClick={(e) => { e.stopPropagation(); setInfinityDelay(d); }}
+                    className="w-full flex items-center justify-between px-3 py-2 rounded-xl text-sm transition-all border"
+                    style={infinityDelay === d ? {
+                      background: "linear-gradient(135deg, rgba(245,197,24,0.15), rgba(201,162,39,0.1))",
+                      borderColor: "#c9a227",
+                      color: "#f5c518",
+                    } : {
+                      background: "transparent",
+                      borderColor: "rgba(255,255,255,0.08)",
+                      color: "#8a8f98"
+                    }}
+                  >
+                    <span className="font-medium">
+                      {d === "instant" ? "⚡ Instan" : d === 5 ? "⏱ 5 detik" : "⏳ 33 detik"}
+                    </span>
+                    {infinityDelay === d && (
+                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    )}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       )}
@@ -359,11 +449,15 @@ function DockBtn({
         disabled
           ? "cursor-not-allowed bg-surface/80 border-border"
           : accent
-          ? "bg-accent border-accent text-white shadow-accent/30"
+          ? "text-white border-transparent"
           : active
           ? "bg-surface border-accent/50 text-accent"
           : "bg-surface/95 border-border text-muted hover:text-text hover:border-accent/40"
       }`}
+      style={accent ? {
+        background: "linear-gradient(135deg, #f5c518, #c9a227)",
+        boxShadow: "0 4px 16px rgba(197,159,34,0.4)"
+      } : {}}
     >
       {children}
     </button>
