@@ -1,9 +1,21 @@
 [
   {
+    "slug": "eleceed",
+    "title": "Eleceed",
+    "score": 8.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/eleceed-956931-TSsUlrrh-206x300.jpg"
+  },
+  {
     "slug": "martial-peak",
     "title": "Martial Peak",
     "score": 7.6,
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Martial-Peak-225x300.jpg"
+  },
+  {
+    "slug": "omniscient-readers-viewpoint",
+    "title": "Omniscient Reader's Viewpoint",
+    "score": 8.2,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/omniscient-readers-viewpoint-453615-diINCUuy-214x300.jpg"
   },
   {
     "slug": "overgeared-team-argo",
@@ -12,52 +24,64 @@
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/12/overgeared-team-argo-090033-omDKAl0T-222x300.jpg"
   },
   {
-    "slug": "damn-reincarnation-2",
-    "title": "Damn Reincarnation",
-    "score": 27.4,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/11/image_2026-11-16_101644439-209x300.png"
-  },
-  {
     "slug": "magic-emperor",
     "title": "Magic Emperor",
     "score": 8.4,
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Magic-Emeperor-186x300.jpg"
   },
   {
-    "slug": "eleceed",
-    "title": "Eleceed",
+    "slug": "return-of-the-mount-hua-sect",
+    "title": "Return Of The Mount Hua Sect",
+    "score": 8.6,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/11/return-of-the-mount-hua-sect-044256-bTnqyN5W-231x300.jpg"
+  },
+  {
+    "slug": "one-piece",
+    "title": "One Piece",
+    "score": 9.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/cb063999-b269-4a27-9fb5-f3ed067fe85a-193x300.jpg"
+  },
+  {
+    "slug": "money-keeps-piling-up-no-matter-how-much-i-spend",
+    "title": "Money Keeps Piling Up No Matter How Much I Spend",
+    "score": 7.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/06/Money-Keeps-Piling-Up-No-Matter-How-Much-I-Spend-213x300.webp"
+  },
+  {
+    "slug": "the-youngest-daughter-of-the-snake-family",
+    "title": "The Youngest Daughter of the Snake Family",
+    "score": 0.0,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/09/aba05abc-6986-4aac-bf74-35fd62b92b9f-210x300.webp"
+  },
+  {
+    "slug": "infinite-mage",
+    "title": "Infinite Mage",
     "score": 8.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/eleceed-956931-TSsUlrrh-206x300.jpg"
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/12/Cover-1-210x300.jpg"
   },
   {
-    "slug": "the-heavenly-demon-cant-live-a-normal-life",
-    "title": "The Heavenly Demon Can’t Live a Normal Life",
+    "slug": "i-became-the-first-prince",
+    "title": "I Became The First Prince",
     "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/06/the-heavenly-demon-cant-live-a-normal-life-479885-JAexTBK5-210x300.jpg"
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/02/I-Became-The-First-Prince-210x300.webp"
   },
   {
-    "slug": "tales-of-demons-and-gods",
-    "title": "Tales of Demons and Gods",
-    "score": 8.2,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/Tales-of-Demons-and-Gods-212x300.jpg"
-  },
-  {
-    "slug": "the-necromancer-who-spares-no-expense",
-    "title": "The Necromancer Who Spares No Expense",
-    "score": 7.2,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/10/image_2026-10-17_191744269-210x300.png"
-  },
-  {
-    "slug": "gakuenmono-no-otome-game-no-sekai-ni-tensei-shita-kedo-cheat-mochi-no-haikei-danshi-seitodatta-you-desu",
-    "title": "Gakuenmono No Otome Game No Sekai Ni Tensei Shita Kedo, Cheat-Mochi No Haikei Danshi Seitodatta You Desu",
+    "slug": "star-embracing-swordmaster",
+    "title": "Star-Embracing Swordmaster",
     "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/05/gakuenmono-no-otome-game-no-sekai-ni-tensei-shita-kedo-cheat-mochi-no-haikei-danshi-seitodatta-you-desu-295893-yfWA0AUt-211x300.jpg"
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2023/09/star-embracing-swordmaster-361565-oqRZh1Zh-221x300.webp"
   },
   {
-    "slug": "never-mind-the-heir-ill-focus-on-healing",
-    "title": "Never Mind the Heir, I'll Focus On Healing",
-    "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/07/image_2026-07-16_070142994-210x300.png"
+    "slug": "the-worlds-greatest-jegal-academy",
+    "title": "The World's Greatest Jegal Academy",
+    "score": 7.3,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/11/image_2026-11-25_110324687-260x300.png"
+  },
+  {
+    "slug": "the-mysterious-worlds-greatest-martial-artist-little-prince",
+    "title": "The Mysterious World's Greatest Martial Artist Little Prince",
+    "score": 8.6,
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/07/image-2025-09-19-081645081-819120-a3nCl7gs-224x300.png"
   },
   {
     "slug": "nano-machine",
@@ -66,33 +90,9 @@
     "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/03/vol-2-766x1024-241277-OCDAuWmC-224x300.jpg"
   },
   {
-    "slug": "revenge-of-the-iron-blooded-sword-hound",
-    "title": "Revenge Of The Iron-Blooded Sword Hound",
-    "score": 7.9,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2023/04/revenge-of-the-iron-blooded-sword-hound-944663-zy1008Cv.webp"
-  },
-  {
-    "slug": "fate-reroll-toppler-of-kings",
-    "title": "Fate Reroll: Toppler of Kings",
-    "score": 7.4,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2026/11/image_2026-11-16_101122665-214x300.png"
-  },
-  {
-    "slug": "emperors-domination-novel",
-    "title": "Emperor’s Domination (Novel)",
-    "score": 7.9,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2025/11/Emperors-Domination.jpg"
-  },
-  {
-    "slug": "surviving-as-a-genius-on-borrowed-time",
-    "title": "Surviving as a Genius on Borrowed Time",
-    "score": 7.3,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2024/11/borrowed-675811-fVdhSV5S.jpg"
-  },
-  {
-    "slug": "damn-reincarnation",
-    "title": "Damn Reincarnation",
+    "slug": "the-heavenly-demon-cant-live-a-normal-life",
+    "title": "The Heavenly Demon Can’t Live a Normal Life",
     "score": 7.0,
-    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2022/06/damn-reincarnation-226616-2SWDSjmr-210x300.webp"
+    "thumbnail": "https://v7.kiryuu.to/wp-content/uploads/2021/06/the-heavenly-demon-cant-live-a-normal-life-479885-JAexTBK5-210x300.jpg"
   }
 ]
