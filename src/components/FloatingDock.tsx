@@ -53,14 +53,7 @@ export default function FloatingDock({
 
     if (atBottom) {
       setPlaying(false);
-      // Infinity chapter: auto-navigate to next chapter
-      if (infinityOn && nextChapterSlug) {
-        if (infinityDelay === "instant") {
-          goNextChapter();
-        } else {
-          infinityTimer.current = setTimeout(goNextChapter, infinityDelay * 1000);
-        }
-      }
+      // Infinity chapter handled by scroll listener below
       return;
     }
     rafRef.current = requestAnimationFrame(autoScroll);
@@ -80,27 +73,28 @@ export default function FloatingDock({
   }, [playing, autoScroll]);
 
   // ── Infinity chapter on manual scroll ───────────────────────────────────
-  // Also trigger when user manually scrolls to the bottom
   useEffect(() => {
     if (!infinityOn || !nextChapterSlug) return;
 
+    let triggered = false;
+
     const handleScroll = () => {
       const atBottom =
-        window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 60;
-      if (atBottom) {
-        // Avoid double-trigger if playing (auto-scroll handles it)
-        if (playing) return;
-        if (infinityTimer.current) return; // already scheduled
+        window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 80;
+
+      if (atBottom && !triggered) {
+        triggered = true;
         if (infinityDelay === "instant") {
-          goNextChapter();
+          router.push(`/comic/${comicSlug}/${nextChapterSlug}`);
         } else {
           infinityTimer.current = setTimeout(() => {
-            infinityTimer.current = null;
-            goNextChapter();
+            router.push(`/comic/${comicSlug}/${nextChapterSlug}`);
           }, infinityDelay * 1000);
         }
-      } else {
-        // Scrolled back up — cancel pending timer
+      }
+
+      if (!atBottom && triggered) {
+        triggered = false;
         if (infinityTimer.current) {
           clearTimeout(infinityTimer.current);
           infinityTimer.current = null;
@@ -109,11 +103,17 @@ export default function FloatingDock({
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
+    // Also check immediately in case page is already at bottom
+    handleScroll();
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      if (infinityTimer.current) clearTimeout(infinityTimer.current);
+      if (infinityTimer.current) {
+        clearTimeout(infinityTimer.current);
+        infinityTimer.current = null;
+      }
     };
-  }, [infinityOn, infinityDelay, nextChapterSlug, playing, goNextChapter]);
+  }, [infinityOn, infinityDelay, nextChapterSlug, comicSlug, router]);
 
   // ── Tap-to-toggle dock ───────────────────────────────────────────────────
   useEffect(() => {
