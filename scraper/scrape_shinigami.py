@@ -71,11 +71,21 @@ def api_get(path, retries=3):
 
 
 def slug_from_title(title: str) -> str:
+    # Take only the first part before | or ,
+    for sep in ["|", ",", ";"]:
+        if sep in title:
+            title = title.split(sep)[0]
+    title = title.strip()
     s = title.lower()
+    # Remove all non-ascii first
+    s = s.encode('ascii', 'ignore').decode('ascii')
     s = re.sub(r"[^a-z0-9\s-]", "", s)
     s = re.sub(r"\s+", "-", s.strip())
-    s = re.sub(r"-+", "-", s)
-    return s[:80]
+    s = re.sub(r"-+", "-", s).strip("-")
+    # Fallback if slug is too short or empty
+    if len(s) < 3:
+        s = re.sub(r"[^a-zA-Z0-9]", "-", title)[:40].strip("-").lower()
+    return s[:60]
 
 
 def get_all_chapters(manga_id: str) -> list:
@@ -124,12 +134,25 @@ def scrape_manga(manga_id: str, with_pages=False) -> Comic:
     title = manga.get("title", "")
     slug = slug_from_title(title)
 
-    # Avoid slug collision with existing comics
+    # Avoid slug collision — use numeric suffix instead of alt_title
     idx_path = OUT / "comics.json"
     if idx_path.exists():
         existing = {c["slug"] for c in json.loads(idx_path.read_text())}
-        if slug in existing and manga.get("alternative_title"):
-            slug = slug_from_title(manga["alternative_title"])
+        # Only add suffix if it's truly a different manga (not a re-scrape)
+        if slug in existing:
+            existing_file = OUT / f"{slug}.json"
+            is_rescrape = False
+            if existing_file.exists():
+                try:
+                    ed = json.load(open(existing_file))
+                    if ed.get("shinigami_manga_id") == manga_id:
+                        is_rescrape = True
+                except: pass
+            if not is_rescrape:
+                suffix = 2
+                while f"{slug}-{suffix}" in existing:
+                    suffix += 1
+                slug = f"{slug}-{suffix}"
 
     taxonomy = manga.get("taxonomy", {})
     genres = [g["name"] for g in taxonomy.get("Genre", [])]
