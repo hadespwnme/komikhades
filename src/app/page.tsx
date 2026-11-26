@@ -9,14 +9,14 @@ export const revalidate = 3600;
 export default async function HomePage() {
   const comics = await getComicList();
 
-  // Load popular today data
-  let popular: { slug: string; title: string; score: number; thumbnail: string }[] = [];
+  // Load rankings data
+  let rankings = { daily: [], weekly: [], all_time: [] };
   try {
     const raw = await fs.readFile(
-      path.join(process.cwd(), "public", "data", "popular-today.json"),
+      path.join(process.cwd(), "public", "data", "rankings.json"),
       "utf-8"
     );
-    popular = JSON.parse(raw);
+    rankings = JSON.parse(raw);
   } catch { /* ignore */ }
 
   return (
@@ -49,8 +49,8 @@ export default async function HomePage() {
       </div>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
-        {/* Popular Today */}
-        <PopularToday items={popular} />
+        {/* Popular Today / Rankings */}
+        <PopularToday rankings={rankings} />
 
         {/* All comics grid */}
         <ComicGrid comics={comics} />

@@ -1,0 +1,3883 @@
+{
+  "slug": "eleceed-2",
+  "title": "Eleceed",
+  "thumbnail": "https://cdn.shinigami.gg/assets/image/08d8cb84-973a-4995-8b3e-bdfd9e305174.jpg",
+  "alt_title": "일렉시드 | Eleceed | Eleceed: Velocidad eléctrica | Electricidad veloz | 觉醒吧,铲屎官! | 覺醒吧!貓奴 | エレキシード | 일렉시드 / エレキシード / 觉醒吧,铲屎官! | Velocidad eléctrica",
+  "type": "Project",
+  "genres": [
+    "Comedy",
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Martial Arts",
+    "Supernatural"
+  ],
+  "author": "Son Jae-Ho",
+  "status": 1,
+  "synopsis": "Kaiden  Pengguna kemampuan misterius yang bersembunyi di dalam tubuh kucing jalanan Dia kemudian dijemput oleh Jiwoo setelah terluka setelah berkelahi dengan pengguna kemampuan lain Ia memiliki kepribadian yang keras kepala dan suka memerintah Jiwoo  anak SMA yang energik dan banyak bicara yang suka kucing Ia sangat baik dan juga tampaknya memiliki kemampuan khusus",
+  "source": "shinigami",
+  "shinigami_manga_id": "05bbcbc4-56a6-47e6-ac36-1d482339a322",
+  "chapters": [
+    {
+      "slug": "eleceed-2-chapter-1",
+      "number": "1",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4bcc90c7-6007-4ab3-8c29-7eec1df0e3bd"
+    },
+    {
+      "slug": "eleceed-2-chapter-2",
+      "number": "2",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6d6542b6-2bff-4381-8112-ec49ab54d910"
+    },
+    {
+      "slug": "eleceed-2-chapter-3",
+      "number": "3",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3b75701b-30a8-47d7-9487-e8099ebbe07f"
+    },
+    {
+      "slug": "eleceed-2-chapter-4",
+      "number": "4",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8d2ebe35-4e92-4b74-b2d8-e52922fd7041"
+    },
+    {
+      "slug": "eleceed-2-chapter-5",
+      "number": "5",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7092a87f-a3cc-4f45-8ff8-a05db058b69a"
+    },
+    {
+      "slug": "eleceed-2-chapter-6",
+      "number": "6",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f5ecabaa-c13c-4d03-8ac9-d57a88eec773"
+    },
+    {
+      "slug": "eleceed-2-chapter-7",
+      "number": "7",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2b276654-21e0-4217-9da6-26011ccf947d"
+    },
+    {
+      "slug": "eleceed-2-chapter-8",
+      "number": "8",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9cff6f8f-128b-4de0-95e9-bef5094bb72f"
+    },
+    {
+      "slug": "eleceed-2-chapter-9",
+      "number": "9",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "320c7a2d-1ab9-4c91-a8a5-15e5e6f8fe6f"
+    },
+    {
+      "slug": "eleceed-2-chapter-10",
+      "number": "10",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "57eb4e80-4a1f-4be1-b9f1-3589164879ac"
+    },
+    {
+      "slug": "eleceed-2-chapter-11",
+      "number": "11",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "954efbb5-1a39-4792-a70f-37ca43018bce"
+    },
+    {
+      "slug": "eleceed-2-chapter-12",
+      "number": "12",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "649ba634-f13b-4b75-949c-33944cad4ac8"
+    },
+    {
+      "slug": "eleceed-2-chapter-13",
+      "number": "13",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7d3ec59d-6519-41c1-ae16-af028bc96a1f"
+    },
+    {
+      "slug": "eleceed-2-chapter-14",
+      "number": "14",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6693ca5c-240e-4f2b-b5cb-3ca509bebd4e"
+    },
+    {
+      "slug": "eleceed-2-chapter-15",
+      "number": "15",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3d098245-5bb4-47b9-9af2-8b8f655e5a5a"
+    },
+    {
+      "slug": "eleceed-2-chapter-16",
+      "number": "16",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "01fc6a05-d961-4457-aa45-8490c1ca9afd"
+    },
+    {
+      "slug": "eleceed-2-chapter-17",
+      "number": "17",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e27d2a84-b743-4896-a40c-fed9bb395ca7"
+    },
+    {
+      "slug": "eleceed-2-chapter-18",
+      "number": "18",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "dbed7dd7-c36e-4782-b275-aece930974e2"
+    },
+    {
+      "slug": "eleceed-2-chapter-19",
+      "number": "19",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1ca4cbe7-2d3a-4d24-b688-177d3ed9d45c"
+    },
+    {
+      "slug": "eleceed-2-chapter-20",
+      "number": "20",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9771915f-acc6-4e9c-adb5-7e0020e63304"
+    },
+    {
+      "slug": "eleceed-2-chapter-21",
+      "number": "21",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "03574cd5-c966-4635-a701-bd5f315e7a93"
+    },
+    {
+      "slug": "eleceed-2-chapter-22",
+      "number": "22",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "402825b9-657b-4819-b3f2-1df14626d117"
+    },
+    {
+      "slug": "eleceed-2-chapter-23",
+      "number": "23",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5b078f84-fe5b-4487-a953-e8e1d1921121"
+    },
+    {
+      "slug": "eleceed-2-chapter-24",
+      "number": "24",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7ef2b5c7-3726-4bea-a0ea-50c5c3d5c30c"
+    },
+    {
+      "slug": "eleceed-2-chapter-25",
+      "number": "25",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f403f9c7-fde7-4bb4-97c7-a919c1f1319e"
+    },
+    {
+      "slug": "eleceed-2-chapter-26",
+      "number": "26",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "74f7ef1c-7000-4ce9-93c2-cccaf2a605ad"
+    },
+    {
+      "slug": "eleceed-2-chapter-27",
+      "number": "27",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "27a7608f-e195-462d-aa08-831e4e2006c7"
+    },
+    {
+      "slug": "eleceed-2-chapter-28",
+      "number": "28",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "957351cf-b55f-4a4b-973c-7d85a6a2518a"
+    },
+    {
+      "slug": "eleceed-2-chapter-29",
+      "number": "29",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "14accd36-8e33-4ceb-871e-cd8667deedcd"
+    },
+    {
+      "slug": "eleceed-2-chapter-30",
+      "number": "30",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "42ec0fa2-e795-4122-9349-2a4df716b250"
+    },
+    {
+      "slug": "eleceed-2-chapter-31",
+      "number": "31",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "954be56e-28de-40c3-ae34-6ff0959607db"
+    },
+    {
+      "slug": "eleceed-2-chapter-32",
+      "number": "32",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2634b4ba-3f87-48fd-be30-cedcba7a9c91"
+    },
+    {
+      "slug": "eleceed-2-chapter-33",
+      "number": "33",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fdc7a9a4-d7d8-48d4-aa56-acbbc2e82ec4"
+    },
+    {
+      "slug": "eleceed-2-chapter-34",
+      "number": "34",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4246b9e8-df94-4021-9320-9b6414aadf63"
+    },
+    {
+      "slug": "eleceed-2-chapter-35",
+      "number": "35",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "073f0dee-51f3-46f3-8b98-617a2f03d889"
+    },
+    {
+      "slug": "eleceed-2-chapter-36",
+      "number": "36",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2f489758-b913-43af-8ea8-74560054218f"
+    },
+    {
+      "slug": "eleceed-2-chapter-37",
+      "number": "37",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1bb1c983-0036-4fe5-b58e-379d9079b5c0"
+    },
+    {
+      "slug": "eleceed-2-chapter-38",
+      "number": "38",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9b6e761c-939d-4507-98b3-5a3bc9efeb36"
+    },
+    {
+      "slug": "eleceed-2-chapter-39",
+      "number": "39",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "bc322348-3c0e-44f8-a235-6128c7406b2c"
+    },
+    {
+      "slug": "eleceed-2-chapter-40",
+      "number": "40",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "eda06997-d9ad-4b31-a80a-697442de992b"
+    },
+    {
+      "slug": "eleceed-2-chapter-41",
+      "number": "41",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2707a745-72c8-43e0-8c77-c3e4280b6fcd"
+    },
+    {
+      "slug": "eleceed-2-chapter-42",
+      "number": "42",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "63bd7ed9-e06d-4d13-801b-45990eb5631d"
+    },
+    {
+      "slug": "eleceed-2-chapter-43",
+      "number": "43",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "da65dac0-2a91-4330-b6e3-17530768d62f"
+    },
+    {
+      "slug": "eleceed-2-chapter-44",
+      "number": "44",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "dcfb2fbe-d78d-4a70-9d7a-fbc8357f3a90"
+    },
+    {
+      "slug": "eleceed-2-chapter-45",
+      "number": "45",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "87f4243f-d60d-4292-bb84-39f9ce233cd9"
+    },
+    {
+      "slug": "eleceed-2-chapter-46",
+      "number": "46",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2c7fa8bf-b64d-482c-b186-30db5641e45b"
+    },
+    {
+      "slug": "eleceed-2-chapter-47",
+      "number": "47",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "377dbceb-124a-498e-bcb1-119437ef5a0b"
+    },
+    {
+      "slug": "eleceed-2-chapter-48",
+      "number": "48",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "21ac7cf4-d4c3-4121-9a13-f5f71b6c8239"
+    },
+    {
+      "slug": "eleceed-2-chapter-49",
+      "number": "49",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "41ff283b-12e1-4328-b30f-e697516bf928"
+    },
+    {
+      "slug": "eleceed-2-chapter-50",
+      "number": "50",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f4b3d5c9-abff-4b51-9146-6b97a110cb4d"
+    },
+    {
+      "slug": "eleceed-2-chapter-51",
+      "number": "51",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fb1b943f-8acf-4736-9d2a-64a2bcbc59e7"
+    },
+    {
+      "slug": "eleceed-2-chapter-52",
+      "number": "52",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "58e8a2fa-fab7-4579-8573-234ecfb7044d"
+    },
+    {
+      "slug": "eleceed-2-chapter-53",
+      "number": "53",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e03359e4-f8b7-41bf-a7fd-bcc40de45e21"
+    },
+    {
+      "slug": "eleceed-2-chapter-54",
+      "number": "54",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1e7ef10a-f74c-4b68-84a4-aca919c3b2db"
+    },
+    {
+      "slug": "eleceed-2-chapter-55",
+      "number": "55",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a27ba996-607a-4245-85b0-13747c77877d"
+    },
+    {
+      "slug": "eleceed-2-chapter-56",
+      "number": "56",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "da1141eb-df16-481c-920c-0d50c785bf74"
+    },
+    {
+      "slug": "eleceed-2-chapter-57",
+      "number": "57",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f73e7cf9-aaa1-449e-a5f4-0abb0f1c3cc6"
+    },
+    {
+      "slug": "eleceed-2-chapter-58",
+      "number": "58",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ca7e73ed-f4fb-438b-b3d0-e8166b16ef4c"
+    },
+    {
+      "slug": "eleceed-2-chapter-59",
+      "number": "59",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4666fa9c-e968-48cd-9895-014a553aebea"
+    },
+    {
+      "slug": "eleceed-2-chapter-60",
+      "number": "60",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "25da4823-dcf6-4555-9556-c4efbbfc9409"
+    },
+    {
+      "slug": "eleceed-2-chapter-61",
+      "number": "61",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d65ca113-477b-4e63-9b0b-0bbe95e82abd"
+    },
+    {
+      "slug": "eleceed-2-chapter-62",
+      "number": "62",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a25551b1-659d-43ff-ba4e-282d088b59d5"
+    },
+    {
+      "slug": "eleceed-2-chapter-63",
+      "number": "63",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b565354a-8115-4d7a-838b-89382017cee5"
+    },
+    {
+      "slug": "eleceed-2-chapter-64",
+      "number": "64",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0eaba4b2-7247-4d38-a00a-681c97eea87d"
+    },
+    {
+      "slug": "eleceed-2-chapter-65",
+      "number": "65",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "73b71078-26d4-46f0-a804-60d083827757"
+    },
+    {
+      "slug": "eleceed-2-chapter-66",
+      "number": "66",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "64bf8b8f-ca06-4407-b4b4-e2e66eb91593"
+    },
+    {
+      "slug": "eleceed-2-chapter-67",
+      "number": "67",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ca3cfc1b-673b-4cfb-bffd-25f00463d006"
+    },
+    {
+      "slug": "eleceed-2-chapter-68",
+      "number": "68",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "70b0a49b-b1b7-4fb4-829c-3139210d8da4"
+    },
+    {
+      "slug": "eleceed-2-chapter-69",
+      "number": "69",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1db52dc0-1244-4471-85bb-4bbb3a1f10f2"
+    },
+    {
+      "slug": "eleceed-2-chapter-70",
+      "number": "70",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6e959eb1-07f5-43e3-8969-47fbd5d88df6"
+    },
+    {
+      "slug": "eleceed-2-chapter-71",
+      "number": "71",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8d512f76-01cf-4962-99ae-c29efbae2e60"
+    },
+    {
+      "slug": "eleceed-2-chapter-72",
+      "number": "72",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "751ac8fe-2830-4eed-86dd-08abee59dfe8"
+    },
+    {
+      "slug": "eleceed-2-chapter-73",
+      "number": "73",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a37ff39f-f1e2-4b56-a3ab-a9abfd68727e"
+    },
+    {
+      "slug": "eleceed-2-chapter-74",
+      "number": "74",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d7fcc790-0562-422d-bd3e-2f3b4572cc3e"
+    },
+    {
+      "slug": "eleceed-2-chapter-75",
+      "number": "75",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "438e7fdf-8587-458c-a122-52150b34d9ca"
+    },
+    {
+      "slug": "eleceed-2-chapter-76",
+      "number": "76",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5340682f-130e-474f-bc6e-30ab7236246c"
+    },
+    {
+      "slug": "eleceed-2-chapter-77",
+      "number": "77",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ba55496a-b09c-4f56-a0da-ef86b51ed2fd"
+    },
+    {
+      "slug": "eleceed-2-chapter-78",
+      "number": "78",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "17752219-a319-435a-a02e-5a8d246a71d8"
+    },
+    {
+      "slug": "eleceed-2-chapter-79",
+      "number": "79",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "03781f8d-e468-4bd7-9a64-f95218473784"
+    },
+    {
+      "slug": "eleceed-2-chapter-80",
+      "number": "80",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "684e9e3f-1168-4127-a26d-fb0b422a253a"
+    },
+    {
+      "slug": "eleceed-2-chapter-81",
+      "number": "81",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "34ecd525-b9c2-4aca-90ea-883b7facb41d"
+    },
+    {
+      "slug": "eleceed-2-chapter-82",
+      "number": "82",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5804245e-9ec3-402a-a6b1-eea627f06c56"
+    },
+    {
+      "slug": "eleceed-2-chapter-83",
+      "number": "83",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d05a7f2c-ad35-4e49-a71f-fdbe1d8de042"
+    },
+    {
+      "slug": "eleceed-2-chapter-84",
+      "number": "84",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "44c080c4-1bc4-4621-9bbd-2e119c5b332b"
+    },
+    {
+      "slug": "eleceed-2-chapter-85",
+      "number": "85",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "32e7fe6d-e9b3-4491-9a12-e29664ef909a"
+    },
+    {
+      "slug": "eleceed-2-chapter-86",
+      "number": "86",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "11a9b66e-6ccd-4d68-b212-49feed001835"
+    },
+    {
+      "slug": "eleceed-2-chapter-87",
+      "number": "87",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c91db22c-a28d-4faa-a8d0-e38c82e36e34"
+    },
+    {
+      "slug": "eleceed-2-chapter-88",
+      "number": "88",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "80c6b6e5-e6b1-46ca-b2f9-0c8a1e269af4"
+    },
+    {
+      "slug": "eleceed-2-chapter-89",
+      "number": "89",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "28a5862b-0bde-4d9b-bc10-bc6edb75dd0c"
+    },
+    {
+      "slug": "eleceed-2-chapter-90",
+      "number": "90",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "71cf7f63-00e6-4e08-931b-bb917d697f0c"
+    },
+    {
+      "slug": "eleceed-2-chapter-91",
+      "number": "91",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "02ac5a5a-6486-4f8b-a3a8-61e5c311c078"
+    },
+    {
+      "slug": "eleceed-2-chapter-92",
+      "number": "92",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e209de6b-75e2-439f-afa7-338d02db0367"
+    },
+    {
+      "slug": "eleceed-2-chapter-93",
+      "number": "93",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b81a5fa2-0397-4e77-a842-d2acc8526e78"
+    },
+    {
+      "slug": "eleceed-2-chapter-94",
+      "number": "94",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "30bf092d-544c-4469-832c-6d16b2c8b603"
+    },
+    {
+      "slug": "eleceed-2-chapter-95",
+      "number": "95",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c79ac03b-c63a-4ee4-ac71-7c51823e970e"
+    },
+    {
+      "slug": "eleceed-2-chapter-96",
+      "number": "96",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fc56a1d4-18bb-4314-9c37-942a6a5777b1"
+    },
+    {
+      "slug": "eleceed-2-chapter-97",
+      "number": "97",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "71cf1d42-edbd-4771-bd11-786e6f4ee457"
+    },
+    {
+      "slug": "eleceed-2-chapter-98",
+      "number": "98",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "479703d1-087d-4f27-932b-9a9fa3a9d504"
+    },
+    {
+      "slug": "eleceed-2-chapter-99",
+      "number": "99",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "457d1f59-c451-4963-aec4-b7edfbbeb621"
+    },
+    {
+      "slug": "eleceed-2-chapter-100",
+      "number": "100",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4de686fa-1b23-4e66-b906-403c58f8a162"
+    },
+    {
+      "slug": "eleceed-2-chapter-101",
+      "number": "101",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c86e0ac7-5a74-4cfd-a30f-d4e49c489eb4"
+    },
+    {
+      "slug": "eleceed-2-chapter-102",
+      "number": "102",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "654e2d1d-2849-4437-8222-5149c71e9a39"
+    },
+    {
+      "slug": "eleceed-2-chapter-103",
+      "number": "103",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d6cb73ae-eff7-4a28-bdb6-6122968889b3"
+    },
+    {
+      "slug": "eleceed-2-chapter-104",
+      "number": "104",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a5979631-9b5e-43f6-b76e-97f95ccadfc2"
+    },
+    {
+      "slug": "eleceed-2-chapter-105",
+      "number": "105",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "41053614-5176-4fda-8edd-1816e61c8668"
+    },
+    {
+      "slug": "eleceed-2-chapter-106",
+      "number": "106",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8cf8960d-97d5-43e1-afe7-fa9ec97472f5"
+    },
+    {
+      "slug": "eleceed-2-chapter-107",
+      "number": "107",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3b0bbc20-709c-46df-aeff-e7cd22ceaefd"
+    },
+    {
+      "slug": "eleceed-2-chapter-108",
+      "number": "108",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a4bd4529-4b34-4fab-aca7-f9c9021b2c34"
+    },
+    {
+      "slug": "eleceed-2-chapter-109",
+      "number": "109",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "886aa17c-000c-4399-80b0-1a57031156ce"
+    },
+    {
+      "slug": "eleceed-2-chapter-110",
+      "number": "110",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5b52e2ba-5eb8-4541-9b69-9cc4cd67ef63"
+    },
+    {
+      "slug": "eleceed-2-chapter-111",
+      "number": "111",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "87b511c8-90d2-446f-b432-269474164f9f"
+    },
+    {
+      "slug": "eleceed-2-chapter-112",
+      "number": "112",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a2773e7d-a193-464c-8e23-19fac75a8525"
+    },
+    {
+      "slug": "eleceed-2-chapter-113",
+      "number": "113",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fa3fc8c1-f21d-49e4-988d-a0944aee36e2"
+    },
+    {
+      "slug": "eleceed-2-chapter-114",
+      "number": "114",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c4de8378-2742-4960-8374-150291e5214c"
+    },
+    {
+      "slug": "eleceed-2-chapter-115",
+      "number": "115",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b4b98d4b-52a1-49d8-980c-a702c52d297e"
+    },
+    {
+      "slug": "eleceed-2-chapter-116",
+      "number": "116",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "76d6bf49-a079-4f2d-84f6-b743b25e313b"
+    },
+    {
+      "slug": "eleceed-2-chapter-117",
+      "number": "117",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "57ec4fc4-9441-4849-a89e-3e805f1731ac"
+    },
+    {
+      "slug": "eleceed-2-chapter-118",
+      "number": "118",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f3f243c6-883b-437e-952d-ac87050921b8"
+    },
+    {
+      "slug": "eleceed-2-chapter-119",
+      "number": "119",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "cab5c5d5-3bf3-4f89-8568-4f95760fc35a"
+    },
+    {
+      "slug": "eleceed-2-chapter-120",
+      "number": "120",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "48a16007-873b-4e9d-9081-1af90310fd86"
+    },
+    {
+      "slug": "eleceed-2-chapter-121",
+      "number": "121",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "38524864-f204-44a7-9e89-d8830c7292bc"
+    },
+    {
+      "slug": "eleceed-2-chapter-122",
+      "number": "122",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4056fdbe-9f2d-4a6b-9fb5-08e2e0167fe2"
+    },
+    {
+      "slug": "eleceed-2-chapter-123",
+      "number": "123",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1c2863bc-4be1-4ed0-bebe-48d7f28ec779"
+    },
+    {
+      "slug": "eleceed-2-chapter-124",
+      "number": "124",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4610ff2b-afbb-47f1-abea-c07cd1de9857"
+    },
+    {
+      "slug": "eleceed-2-chapter-125",
+      "number": "125",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e24055de-9eae-4d4d-957f-d6be9b65661f"
+    },
+    {
+      "slug": "eleceed-2-chapter-126",
+      "number": "126",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "480bc121-6542-4505-9cdd-aa57dd1efbbf"
+    },
+    {
+      "slug": "eleceed-2-chapter-127",
+      "number": "127",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8f9ff6c5-ce12-4fee-b686-e16e036f7e53"
+    },
+    {
+      "slug": "eleceed-2-chapter-128",
+      "number": "128",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "abd80341-ef0e-442d-8546-60f2c0e8bc61"
+    },
+    {
+      "slug": "eleceed-2-chapter-129",
+      "number": "129",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "daa275b8-d22f-4cc3-b8ae-a80061f01b29"
+    },
+    {
+      "slug": "eleceed-2-chapter-130",
+      "number": "130",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8b5f5186-6742-4d2f-afc0-fcfa7448c9bb"
+    },
+    {
+      "slug": "eleceed-2-chapter-131",
+      "number": "131",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9a0121a7-a05e-466b-90c2-28d3b350239f"
+    },
+    {
+      "slug": "eleceed-2-chapter-132",
+      "number": "132",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e875069d-1552-4b8b-aaa6-217c39e56639"
+    },
+    {
+      "slug": "eleceed-2-chapter-133",
+      "number": "133",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c598f0fd-70e4-42ad-947d-f03f13a47015"
+    },
+    {
+      "slug": "eleceed-2-chapter-134",
+      "number": "134",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "19f3d10d-35c0-4cd1-be13-d253b259aab5"
+    },
+    {
+      "slug": "eleceed-2-chapter-135",
+      "number": "135",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d6997849-6459-4bf4-84d2-00e06b832675"
+    },
+    {
+      "slug": "eleceed-2-chapter-136",
+      "number": "136",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2e57a600-960c-4de2-a4ec-27d554289600"
+    },
+    {
+      "slug": "eleceed-2-chapter-137",
+      "number": "137",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "451d0093-8de3-4215-b858-58a9cb1636ae"
+    },
+    {
+      "slug": "eleceed-2-chapter-138",
+      "number": "138",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c0d9dc1f-a18d-44f4-ab86-e9fa5daf55d1"
+    },
+    {
+      "slug": "eleceed-2-chapter-139",
+      "number": "139",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "382d87f4-417e-4877-a040-b93bc78d0e00"
+    },
+    {
+      "slug": "eleceed-2-chapter-140",
+      "number": "140",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f2711acb-0119-4676-b9ab-8a9ef0dd903e"
+    },
+    {
+      "slug": "eleceed-2-chapter-141",
+      "number": "141",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b168b791-9649-4dbd-9189-dd9e7ba6d9df"
+    },
+    {
+      "slug": "eleceed-2-chapter-142",
+      "number": "142",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "10e1ef3d-d168-4f7f-8212-12b4b9457d53"
+    },
+    {
+      "slug": "eleceed-2-chapter-143",
+      "number": "143",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1cc9e68a-c835-49ea-86ad-9c598e54060f"
+    },
+    {
+      "slug": "eleceed-2-chapter-144",
+      "number": "144",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "11898307-1a38-4a07-aa1e-7c493e13811d"
+    },
+    {
+      "slug": "eleceed-2-chapter-145",
+      "number": "145",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "896bb22f-70ff-4f5d-b92b-b8ceab44ba3e"
+    },
+    {
+      "slug": "eleceed-2-chapter-146",
+      "number": "146",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2ad5f08c-81a0-4b11-8048-ec97220861e1"
+    },
+    {
+      "slug": "eleceed-2-chapter-147",
+      "number": "147",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "096ee382-c64e-4494-a76a-25978591c04a"
+    },
+    {
+      "slug": "eleceed-2-chapter-148",
+      "number": "148",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "73d8a98a-bbd3-455f-8f11-3c432deefef6"
+    },
+    {
+      "slug": "eleceed-2-chapter-149",
+      "number": "149",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "87e364f8-132b-4b93-838c-50ff1d093978"
+    },
+    {
+      "slug": "eleceed-2-chapter-150",
+      "number": "150",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "071c0298-d5b4-4156-8c1a-4ae5be9fd7be"
+    },
+    {
+      "slug": "eleceed-2-chapter-151",
+      "number": "151",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0dd7269a-a59d-40a2-823e-d7497ecd77b3"
+    },
+    {
+      "slug": "eleceed-2-chapter-152",
+      "number": "152",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f9b14300-6c44-4746-ad7d-67a09447a286"
+    },
+    {
+      "slug": "eleceed-2-chapter-153",
+      "number": "153",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "52ed4015-6bec-4d09-b9b3-ac8c27d80037"
+    },
+    {
+      "slug": "eleceed-2-chapter-154",
+      "number": "154",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "71f8816c-4e92-4724-9916-e26fd58f7195"
+    },
+    {
+      "slug": "eleceed-2-chapter-155",
+      "number": "155",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "91f8aa3a-5d2d-43a2-bb89-f528247d618c"
+    },
+    {
+      "slug": "eleceed-2-chapter-156",
+      "number": "156",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d76d6885-aaee-48df-add1-58fea4c9d816"
+    },
+    {
+      "slug": "eleceed-2-chapter-157",
+      "number": "157",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "209ffb8e-5257-4b36-a12e-a4414c31c1ab"
+    },
+    {
+      "slug": "eleceed-2-chapter-158",
+      "number": "158",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1d86147c-e022-465f-9672-a7183a232ebe"
+    },
+    {
+      "slug": "eleceed-2-chapter-159",
+      "number": "159",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b7b6a6c6-292e-46c3-8e28-d1691bbe9bc0"
+    },
+    {
+      "slug": "eleceed-2-chapter-160",
+      "number": "160",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "aecb9317-a94f-4fa0-9afb-514dc492f504"
+    },
+    {
+      "slug": "eleceed-2-chapter-161",
+      "number": "161",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fa228b8d-d877-4f90-89ee-bf867f7bee1e"
+    },
+    {
+      "slug": "eleceed-2-chapter-162",
+      "number": "162",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7c93009d-2352-464e-b8e8-687772e5b472"
+    },
+    {
+      "slug": "eleceed-2-chapter-163",
+      "number": "163",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f70d07ff-83b7-4a55-b8d7-e347260c2845"
+    },
+    {
+      "slug": "eleceed-2-chapter-164",
+      "number": "164",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b16a0950-b52a-4ac4-9029-66f8dd4d133e"
+    },
+    {
+      "slug": "eleceed-2-chapter-165",
+      "number": "165",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "96ac135e-827a-40ee-a6e7-3a87c75d230e"
+    },
+    {
+      "slug": "eleceed-2-chapter-166",
+      "number": "166",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "344091fa-c4c1-463d-9c48-7bae2d11cb98"
+    },
+    {
+      "slug": "eleceed-2-chapter-167",
+      "number": "167",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1cef9faa-bb78-42f6-81f6-af73aed7dc0a"
+    },
+    {
+      "slug": "eleceed-2-chapter-168",
+      "number": "168",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7ba32b05-f2d5-4939-a79e-7cbde0378514"
+    },
+    {
+      "slug": "eleceed-2-chapter-169",
+      "number": "169",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b06f6f6f-89fd-46f8-be85-6e20939e79cb"
+    },
+    {
+      "slug": "eleceed-2-chapter-170",
+      "number": "170",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d733ce0b-d3f4-426f-83c3-3d41fe67549b"
+    },
+    {
+      "slug": "eleceed-2-chapter-171",
+      "number": "171",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "907e4a0f-5a68-4963-8ff0-b9616c88c677"
+    },
+    {
+      "slug": "eleceed-2-chapter-172",
+      "number": "172",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "de218639-893c-4af5-b78e-bc263412e730"
+    },
+    {
+      "slug": "eleceed-2-chapter-173",
+      "number": "173",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e4062566-6087-437e-aa33-8298dc4c3c3b"
+    },
+    {
+      "slug": "eleceed-2-chapter-174",
+      "number": "174",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ba7c0b5f-f917-4a51-b44a-66ef91ea61e6"
+    },
+    {
+      "slug": "eleceed-2-chapter-175",
+      "number": "175",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b601119f-e018-4ab4-a774-622ca0698145"
+    },
+    {
+      "slug": "eleceed-2-chapter-176",
+      "number": "176",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6c2275f0-7d1d-4d1c-af4d-c56c31613cb1"
+    },
+    {
+      "slug": "eleceed-2-chapter-177",
+      "number": "177",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "10ca77a7-64fd-4115-9145-e6b8a865ad98"
+    },
+    {
+      "slug": "eleceed-2-chapter-178",
+      "number": "178",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "66375eae-ea8a-4c86-a48a-9055cb2fa0c9"
+    },
+    {
+      "slug": "eleceed-2-chapter-179",
+      "number": "179",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "740a3be5-30bb-4a97-a769-b2f82aec4022"
+    },
+    {
+      "slug": "eleceed-2-chapter-180",
+      "number": "180",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "440105f4-ead9-40a3-bbde-231fbacd716a"
+    },
+    {
+      "slug": "eleceed-2-chapter-181",
+      "number": "181",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e3633ca8-7459-4f9e-b27a-7a3dcefc65b3"
+    },
+    {
+      "slug": "eleceed-2-chapter-182",
+      "number": "182",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e803d8de-31ff-4bb3-961c-824a72e216e4"
+    },
+    {
+      "slug": "eleceed-2-chapter-183",
+      "number": "183",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "272dcb25-1e2d-43fb-a103-3e01f0afcc0a"
+    },
+    {
+      "slug": "eleceed-2-chapter-184",
+      "number": "184",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9be166f6-36c0-47a2-846e-ef02b5a7acd3"
+    },
+    {
+      "slug": "eleceed-2-chapter-185",
+      "number": "185",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a0dd9325-dfb8-4509-9f06-21d5f955e92d"
+    },
+    {
+      "slug": "eleceed-2-chapter-186",
+      "number": "186",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e00d7a7e-7dab-4036-8326-dd1ccb8830b6"
+    },
+    {
+      "slug": "eleceed-2-chapter-187",
+      "number": "187",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "99b6dd76-bc81-42f0-bd4a-37ccbc83b761"
+    },
+    {
+      "slug": "eleceed-2-chapter-188",
+      "number": "188",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "17495af3-3835-4b49-9824-7e1a61931b19"
+    },
+    {
+      "slug": "eleceed-2-chapter-189",
+      "number": "189",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5909dc40-e7c3-472f-868a-05131c109a23"
+    },
+    {
+      "slug": "eleceed-2-chapter-190",
+      "number": "190",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4545d78e-2896-4e22-b192-696ab3d3021e"
+    },
+    {
+      "slug": "eleceed-2-chapter-191",
+      "number": "191",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7721cf84-d946-4ecc-9990-af661727ece0"
+    },
+    {
+      "slug": "eleceed-2-chapter-192",
+      "number": "192",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1da889e1-0fd6-4039-96a2-2093e3d3143b"
+    },
+    {
+      "slug": "eleceed-2-chapter-193",
+      "number": "193",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "555b1240-a21b-4c0e-9b7d-98a5f114a5fe"
+    },
+    {
+      "slug": "eleceed-2-chapter-194",
+      "number": "194",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5d7b3118-d914-4020-881a-ac203784ab0a"
+    },
+    {
+      "slug": "eleceed-2-chapter-195",
+      "number": "195",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b247d4dc-743f-4ab3-bdb8-1a169aa9f91b"
+    },
+    {
+      "slug": "eleceed-2-chapter-196",
+      "number": "196",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f6a378b6-8072-45e6-96e4-c2bad3440de6"
+    },
+    {
+      "slug": "eleceed-2-chapter-197",
+      "number": "197",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "555f228c-d911-49fa-a5c0-f5423a908346"
+    },
+    {
+      "slug": "eleceed-2-chapter-198",
+      "number": "198",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b6d066c4-a517-420f-b584-ab287500a2a2"
+    },
+    {
+      "slug": "eleceed-2-chapter-199",
+      "number": "199",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e0a84eb5-1192-4fe6-80e4-9eaf45713df5"
+    },
+    {
+      "slug": "eleceed-2-chapter-200",
+      "number": "200",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5f8d7e78-61f7-40c1-b813-2154ab2c2a73"
+    },
+    {
+      "slug": "eleceed-2-chapter-201",
+      "number": "201",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "63248b4d-2d1c-40f8-b501-a5a0856a4ba3"
+    },
+    {
+      "slug": "eleceed-2-chapter-202",
+      "number": "202",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f42368a5-d6ef-4021-a73e-91965853a7f4"
+    },
+    {
+      "slug": "eleceed-2-chapter-203",
+      "number": "203",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fe4077d9-3f02-44fa-9c70-49723c469764"
+    },
+    {
+      "slug": "eleceed-2-chapter-204",
+      "number": "204",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c5fab24b-5db8-49fc-b0ae-a7aec32623ce"
+    },
+    {
+      "slug": "eleceed-2-chapter-205",
+      "number": "205",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d68391f6-8461-44fc-bf0c-c4fb1ae158d1"
+    },
+    {
+      "slug": "eleceed-2-chapter-206",
+      "number": "206",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f06b9ade-d6ab-426f-9368-02d846f9b5bc"
+    },
+    {
+      "slug": "eleceed-2-chapter-207",
+      "number": "207",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4db9a426-8123-48b5-8e91-23f74ab1e3e2"
+    },
+    {
+      "slug": "eleceed-2-chapter-208",
+      "number": "208",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d96b0924-419d-408f-9b95-1f558b78dde8"
+    },
+    {
+      "slug": "eleceed-2-chapter-209",
+      "number": "209",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "85216b1e-90a5-4bf1-9492-1f73b4bd1b04"
+    },
+    {
+      "slug": "eleceed-2-chapter-210",
+      "number": "210",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "13a0d25a-c46f-4e3f-83ba-671ec94a88f5"
+    },
+    {
+      "slug": "eleceed-2-chapter-211",
+      "number": "211",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0d840b07-c286-407f-8dd6-197306cfebe3"
+    },
+    {
+      "slug": "eleceed-2-chapter-212",
+      "number": "212",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3d3041e5-fffd-4d37-9b45-d883139b378c"
+    },
+    {
+      "slug": "eleceed-2-chapter-213",
+      "number": "213",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5d56672b-4a15-44db-9323-c1c13dcca73d"
+    },
+    {
+      "slug": "eleceed-2-chapter-214",
+      "number": "214",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5c175e2e-3610-4882-b30b-8a6effab36b5"
+    },
+    {
+      "slug": "eleceed-2-chapter-215",
+      "number": "215",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4d922424-fbb0-4a04-b165-a3015e69ff98"
+    },
+    {
+      "slug": "eleceed-2-chapter-216",
+      "number": "216",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3bd15f0f-d286-46b7-ba08-8cfc7190c921"
+    },
+    {
+      "slug": "eleceed-2-chapter-217",
+      "number": "217",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "504de78b-1df6-452c-b85d-ce7727b0791a"
+    },
+    {
+      "slug": "eleceed-2-chapter-218",
+      "number": "218",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "42e5b352-e278-4125-9293-3c249adb7158"
+    },
+    {
+      "slug": "eleceed-2-chapter-219",
+      "number": "219",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b8940cc8-3fb5-4867-9cbb-299fd756614d"
+    },
+    {
+      "slug": "eleceed-2-chapter-220",
+      "number": "220",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a2d33231-630c-42d8-90d3-b7a92a08d007"
+    },
+    {
+      "slug": "eleceed-2-chapter-221",
+      "number": "221",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "eb3f5dd0-1b1c-415f-98ae-a56253d3a0b1"
+    },
+    {
+      "slug": "eleceed-2-chapter-222",
+      "number": "222",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f0173e3e-52e4-4566-9202-9c9ce3da0897"
+    },
+    {
+      "slug": "eleceed-2-chapter-223",
+      "number": "223",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8e0ea782-b2ce-4757-8361-71557a6b8b46"
+    },
+    {
+      "slug": "eleceed-2-chapter-224",
+      "number": "224",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ae073d18-be9f-4ffb-b5a3-268b608c5ad6"
+    },
+    {
+      "slug": "eleceed-2-chapter-225",
+      "number": "225",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7b4fd735-ad58-4037-890c-7d2c654e7764"
+    },
+    {
+      "slug": "eleceed-2-chapter-226",
+      "number": "226",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fe13c349-8c28-4f90-82e1-bfc7c9b636b5"
+    },
+    {
+      "slug": "eleceed-2-chapter-227",
+      "number": "227",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8b73544c-bd18-489c-a808-edba9c1cddec"
+    },
+    {
+      "slug": "eleceed-2-chapter-228",
+      "number": "228",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f56db9bd-0a15-4620-afa3-218f8f47d75c"
+    },
+    {
+      "slug": "eleceed-2-chapter-229",
+      "number": "229",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ee5d233d-e9a8-4647-ba0b-d5424c3ab8aa"
+    },
+    {
+      "slug": "eleceed-2-chapter-230",
+      "number": "230",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6e57bc9a-5899-4194-b713-18ccfa2e413d"
+    },
+    {
+      "slug": "eleceed-2-chapter-231",
+      "number": "231",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a6f550f1-2b1d-45a6-8260-d06e81d1d101"
+    },
+    {
+      "slug": "eleceed-2-chapter-232",
+      "number": "232",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "756a7fc7-ec55-4d89-bd9f-7e56dd9253c2"
+    },
+    {
+      "slug": "eleceed-2-chapter-233",
+      "number": "233",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b95a02ea-7748-4464-b57f-5e55ea439938"
+    },
+    {
+      "slug": "eleceed-2-chapter-234",
+      "number": "234",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2d125953-0bd8-4bc8-aa07-24d0dd78e77a"
+    },
+    {
+      "slug": "eleceed-2-chapter-235",
+      "number": "235",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ebacb71b-386f-405c-8639-f9ff4ec27778"
+    },
+    {
+      "slug": "eleceed-2-chapter-236",
+      "number": "236",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a66533e2-6afb-457b-98fb-e1d037cc647f"
+    },
+    {
+      "slug": "eleceed-2-chapter-237",
+      "number": "237",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ffc6c86b-48bb-443a-a4d1-4d4bfc7d151b"
+    },
+    {
+      "slug": "eleceed-2-chapter-238",
+      "number": "238",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "92dfe509-8540-452d-87e7-b0077b29e064"
+    },
+    {
+      "slug": "eleceed-2-chapter-239",
+      "number": "239",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3bbb8445-3387-486c-9350-04cd847d7a0c"
+    },
+    {
+      "slug": "eleceed-2-chapter-240",
+      "number": "240",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "62323277-1755-476a-bb56-58f2f30edc50"
+    },
+    {
+      "slug": "eleceed-2-chapter-241",
+      "number": "241",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4c89f420-9221-4f6b-bf82-0496e4ec4497"
+    },
+    {
+      "slug": "eleceed-2-chapter-242",
+      "number": "242",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "82be8be0-3304-49b9-b436-60eddf080be7"
+    },
+    {
+      "slug": "eleceed-2-chapter-243",
+      "number": "243",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "adf666cb-e844-46b9-8ccb-97a89380f68f"
+    },
+    {
+      "slug": "eleceed-2-chapter-244",
+      "number": "244",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b198f849-9c60-4552-befd-48912ba471bd"
+    },
+    {
+      "slug": "eleceed-2-chapter-245",
+      "number": "245",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "231061d8-179a-4611-8918-2d058c8ad0c4"
+    },
+    {
+      "slug": "eleceed-2-chapter-246",
+      "number": "246",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d8ff0b3a-daf7-4960-8b15-ce60ba084e58"
+    },
+    {
+      "slug": "eleceed-2-chapter-247",
+      "number": "247",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "682889c5-6657-4582-ac4e-d1723e577af4"
+    },
+    {
+      "slug": "eleceed-2-chapter-248",
+      "number": "248",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "aa6f5a0d-2495-4fa2-9b68-55f741144ad3"
+    },
+    {
+      "slug": "eleceed-2-chapter-249",
+      "number": "249",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "39bb3f29-c3d4-4fa3-94ba-a358f5de1a40"
+    },
+    {
+      "slug": "eleceed-2-chapter-250",
+      "number": "250",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ff5c5061-7204-4197-95a6-86ad1665890f"
+    },
+    {
+      "slug": "eleceed-2-chapter-251",
+      "number": "251",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b37bf654-78db-4d3f-af2c-95e320731e0d"
+    },
+    {
+      "slug": "eleceed-2-chapter-252",
+      "number": "252",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1f229fb2-e1cd-4d4d-bef4-dd4128777f60"
+    },
+    {
+      "slug": "eleceed-2-chapter-253",
+      "number": "253",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a9eff6ae-8484-481d-a1ea-a22c02d389b8"
+    },
+    {
+      "slug": "eleceed-2-chapter-254",
+      "number": "254",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c92134ab-8629-4a2b-9207-0d9b81797e7b"
+    },
+    {
+      "slug": "eleceed-2-chapter-255",
+      "number": "255",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2574249a-5b4b-4fcc-9f56-dd7899c5392c"
+    },
+    {
+      "slug": "eleceed-2-chapter-256",
+      "number": "256",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "47c4db43-5ca9-40e5-9106-0a4fe53d551e"
+    },
+    {
+      "slug": "eleceed-2-chapter-257",
+      "number": "257",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c54542d5-4aa3-4f47-8c83-77d5b9dd6036"
+    },
+    {
+      "slug": "eleceed-2-chapter-258",
+      "number": "258",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "32fa5b72-89c8-4f02-922e-8faaa376da52"
+    },
+    {
+      "slug": "eleceed-2-chapter-259",
+      "number": "259",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d353ff1f-70db-43bf-b88b-0b8ae93e32eb"
+    },
+    {
+      "slug": "eleceed-2-chapter-260",
+      "number": "260",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ec17262b-8fd0-4d1c-bb7a-d8c63009c0b3"
+    },
+    {
+      "slug": "eleceed-2-chapter-261",
+      "number": "261",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "96202792-62f6-4a22-b16f-74276770b9ca"
+    },
+    {
+      "slug": "eleceed-2-chapter-262",
+      "number": "262",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0ff58e95-0368-4a95-bb6e-edb1b406e31c"
+    },
+    {
+      "slug": "eleceed-2-chapter-263",
+      "number": "263",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "687af582-c5d1-4bc5-b04b-b8065ce9c783"
+    },
+    {
+      "slug": "eleceed-2-chapter-264",
+      "number": "264",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f1051271-adc1-40c6-b40d-61d6a24ccb9d"
+    },
+    {
+      "slug": "eleceed-2-chapter-265",
+      "number": "265",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e8b49cbf-e30a-4a7b-bdb5-b9e5d1047333"
+    },
+    {
+      "slug": "eleceed-2-chapter-266",
+      "number": "266",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c03f0236-6e18-412d-88c2-9c847151437b"
+    },
+    {
+      "slug": "eleceed-2-chapter-267",
+      "number": "267",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "717c4153-3d4c-448e-a868-ce5c861dbe60"
+    },
+    {
+      "slug": "eleceed-2-chapter-268",
+      "number": "268",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8bb4384d-c47b-46c1-bb64-3ef7decf195f"
+    },
+    {
+      "slug": "eleceed-2-chapter-269",
+      "number": "269",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5d51c335-6be6-4ff7-a3eb-37f5aea0e756"
+    },
+    {
+      "slug": "eleceed-2-chapter-270",
+      "number": "270",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5b5fa0a7-e741-4c01-80b9-5a9e10f27e4b"
+    },
+    {
+      "slug": "eleceed-2-chapter-271",
+      "number": "271",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ebe2171e-6776-401d-b96d-92ee8c669312"
+    },
+    {
+      "slug": "eleceed-2-chapter-272",
+      "number": "272",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b5bf88b3-4e1f-4601-8ecd-78d04ce75842"
+    },
+    {
+      "slug": "eleceed-2-chapter-273",
+      "number": "273",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "aa79159b-bd40-4a04-bfce-ff60b6c449f8"
+    },
+    {
+      "slug": "eleceed-2-chapter-274",
+      "number": "274",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e87c2f62-c898-47b5-868f-84089798e33c"
+    },
+    {
+      "slug": "eleceed-2-chapter-275",
+      "number": "275",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "cc3a78dd-0c43-41e4-851a-ac7abf3d74cc"
+    },
+    {
+      "slug": "eleceed-2-chapter-276",
+      "number": "276",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1fd34d1c-9bd3-46e4-8422-96c8188e9f5d"
+    },
+    {
+      "slug": "eleceed-2-chapter-277",
+      "number": "277",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "87a60b26-1335-42b5-b288-8e453e1e0442"
+    },
+    {
+      "slug": "eleceed-2-chapter-278",
+      "number": "278",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "44040520-6b0c-4157-98f1-d8b4a6d7a717"
+    },
+    {
+      "slug": "eleceed-2-chapter-279",
+      "number": "279",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "edb65062-a46f-49d6-8071-c217bb03db86"
+    },
+    {
+      "slug": "eleceed-2-chapter-280",
+      "number": "280",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "95a30ed3-52f9-4af5-aec2-cc7fe37777c4"
+    },
+    {
+      "slug": "eleceed-2-chapter-281",
+      "number": "281",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a91ebc90-baac-4e50-8c33-7396711d902d"
+    },
+    {
+      "slug": "eleceed-2-chapter-282",
+      "number": "282",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "45f12ac6-f26e-487e-9dd0-c4d3c621f06c"
+    },
+    {
+      "slug": "eleceed-2-chapter-283",
+      "number": "283",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "599028f4-e355-420e-bc22-85e9a32391a4"
+    },
+    {
+      "slug": "eleceed-2-chapter-284",
+      "number": "284",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "331f0f47-efde-4838-9e2b-98d929e0a371"
+    },
+    {
+      "slug": "eleceed-2-chapter-285",
+      "number": "285",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c58c84d0-b9dc-4d1f-8515-ddb562ff510c"
+    },
+    {
+      "slug": "eleceed-2-chapter-286",
+      "number": "286",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2ff24516-d063-4072-9437-b911140d58b7"
+    },
+    {
+      "slug": "eleceed-2-chapter-287",
+      "number": "287",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c3fc82f0-1919-4ed8-8cf3-b9ded853388f"
+    },
+    {
+      "slug": "eleceed-2-chapter-288",
+      "number": "288",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9f7cda3b-5b3d-4a04-94e7-21765cf4e424"
+    },
+    {
+      "slug": "eleceed-2-chapter-289",
+      "number": "289",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fb3f1ac0-7a30-42a7-8970-ace52d6885de"
+    },
+    {
+      "slug": "eleceed-2-chapter-290",
+      "number": "290",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b9f5eefd-c436-43cc-a7bd-bc92e6c0c77b"
+    },
+    {
+      "slug": "eleceed-2-chapter-291",
+      "number": "291",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "65e17144-25dc-48c1-b154-6083c7e6e41b"
+    },
+    {
+      "slug": "eleceed-2-chapter-292",
+      "number": "292",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9f7816fa-b1b9-43dd-b35b-4d711cce68de"
+    },
+    {
+      "slug": "eleceed-2-chapter-293",
+      "number": "293",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2d6f7408-ab41-4b44-94e5-f7d6e2b3591a"
+    },
+    {
+      "slug": "eleceed-2-chapter-294",
+      "number": "294",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6c05c26e-16d6-42d6-98b2-8167c8943389"
+    },
+    {
+      "slug": "eleceed-2-chapter-295",
+      "number": "295",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f85bdf9d-51df-47fc-88c0-d46eb12dd5cb"
+    },
+    {
+      "slug": "eleceed-2-chapter-296",
+      "number": "296",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "24d0cb6d-c404-4e49-b57b-0bf09a84eddf"
+    },
+    {
+      "slug": "eleceed-2-chapter-297",
+      "number": "297",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3c42da40-0a26-4c28-ad53-76f66e8dd93f"
+    },
+    {
+      "slug": "eleceed-2-chapter-298",
+      "number": "298",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "833b1e4a-543e-497c-85f7-2cabcf8ae5dc"
+    },
+    {
+      "slug": "eleceed-2-chapter-299",
+      "number": "299",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1ec1534f-2166-424c-a19c-4ab4b77e658d"
+    },
+    {
+      "slug": "eleceed-2-chapter-300",
+      "number": "300",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f86ae6b2-ee7d-41a7-a92b-0f9244d62276"
+    },
+    {
+      "slug": "eleceed-2-chapter-301",
+      "number": "301",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2619fbc6-69ef-46ce-8492-2b07479418c2"
+    },
+    {
+      "slug": "eleceed-2-chapter-302",
+      "number": "302",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5beeea5b-9671-4aec-9105-20d6e768b4b7"
+    },
+    {
+      "slug": "eleceed-2-chapter-303",
+      "number": "303",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "790e1c79-2489-4025-8cc8-78af33c7b89d"
+    },
+    {
+      "slug": "eleceed-2-chapter-304",
+      "number": "304",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ef8c372b-9f92-480f-92ec-feffa33f8758"
+    },
+    {
+      "slug": "eleceed-2-chapter-305",
+      "number": "305",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "be6c6731-9b99-4743-a603-1d8cb8f9afcc"
+    },
+    {
+      "slug": "eleceed-2-chapter-306",
+      "number": "306",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0f0ffd5f-9a27-4b3d-87f8-87eb041fe162"
+    },
+    {
+      "slug": "eleceed-2-chapter-307",
+      "number": "307",
+      "date": "23/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a6b537ae-5fd7-4637-8f22-aa464441c637"
+    },
+    {
+      "slug": "eleceed-2-chapter-308",
+      "number": "308",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ad83542b-e500-4541-b16c-7946b0685e1d"
+    },
+    {
+      "slug": "eleceed-2-chapter-309",
+      "number": "309",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d8ae3273-4667-40cd-85b8-deb201adaf7e"
+    },
+    {
+      "slug": "eleceed-2-chapter-310",
+      "number": "310",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "49b4364e-1c69-4767-8693-78462cf98d54"
+    },
+    {
+      "slug": "eleceed-2-chapter-311",
+      "number": "311",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ab63abc3-9ace-447b-9f2e-b704206c631e"
+    },
+    {
+      "slug": "eleceed-2-chapter-312",
+      "number": "312",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "545611cc-c3ad-46e9-bb48-8df3d11816a7"
+    },
+    {
+      "slug": "eleceed-2-chapter-313",
+      "number": "313",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5e3c8e73-2634-4b50-bd73-013629117600"
+    },
+    {
+      "slug": "eleceed-2-chapter-314",
+      "number": "314",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "30319075-8e4c-4b47-8cd7-8c3c1eeda6ff"
+    },
+    {
+      "slug": "eleceed-2-chapter-315",
+      "number": "315",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ef4f3a3d-9287-4e44-8ae3-2d9ebb7def02"
+    },
+    {
+      "slug": "eleceed-2-chapter-316",
+      "number": "316",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "10e7dcaa-c7b3-4166-94f8-2ae0ad44b8f8"
+    },
+    {
+      "slug": "eleceed-2-chapter-317",
+      "number": "317",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4856bff7-a0d0-4000-bab1-7c0b9c0f8346"
+    },
+    {
+      "slug": "eleceed-2-chapter-318",
+      "number": "318",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fd6d8877-0897-4174-8e61-5cef72786d97"
+    },
+    {
+      "slug": "eleceed-2-chapter-319",
+      "number": "319",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "420a33aa-2cec-48b0-aafc-ae7e805aaa58"
+    },
+    {
+      "slug": "eleceed-2-chapter-320",
+      "number": "320",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "69bb703e-fb84-4b27-abc6-da65e18e9983"
+    },
+    {
+      "slug": "eleceed-2-chapter-321",
+      "number": "321",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d5a60d2c-0237-4ad5-9af7-a892afb7a5cb"
+    },
+    {
+      "slug": "eleceed-2-chapter-322",
+      "number": "322",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6287e744-eaee-44f7-ae23-189a9c1dddde"
+    },
+    {
+      "slug": "eleceed-2-chapter-323",
+      "number": "323",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a1c045f0-8dec-4255-a791-84ad4f0855eb"
+    },
+    {
+      "slug": "eleceed-2-chapter-324",
+      "number": "324",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4aa08900-46e4-40ed-b078-6f862091699d"
+    },
+    {
+      "slug": "eleceed-2-chapter-325",
+      "number": "325",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f8240de8-c2dd-4a3a-bd51-07737e9aed79"
+    },
+    {
+      "slug": "eleceed-2-chapter-326",
+      "number": "326",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a6cd30d6-3ea7-4bd4-b0c2-40ee85b2f9fd"
+    },
+    {
+      "slug": "eleceed-2-chapter-327",
+      "number": "327",
+      "date": "25/12/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0a57f0eb-52b5-4d6c-9e82-f5ca06d1a330"
+    },
+    {
+      "slug": "eleceed-2-chapter-328",
+      "number": "328",
+      "date": "25/12/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8a218f54-4c8b-4f59-94a6-31f43fa4830d"
+    },
+    {
+      "slug": "eleceed-2-chapter-329",
+      "number": "329",
+      "date": "25/12/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "94150216-a8ba-4922-beea-916771c58882"
+    },
+    {
+      "slug": "eleceed-2-chapter-330",
+      "number": "330",
+      "date": "25/12/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "56856de1-7015-488f-bb7e-739024833bae"
+    },
+    {
+      "slug": "eleceed-2-chapter-331",
+      "number": "331",
+      "date": "31/12/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c36ab0c3-ae4b-4b50-bf2e-e7aee1061257"
+    },
+    {
+      "slug": "eleceed-2-chapter-332",
+      "number": "332",
+      "date": "08/01/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "878cdc1f-ba70-4c9e-b79c-dd8629c17695"
+    },
+    {
+      "slug": "eleceed-2-chapter-333",
+      "number": "333",
+      "date": "21/01/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "142ab0f5-9ac8-4124-92f5-8afa09243eed"
+    },
+    {
+      "slug": "eleceed-2-chapter-334",
+      "number": "334",
+      "date": "21/01/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6520e6c3-38c8-4686-be2b-b1cc025e73fa"
+    },
+    {
+      "slug": "eleceed-2-chapter-335",
+      "number": "335",
+      "date": "28/01/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "df93beb7-9c58-4710-b666-9e680a0d34a7"
+    },
+    {
+      "slug": "eleceed-2-chapter-336",
+      "number": "336",
+      "date": "05/02/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b5ba7277-30bb-474b-b7a8-f5d04db6e40c"
+    },
+    {
+      "slug": "eleceed-2-chapter-337",
+      "number": "337",
+      "date": "12/02/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "91724d7e-0e37-4466-80fc-f60311c474a3"
+    },
+    {
+      "slug": "eleceed-2-chapter-337.4",
+      "number": "337.4",
+      "date": "15/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3157b824-6875-4b6b-adad-508d5dd089bf"
+    },
+    {
+      "slug": "eleceed-2-chapter-338",
+      "number": "338",
+      "date": "19/02/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "08151f35-8b9a-40c3-b34a-02b919de0805"
+    },
+    {
+      "slug": "eleceed-2-chapter-339",
+      "number": "339",
+      "date": "26/02/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "cf958e53-1de1-4db1-807a-8bfd7ee584ac"
+    },
+    {
+      "slug": "eleceed-2-chapter-340",
+      "number": "340",
+      "date": "04/03/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "681d8c0c-b2f7-43dc-b6fa-dd73e93cb627"
+    },
+    {
+      "slug": "eleceed-2-chapter-341",
+      "number": "341",
+      "date": "11/03/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ea3399cc-4311-4cc5-abd9-4bf528a8e684"
+    },
+    {
+      "slug": "eleceed-2-chapter-342",
+      "number": "342",
+      "date": "18/03/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e48b1fa2-3497-4092-83a6-30b6039ff19c"
+    },
+    {
+      "slug": "eleceed-2-chapter-343",
+      "number": "343",
+      "date": "25/03/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "afafd08e-b1e9-47ff-a0d1-1a29c1ee496e"
+    },
+    {
+      "slug": "eleceed-2-chapter-344",
+      "number": "344",
+      "date": "01/04/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a569d9b1-4442-4f38-a953-8f807dd7d3a3"
+    },
+    {
+      "slug": "eleceed-2-chapter-345",
+      "number": "345",
+      "date": "08/04/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0c8c54b7-4150-4b62-92de-143e8460eff6"
+    },
+    {
+      "slug": "eleceed-2-chapter-346",
+      "number": "346",
+      "date": "15/04/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "be728233-34fd-4191-8e69-876df130609b"
+    },
+    {
+      "slug": "eleceed-2-chapter-347",
+      "number": "347",
+      "date": "22/04/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "90836f43-1f50-4222-9c11-6cdbf3a0a386"
+    },
+    {
+      "slug": "eleceed-2-chapter-348",
+      "number": "348",
+      "date": "29/04/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3b28f3da-87f3-4f39-8486-58ac2e8b8018"
+    },
+    {
+      "slug": "eleceed-2-chapter-349",
+      "number": "349",
+      "date": "06/05/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d95c8693-b582-4d1f-b108-dc2772f306f1"
+    },
+    {
+      "slug": "eleceed-2-chapter-350",
+      "number": "350",
+      "date": "13/05/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a58fdf6d-3272-4bb8-aff0-966cf47440e7"
+    },
+    {
+      "slug": "eleceed-2-chapter-351",
+      "number": "351",
+      "date": "20/05/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a7857480-4106-4c39-9993-c132ad8923ca"
+    },
+    {
+      "slug": "eleceed-2-chapter-352",
+      "number": "352",
+      "date": "27/05/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a494b9e3-041e-49b2-b17a-6c5602d366c6"
+    },
+    {
+      "slug": "eleceed-2-chapter-353",
+      "number": "353",
+      "date": "03/06/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2985e498-809b-41a6-a114-db8a174c7a14"
+    },
+    {
+      "slug": "eleceed-2-chapter-354",
+      "number": "354",
+      "date": "10/06/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "21e5c8a8-8c0c-44b5-913c-73e2aad61cbe"
+    },
+    {
+      "slug": "eleceed-2-chapter-355",
+      "number": "355",
+      "date": "17/06/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0f948245-1b64-4c94-9296-3501c1b15a20"
+    },
+    {
+      "slug": "eleceed-2-chapter-356",
+      "number": "356",
+      "date": "24/06/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b58face9-2f6c-4393-963d-19c4d7ddba6f"
+    },
+    {
+      "slug": "eleceed-2-chapter-357",
+      "number": "357",
+      "date": "01/07/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b62a12ff-d654-4bd0-ab7e-55b1855366fb"
+    },
+    {
+      "slug": "eleceed-2-chapter-358",
+      "number": "358",
+      "date": "08/07/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "25c94904-c9c5-4db4-a552-e27a0996d6d4"
+    },
+    {
+      "slug": "eleceed-2-chapter-359",
+      "number": "359",
+      "date": "15/07/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "36e8fb9d-28d6-4534-b999-21d5fbef82bb"
+    },
+    {
+      "slug": "eleceed-2-chapter-360",
+      "number": "360",
+      "date": "22/07/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d2c6bcd3-d66b-4d75-92df-163e98efdb28"
+    },
+    {
+      "slug": "eleceed-2-chapter-361",
+      "number": "361",
+      "date": "29/07/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8b300619-75e5-42d5-b677-528f38cffddb"
+    },
+    {
+      "slug": "eleceed-2-chapter-362",
+      "number": "362",
+      "date": "05/08/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "00072c6e-625e-4699-90ff-04aff3136afa"
+    },
+    {
+      "slug": "eleceed-2-chapter-363",
+      "number": "363",
+      "date": "12/08/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "01c5c847-1f48-45eb-a5a0-97966bd5d195"
+    },
+    {
+      "slug": "eleceed-2-chapter-364",
+      "number": "364",
+      "date": "19/08/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8a86ffd7-79c0-4c57-8309-b72326a8950e"
+    },
+    {
+      "slug": "eleceed-2-chapter-365",
+      "number": "365",
+      "date": "26/08/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ef4d01a9-2640-4fdb-a308-a00fdbf56ba3"
+    },
+    {
+      "slug": "eleceed-2-chapter-366",
+      "number": "366",
+      "date": "02/09/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "15c6694d-424e-42cf-9b6f-b6c293fc41bb"
+    },
+    {
+      "slug": "eleceed-2-chapter-367",
+      "number": "367",
+      "date": "09/09/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c4fc2904-a976-43cd-8c37-da918c97b591"
+    },
+    {
+      "slug": "eleceed-2-chapter-368",
+      "number": "368",
+      "date": "16/09/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a9ed470b-5b18-4d48-a1e0-fd2620c0615d"
+    },
+    {
+      "slug": "eleceed-2-chapter-369",
+      "number": "369",
+      "date": "23/09/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b77bb461-6393-4f47-978b-9f9bc4674846"
+    },
+    {
+      "slug": "eleceed-2-chapter-370",
+      "number": "370",
+      "date": "30/09/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fb70b92b-82e6-4a7f-b2d3-8cb2c2fd3597"
+    },
+    {
+      "slug": "eleceed-2-chapter-371",
+      "number": "371",
+      "date": "07/10/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f86a20cd-43dc-4b58-bd5b-f119aaa0cfcc"
+    },
+    {
+      "slug": "eleceed-2-chapter-372",
+      "number": "372",
+      "date": "14/10/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "73643740-b74c-420f-af03-4f77d9f47648"
+    },
+    {
+      "slug": "eleceed-2-chapter-373",
+      "number": "373",
+      "date": "21/10/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ab566dc9-5384-4a50-9f00-9d88ae723ea3"
+    },
+    {
+      "slug": "eleceed-2-chapter-374",
+      "number": "374",
+      "date": "28/10/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "de89b3e7-26d5-4a68-8bf3-4190ee95f83b"
+    },
+    {
+      "slug": "eleceed-2-chapter-375",
+      "number": "375",
+      "date": "04/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f6ad22ac-ac17-41bc-bd7d-8482e20e2e51"
+    },
+    {
+      "slug": "eleceed-2-chapter-376",
+      "number": "376",
+      "date": "12/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "dfa3137f-4ccd-43bf-a1c2-1df28e124c00"
+    },
+    {
+      "slug": "eleceed-2-chapter-377",
+      "number": "377",
+      "date": "19/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "89cb266c-890b-4d03-aadf-1f9a6e90d9a5"
+    },
+    {
+      "slug": "eleceed-2-chapter-378",
+      "number": "378",
+      "date": "25/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d28e99d9-c04a-41c5-894e-9577968dcde3"
+    },
+    {
+      "slug": "eleceed-2-chapter-379",
+      "number": "379",
+      "date": "02/12/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1cb2e48c-ed28-4a6b-9745-7e7a2bce6483"
+    },
+    {
+      "slug": "eleceed-2-chapter-380",
+      "number": "380",
+      "date": "09/12/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d5456d6d-288c-41d7-98c5-a77d46acc8c8"
+    },
+    {
+      "slug": "eleceed-2-chapter-381",
+      "number": "381",
+      "date": "16/12/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5c6cf1e7-6593-4895-91d3-f001ebf7248b"
+    },
+    {
+      "slug": "eleceed-2-chapter-382",
+      "number": "382",
+      "date": "24/12/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "80ea00b9-5952-40c8-8975-d8d5bacf5ccc"
+    },
+    {
+      "slug": "eleceed-2-chapter-383",
+      "number": "383",
+      "date": "30/12/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9bc2a9eb-3bbc-4b8f-aef3-6e129641a4b7"
+    },
+    {
+      "slug": "eleceed-2-chapter-384",
+      "number": "384",
+      "date": "06/01/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9ddc4769-83a6-4a71-aadf-119edbb9386f"
+    },
+    {
+      "slug": "eleceed-2-chapter-385",
+      "number": "385",
+      "date": "13/01/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c805282c-d2c8-4bd3-94ec-be492c6397d3"
+    },
+    {
+      "slug": "eleceed-2-chapter-386",
+      "number": "386",
+      "date": "20/01/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2022395e-c82a-4c90-a2e5-76df1d3ba1b0"
+    },
+    {
+      "slug": "eleceed-2-chapter-387",
+      "number": "387",
+      "date": "28/01/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "810396dc-2ebc-4628-a8af-5b670484dc12"
+    },
+    {
+      "slug": "eleceed-2-chapter-388",
+      "number": "388",
+      "date": "03/02/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1b429fb3-cdd9-4049-8286-b400c79c60b9"
+    },
+    {
+      "slug": "eleceed-2-chapter-389",
+      "number": "389",
+      "date": "17/02/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fff96f92-d038-44ac-b1e9-76fc5225e607"
+    },
+    {
+      "slug": "eleceed-2-chapter-390",
+      "number": "390",
+      "date": "25/02/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8dc29448-1569-431e-9214-4fd555c00f36"
+    },
+    {
+      "slug": "eleceed-2-chapter-391",
+      "number": "391",
+      "date": "03/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a849a119-0c83-4e0f-89e1-366b13dda2a6"
+    },
+    {
+      "slug": "eleceed-2-chapter-392",
+      "number": "392",
+      "date": "10/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2b6c726d-2116-4f9f-9ff2-acb774c5b21b"
+    },
+    {
+      "slug": "eleceed-2-chapter-393",
+      "number": "393",
+      "date": "17/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "cc23bd6a-8db8-439b-8018-e8b06716744f"
+    },
+    {
+      "slug": "eleceed-2-chapter-394",
+      "number": "394",
+      "date": "24/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "faaa59c4-380e-402f-a865-b1b10a42267d"
+    },
+    {
+      "slug": "eleceed-2-chapter-395",
+      "number": "395",
+      "date": "31/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "44bfe0a7-0276-44d1-a04d-936a1b7dfe43"
+    },
+    {
+      "slug": "eleceed-2-chapter-396",
+      "number": "396",
+      "date": "07/04/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6f2c9ff1-d097-4235-9bbe-6ed576ef3dd7"
+    },
+    {
+      "slug": "eleceed-2-chapter-397",
+      "number": "397",
+      "date": "14/04/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "11f31342-db1b-46f8-9c84-34f3dad0629c"
+    },
+    {
+      "slug": "eleceed-2-chapter-398",
+      "number": "398",
+      "date": "21/04/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "dc77c598-b6bc-4493-a42b-fd7823b8be38"
+    },
+    {
+      "slug": "eleceed-2-chapter-399",
+      "number": "399",
+      "date": "28/04/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "722b2085-d63f-4f6b-803d-5b1dcb35a0e5"
+    },
+    {
+      "slug": "eleceed-2-chapter-400",
+      "number": "400",
+      "date": "05/05/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "14b1e28f-25ea-4457-aa9a-e4b77492ae91"
+    },
+    {
+      "slug": "eleceed-2-chapter-401",
+      "number": "401",
+      "date": "12/05/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c52f696d-59e2-4a27-8f31-46a3ae2820ed"
+    },
+    {
+      "slug": "eleceed-2-chapter-402",
+      "number": "402",
+      "date": "19/05/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fd35c793-b632-4c3b-9b2f-78fda92ac6c5"
+    },
+    {
+      "slug": "eleceed-2-chapter-403",
+      "number": "403",
+      "date": "26/05/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f5682a7b-b767-4cf8-ad2c-833b1f730e2b"
+    },
+    {
+      "slug": "eleceed-2-chapter-404",
+      "number": "404",
+      "date": "02/06/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2a177604-2b4a-4611-80b5-e2416cbf6c96"
+    },
+    {
+      "slug": "eleceed-2-chapter-405",
+      "number": "405",
+      "date": "09/06/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "57703b48-8b17-4068-814f-3360e17c3a0f"
+    },
+    {
+      "slug": "eleceed-2-chapter-406",
+      "number": "406",
+      "date": "16/06/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e0191252-f42a-4192-9837-ebf75732665f"
+    },
+    {
+      "slug": "eleceed-2-chapter-407",
+      "number": "407",
+      "date": "23/06/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4bfca9be-8a52-4a52-b5d3-ac45a42da32b"
+    },
+    {
+      "slug": "eleceed-2-chapter-408",
+      "number": "408",
+      "date": "30/06/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c6329fea-d263-426e-b322-84138487d69c"
+    },
+    {
+      "slug": "eleceed-2-chapter-409",
+      "number": "409",
+      "date": "14/07/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c07c78d2-1d77-439d-9c98-88cc0ef2397e"
+    },
+    {
+      "slug": "eleceed-2-chapter-410",
+      "number": "410",
+      "date": "21/07/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e1774b19-01ff-42fe-8d75-4241361c4c38"
+    },
+    {
+      "slug": "eleceed-2-chapter-411",
+      "number": "411",
+      "date": "28/07/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "876ab1c6-3d08-40c9-99be-64d06875795d"
+    },
+    {
+      "slug": "eleceed-2-chapter-412",
+      "number": "412",
+      "date": "04/08/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "46e312a1-b31b-4150-a50d-3be5396c1c9c"
+    },
+    {
+      "slug": "eleceed-2-chapter-413",
+      "number": "413",
+      "date": "11/08/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6380a4de-d5b8-41c1-ad7e-a8c5dd0f809e"
+    },
+    {
+      "slug": "eleceed-2-chapter-414",
+      "number": "414",
+      "date": "18/08/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ad49f544-fd3c-443d-9c95-56c2be02238f"
+    },
+    {
+      "slug": "eleceed-2-chapter-415",
+      "number": "415",
+      "date": "25/08/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1609b93d-0a01-4e8b-b91b-fdea358b265c"
+    },
+    {
+      "slug": "eleceed-2-chapter-416",
+      "number": "416",
+      "date": "01/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a18f63da-4f94-4012-9abb-2b608701e842"
+    },
+    {
+      "slug": "eleceed-2-chapter-417",
+      "number": "417",
+      "date": "08/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "45082081-9f17-44d3-928c-6a349f23b558"
+    },
+    {
+      "slug": "eleceed-2-chapter-418",
+      "number": "418",
+      "date": "15/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c770e8c2-2474-40e2-885c-6c136b80ba85"
+    },
+    {
+      "slug": "eleceed-2-chapter-419",
+      "number": "419",
+      "date": "22/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b3f12c01-4ed2-4027-8518-bae2551d85a9"
+    },
+    {
+      "slug": "eleceed-2-chapter-420",
+      "number": "420",
+      "date": "29/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4be712b7-760b-4d10-a2da-d76702444ed8"
+    },
+    {
+      "slug": "eleceed-2-chapter-421",
+      "number": "421",
+      "date": "06/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c8aa4306-4d92-41f8-b800-d29b192ac34d"
+    },
+    {
+      "slug": "eleceed-2-chapter-422",
+      "number": "422",
+      "date": "13/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9e641d9c-a91c-459b-a8b6-1d6627b974fa"
+    },
+    {
+      "slug": "eleceed-2-chapter-423",
+      "number": "423",
+      "date": "20/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "cf551adc-47bf-40b8-985b-e8756c2edd60"
+    },
+    {
+      "slug": "eleceed-2-chapter-424",
+      "number": "424",
+      "date": "27/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9d42656e-cde9-42ed-899f-90bfc680ffe1"
+    },
+    {
+      "slug": "eleceed-2-chapter-425",
+      "number": "425",
+      "date": "03/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8f2f721a-bc2a-4d46-948f-d8390cbcfe8b"
+    },
+    {
+      "slug": "eleceed-2-chapter-426",
+      "number": "426",
+      "date": "10/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e0e9b194-7c8b-4ab8-82a5-c25f7048d4fe"
+    },
+    {
+      "slug": "eleceed-2-chapter-427",
+      "number": "427",
+      "date": "18/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ee919219-820d-42ca-9d63-b2ccabd8a8f5"
+    },
+    {
+      "slug": "eleceed-2-chapter-428",
+      "number": "428",
+      "date": "24/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "008f0b08-091f-4df0-9d3e-c87b8d46a7b3"
+    }
+  ]
+}
