@@ -50,6 +50,67 @@ export async function getChapterPages(
 }
 
 async function fetchChapterPagesLive(chapterSlug: string, source = "komiku"): Promise<string[]> {
+  // If source is shinigami, fetch from shinigami API
+  if (source === "shinigami") {
+    const m = chapterSlug.match(/^(.+)-chapter-([\d.]+)$/);
+    if (m) {
+      // Find the shinigami_chapter_id from the comic data
+      const comic = await getComic(comicSlug);
+      const chapter = comic?.chapters.find((c) => c.slug === chapterSlug) as (typeof comic extends null ? never : (typeof comic)["chapters"][0] & { shinigami_chapter_id?: string }) | undefined;
+      const shinChapterId = (chapter as { shinigami_chapter_id?: string } | undefined)?.shinigami_chapter_id;
+      if (shinChapterId) {
+        try {
+          const res = await fetch(`https://api.shinigami.io/v1/chapter/detail/${shinChapterId}`, {
+            headers: {
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+              "Origin": "https://s1.shinigami.mx",
+              "Referer": "https://s1.shinigami.mx/",
+            },
+            cache: "no-store",
+          });
+          if (res.ok) {
+            const data = await res.json();
+            const baseUrl = data?.data?.base_url ?? "https://cdn.shinigami.gg";
+            const ch = data?.data?.chapter ?? {};
+            const path = ch.path ?? "";
+            const files: string[] = ch.data ?? [];
+            if (files.length > 0) return files.map((f: string) => `${baseUrl}${path}${f}`);
+          }
+        } catch { /* ignore */ }
+      }
+    }
+    return [];
+  }
+
+  // If source is shinigami, fetch from shinigami API
+  if (source === "shinigami") {
+    // Find shinigami_chapter_id stored in the chapter data
+    const comic = await getComic(comicSlug);
+    const ch = comic?.chapters.find((c) => c.slug === chapterSlug) as Record<string, unknown> | undefined;
+    const shinId = ch?.["shinigami_chapter_id"] as string | undefined;
+    if (shinId) {
+      try {
+        const res = await fetch(`https://api.shinigami.io/v1/chapter/detail/${shinId}`, {
+          headers: {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Origin": "https://s1.shinigami.mx",
+            "Referer": "https://s1.shinigami.mx/",
+          },
+          cache: "no-store",
+        });
+        if (res.ok) {
+          const data = await res.json();
+          const baseUrl: string = data?.data?.base_url ?? "https://cdn.shinigami.gg";
+          const chapter = data?.data?.chapter ?? {};
+          const path: string = chapter.path ?? "";
+          const files: string[] = chapter.data ?? [];
+          if (files.length > 0) return files.map((f: string) => `${baseUrl}${path}${f}`);
+        }
+      } catch { /* ignore */ }
+    }
+    return [];
+  }
+
   // If source is kiryuu, fetch from kiryuu CDN
   if (source === "kiryuu") {
     const m = chapterSlug.match(/^(.+)-chapter-([\d.]+)$/);
