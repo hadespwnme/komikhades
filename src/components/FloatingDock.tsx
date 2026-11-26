@@ -79,6 +79,42 @@ export default function FloatingDock({
     };
   }, [playing, autoScroll]);
 
+  // ── Infinity chapter on manual scroll ───────────────────────────────────
+  // Also trigger when user manually scrolls to the bottom
+  useEffect(() => {
+    if (!infinityOn || !nextChapterSlug) return;
+
+    const handleScroll = () => {
+      const atBottom =
+        window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 60;
+      if (atBottom) {
+        // Avoid double-trigger if playing (auto-scroll handles it)
+        if (playing) return;
+        if (infinityTimer.current) return; // already scheduled
+        if (infinityDelay === "instant") {
+          goNextChapter();
+        } else {
+          infinityTimer.current = setTimeout(() => {
+            infinityTimer.current = null;
+            goNextChapter();
+          }, infinityDelay * 1000);
+        }
+      } else {
+        // Scrolled back up — cancel pending timer
+        if (infinityTimer.current) {
+          clearTimeout(infinityTimer.current);
+          infinityTimer.current = null;
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      if (infinityTimer.current) clearTimeout(infinityTimer.current);
+    };
+  }, [infinityOn, infinityDelay, nextChapterSlug, playing, goNextChapter]);
+
   // ── Tap-to-toggle dock ───────────────────────────────────────────────────
   useEffect(() => {
     const handleTap = (e: MouseEvent) => {
