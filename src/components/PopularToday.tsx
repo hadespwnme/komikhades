@@ -16,19 +16,17 @@ interface RankItem {
 interface Rankings {
   daily: RankItem[];
   weekly: RankItem[];
-  all_time: RankItem[];
 }
 
 interface Props {
   rankings: Rankings;
 }
 
-type Period = "daily" | "weekly" | "all_time";
+type Period = "daily" | "weekly";
 
 const PERIOD_LABELS: Record<Period, string> = {
   daily: "Harian",
   weekly: "Mingguan",
-  all_time: "Sepanjang Masa",
 };
 
 export default function PopularToday({ rankings }: Props) {

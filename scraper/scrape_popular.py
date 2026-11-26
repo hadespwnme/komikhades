@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Fetch ranking from shinigami API (daily, weekly, all_time)
+Fetch ranking from shinigami API (daily, weekly)
 and save to public/data/rankings.json
 Auto-scrape any missing comics.
 """
@@ -56,12 +56,13 @@ def scrape_shinigami_comic(manga_id):
 
 
 def fetch_ranking(period, limit=16):
-    return api_get(f"/v1/manga/top?period={period}&limit={limit}")
+    # Correct parameter is 'filter', not 'period'
+    return api_get(f"/v1/manga/top?filter={period}&limit={limit}")
 
 
 def build_ranking_items(data, existing_ids):
     items = []
-    for m in data:
+    for idx, m in enumerate(data):  # Use array index as rank position
         manga_id = m.get("manga_id", "")
         slug = existing_ids.get(manga_id, "")
         items.append({
@@ -69,7 +70,7 @@ def build_ranking_items(data, existing_ids):
             "slug": slug,
             "title": m.get("title", ""),
             "thumbnail": m.get("cover_portrait_url") or m.get("cover_image_url", ""),
-            "rank": m.get("rank", 0),
+            "rank": idx + 1,  # Array index = actual rank position
             "score": m.get("weighted_score", m.get("user_rate", 0)),
             "latest_chapter": str(m.get("latest_chapter_number", "")),
             "total_chapters": m.get("total_chapters", 0),
@@ -83,7 +84,7 @@ if __name__ == "__main__":
     existing_ids = get_existing_manga_ids()
 
     rankings = {}
-    for period in ["daily", "weekly", "all_time"]:
+    for period in ["daily", "weekly"]:
         data = fetch_ranking(period, limit=16)
         items = build_ranking_items(data, existing_ids)
 

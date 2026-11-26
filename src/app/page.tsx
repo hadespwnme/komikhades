@@ -10,7 +10,7 @@ export default async function HomePage() {
   const comics = await getComicList();
 
   // Load rankings data
-  let rankings = { daily: [], weekly: [], all_time: [] };
+  let rankings = { daily: [], weekly: [] };
   try {
     const raw = await fs.readFile(
       path.join(process.cwd(), "public", "data", "rankings.json"),
