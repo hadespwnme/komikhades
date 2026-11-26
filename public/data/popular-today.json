@@ -1,87 +1,33 @@
 [
   {
-    "slug": "demonic-emperor",
-    "title": "Demonic Emperor",
-    "score": 9.60943560776511,
-    "thumbnail": "https://cdn.shinigami.gg/assets/image/d00e4253-656d-481e-b3ef-701e4c6d451e.jpg"
-  },
-  {
     "slug": "nano-machine",
     "title": "Nano Machine",
-    "score": 9.553850340989657,
+    "score": 9.550014543328077,
     "thumbnail": "https://cdn.shinigami.gg/assets/image/38e34bb8-29c2-43f6-a2cc-ec9d4991ff5a.jpg"
-  },
-  {
-    "slug": "eleceed-2",
-    "title": "Eleceed",
-    "score": 9.620057464380217,
-    "thumbnail": "https://cdn.shinigami.gg/assets/image/6c83f3db-948b-426f-a0ad-7074d8118632.jpg"
-  },
-  {
-    "slug": "revenge-of-the-iron-blooded-sword-hound",
-    "title": "Revenge Of The Iron-Blooded Sword Hound",
-    "score": 9.616020858071032,
-    "thumbnail": "https://cdn.shinigami.gg/assets/image/d96303ba-bada-4003-aba8-08192706a941.jpg"
-  },
-  {
-    "slug": "pick-me-up",
-    "title": "Pick Me Up",
-    "score": 9.709999531879026,
-    "thumbnail": "https://cdn.shinigami.gg/assets/image/97526c67-93d8-48e2-a287-dfd4f21f9674.jpg"
-  },
-  {
-    "slug": "swordmasters-youngest-son",
-    "title": "Swordmaster’s Youngest Son",
-    "score": 9.60022732235461,
-    "thumbnail": "https://cdn.shinigami.gg/assets/image/9dadcd86-4ee5-4b94-90f3-be19955078a8.jpg"
-  },
-  {
-    "slug": "solo-max-level-newbie-2",
-    "title": "Solo Max-Level Newbie",
-    "score": 9.310409278341773,
-    "thumbnail": "https://cdn.shinigami.gg/assets/cover/banner_1771052268526_kne4py.jpg"
-  },
-  {
-    "slug": "the-villain-of-destiny-2",
-    "title": "The Villain Of Destiny",
-    "score": 9.428601994190526,
-    "thumbnail": "https://cdn.shinigami.gg/assets/image/e6ba24d4fbd0.jpeg"
-  },
-  {
-    "slug": "the-greatest-estate-developer",
-    "title": "The Greatest Estate Developer",
-    "score": 9.759672821987067,
-    "thumbnail": "https://cdn.shinigami.gg/assets/image/1fc811da-99f2-4fe8-9c34-c9d7f12185ec.jpg"
-  },
-  {
-    "slug": "return-of-the-mount-hua-sect-2",
-    "title": "Return Of The Mount Hua Sect",
-    "score": 9.814211634155848,
-    "thumbnail": "https://cdn.shinigami.gg/assets/image/5cb281ec-ee18-4ec1-9df3-08b661c80eea.jpg"
-  },
-  {
-    "slug": "infinite-mage-2",
-    "title": "Infinite Mage",
-    "score": 9.578773186212093,
-    "thumbnail": "https://cdn.shinigami.gg/assets/image/6119463c-3b63-4ec7-bab7-54bd76628000.jpg"
-  },
-  {
-    "slug": "mercenary-enrollment",
-    "title": "Mercenary Enrollment",
-    "score": 9.050223315259949,
-    "thumbnail": "https://cdn.shinigami.gg/assets/image/c668834b4847.jpeg"
-  },
-  {
-    "slug": "the-return-of-the-disaster-class-hero",
-    "title": "The Return of The Disaster Class Hero",
-    "score": 9.541304234038787,
-    "thumbnail": "https://cdn.shinigami.gg/assets/image/c2ea08e9-c81b-445b-b1c6-edc5daef0adb.jpg"
   },
   {
     "slug": "omniscient-readers-viewpoint-2",
     "title": "Omniscient Reader’s Viewpoint",
-    "score": 9.823634636342826,
+    "score": 9.825418419476826,
     "thumbnail": "https://cdn.shinigami.gg/assets/image/93e85535-1327-49ed-8acd-afaaf4a18978.jpg"
+  },
+  {
+    "slug": "the-worlds-greatest-jegal-academy-2",
+    "title": "The World's Greatest Jegal Academy",
+    "score": 8.5,
+    "thumbnail": "https://cdn.shinigami.gg/thumbnail/cover/banner_1795443997261_xt5pfj.jpg"
+  },
+  {
+    "slug": "the-third-prince-of-the-fallen-kingdom-has-regressed",
+    "title": "The Third Prince Of The Fallen Kingdom has Regressed",
+    "score": 8.614623305396327,
+    "thumbnail": "https://cdn.shinigami.gg/assets/image/dbbcdbed-996c-4030-9e22-4fdf0127c6f9.jpg"
+  },
+  {
+    "slug": "pick-me-up",
+    "title": "Pick Me Up",
+    "score": 9.711992540002564,
+    "thumbnail": "https://cdn.shinigami.gg/assets/image/97526c67-93d8-48e2-a287-dfd4f21f9674.jpg"
   },
   {
     "slug": "overgeared",
@@ -90,9 +36,63 @@
     "thumbnail": "https://cdn.shinigami.gg/assets/image/4cb65129-5d7a-4960-847e-3337391b39f8.jpg"
   },
   {
-    "slug": "the-regressed-mercenarys-machinations",
-    "title": "The Regressed Mercenary’s Machinations",
-    "score": 9.698076024213698,
-    "thumbnail": "https://cdn.shinigami.gg/assets/image/d0114782-58b8-4fe0-a573-0b4fe7e2d3ea.jpg"
+    "slug": "eleceed-2",
+    "title": "Eleceed",
+    "score": 9.620057464380217,
+    "thumbnail": "https://cdn.shinigami.gg/assets/image/6c83f3db-948b-426f-a0ad-7074d8118632.jpg"
+  },
+  {
+    "slug": "absolute-dominion",
+    "title": "Absolute Dominion",
+    "score": 9.159819804481675,
+    "thumbnail": "https://cdn.shinigami.gg/assets/image/eddff826-dabb-4bbc-b61b-7cd901c31724.jpg"
+  },
+  {
+    "slug": "solo-leveling-ragnarok",
+    "title": "Solo Leveling : Ragnarok",
+    "score": 8.951527521112824,
+    "thumbnail": "https://cdn.shinigami.gg/assets/image/f7827375-d9c2-4ef5-a33c-38e79f568828.jpg"
+  },
+  {
+    "slug": "the-martial-god-who-regressed-to-level-2",
+    "title": "The Martial God Who Regressed To Level 2",
+    "score": 8.652097797430187,
+    "thumbnail": "https://cdn.shinigami.gg/assets/image/ca312e04-7494-46c0-bb80-3e2781890f5a.jpg"
+  },
+  {
+    "slug": "world-extinction-war",
+    "title": "World Extinction War",
+    "score": 8.5,
+    "thumbnail": "https://cdn.shinigami.gg/assets/cover/banner_1790938441352_ayaei5.jpg"
+  },
+  {
+    "slug": "became-the-patron-of-villains",
+    "title": "Became The Patron Of Villains",
+    "score": 9.419165878181992,
+    "thumbnail": "https://cdn.shinigami.gg/assets/image/f1e0bd9d-fa26-4d0b-88f0-2de2d2321f76.jpg"
+  },
+  {
+    "slug": "talent-swallowing-magician",
+    "title": "Talent Swallowing Magician",
+    "score": 8.774870048659462,
+    "thumbnail": "https://cdn.shinigami.gg/assets/image/e24c399c-dfa0-4a46-8b1a-a81a8bbc92ee.jpg"
+  },
+  {
+    "slug": "the-academys-weapon-replicator",
+    "title": "The Academy’s Weapon Replicator",
+    "score": 8.585716453915015,
+    "thumbnail": "https://cdn.shinigami.gg/assets/cover/banner_1790773007461_gbs7zx.jpg"
+  },
+  {
+    "slug": "star-embracing-swordmaster",
+    "title": "Star-Embracing Swordmaster",
+    "score": 9.437401414295433,
+    "thumbnail": "https://cdn.shinigami.gg/assets/image/0be57d68-382d-4cc6-80bc-f72173243ae4.jpg"
+  },
+  {
+    "slug": "the-return-of-the-disaster-class-hero",
+    "title": "The Return of The Disaster Class Hero",
+    "score": 9.546326672661923,
+    "thumbnail": "https://cdn.shinigami.gg/assets/image/c2ea08e9-c81b-445b-b1c6-edc5daef0adb.jpg"
   }
 ]

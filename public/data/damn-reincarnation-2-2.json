@@ -1,0 +1,201 @@
+{
+  "slug": "damn-reincarnation-2-2",
+  "title": "Damn Reincarnation 2",
+  "thumbnail": "https://cdn.shinigami.gg/assets/cover/banner_1794619163672_m37it6.jpg",
+  "alt_title": "빌어먹을 환생",
+  "type": "Project",
+  "genres": [
+    "Comedy",
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Magic"
+  ],
+  "author": "Mokma",
+  "status": 1,
+  "synopsis": "Warrior Hamel bertualang dengan temantemannya untuk mengalahkan Demon King\nNamun setelah mati tepat sebelum pertempuran terakhir dengan Raja Iblis\nWaaah\nApaapaan ini\nDia bereinkarnasi sebagai keturunan dari rekan pejuangnya Vermouth\nHamel yang sekarang dikenal sebagai Eugene Lionheart terlahir kembali dengan darah The Great Vermouth\nDengan tubuh yang memiliki spesifikasi lebih tinggi sejak awal ia menunjukkan pertumbuhan eksplosif yang jauh melampaui apa yang telah ia capai dalam kehidupan sebelumnya\nSeiring dengan alasan yang tidak diketahui untuk reinkarnasinya datanglah kenyataan yang tidak nyaman karena harus hidup berdampingan dengan iblis\nDia dihadapkan pada dunia yang membuatnya mempertanyakan segala sesuatu yang dia yakini",
+  "source": "shinigami",
+  "shinigami_manga_id": "75fe04d8-b729-4801-86b6-90231bee01be",
+  "chapters": [
+    {
+      "slug": "damn-reincarnation-2-2-chapter-1",
+      "number": "1",
+      "date": "14/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8f9408b0-f58a-4f70-abc8-16d125f03d57"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-2",
+      "number": "2",
+      "date": "20/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f5bcf817-3521-41a9-8d52-9240265d0ebf"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-3",
+      "number": "3",
+      "date": "20/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7fb58987-1c16-46b8-9497-fbd580ff3a81"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-4",
+      "number": "4",
+      "date": "20/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "74d78cc5-0137-4f3c-a542-ee0baba2dde0"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-5",
+      "number": "5",
+      "date": "20/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "100e5e4c-02db-42d1-aaec-5ff5f2850c72"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-6",
+      "number": "6",
+      "date": "20/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0e55c798-1584-4516-9024-50021cc373b2"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-7",
+      "number": "7",
+      "date": "20/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "bc45c1ee-3e5e-4a15-8715-2c7e698bd673"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-8",
+      "number": "8",
+      "date": "20/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ab7412d6-3b92-4479-b192-5eadc189dde5"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-9",
+      "number": "9",
+      "date": "20/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8223bbc5-0645-42d5-952b-08bc98fc78fe"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-10",
+      "number": "10",
+      "date": "20/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "95a8025b-1694-4f07-8764-211933603edc"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-11",
+      "number": "11",
+      "date": "20/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "26708ea0-60d3-440d-ba6d-a26293822960"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-12",
+      "number": "12",
+      "date": "21/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "19bf90b2-3169-43c0-ac98-d284b33da056"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-13",
+      "number": "13",
+      "date": "21/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2cc7abd7-c253-4b7c-b9fa-fea24dd622cc"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-14",
+      "number": "14",
+      "date": "21/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "391eca2f-89c3-4ea1-9955-a7176991e8ec"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-15",
+      "number": "15",
+      "date": "21/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "977d9f77-ffd7-48d7-ae30-9dbec091ca94"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-16",
+      "number": "16",
+      "date": "21/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9b1cf034-8898-493a-8e4c-615c5c9b1cd4"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-17",
+      "number": "17",
+      "date": "21/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "db8117a9-0f1c-4ab5-a146-a2d7284fa4ad"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-18",
+      "number": "18",
+      "date": "21/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0d318785-58d4-4251-8dce-0571924c7bea"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-19",
+      "number": "19",
+      "date": "21/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9089249c-669b-456a-a502-c59941bbf4d3"
+    },
+    {
+      "slug": "damn-reincarnation-2-2-chapter-20",
+      "number": "20",
+      "date": "21/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b5c24ad0-87a6-4691-be12-2e9e5b59c7f4"
+    }
+  ]
+}

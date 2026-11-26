@@ -1,0 +1,83 @@
+{
+  "slug": "invincible-mumu",
+  "title": "Invincible Mumu",
+  "thumbnail": "https://cdn.shinigami.gg/thumbnail/cover/banner_1795383666995_u5se3e.jpg",
+  "alt_title": "무무 무적",
+  "type": "Project",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Martial Arts",
+    "Murim"
+  ],
+  "author": "Hanjung Wolya",
+  "status": 1,
+  "synopsis": "Dari author yang mengerjakan \\<Nano Machine> dan .Absolute Sword Sense.\n\n\n\nMumu, seorang pemuda yang dibesarkan di pegunungan dengan kekuatan luar biasa, memasuki Akademi Seni Bela Diri yang bergengsi.&#x20;\n\nIa sama sekali tidak mengerti tentang seni bela diri, politik, ataupun intrik mematikan dari klan-klan bangsawan. Namun, jika seseorang mampu menghancurkan batu besar dengan tangan kosong, seberapa pentingkah teknik sebenarnya?",
+  "source": "shinigami",
+  "shinigami_manga_id": "00e89c30-cf10-475c-8369-f44ab90f0673",
+  "chapters": [
+    {
+      "slug": "invincible-mumu-chapter-1",
+      "number": "1",
+      "date": "22/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "203ca5e7-f694-4efd-8082-509a7c5a5b7d"
+    },
+    {
+      "slug": "invincible-mumu-chapter-2",
+      "number": "2",
+      "date": "22/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d0191576-72b1-42d0-9eed-f6920b894a3c"
+    },
+    {
+      "slug": "invincible-mumu-chapter-3",
+      "number": "3",
+      "date": "23/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0b549566-a12d-47d7-9387-d52f91c1f0b1"
+    },
+    {
+      "slug": "invincible-mumu-chapter-4",
+      "number": "4",
+      "date": "23/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e34af4ea-1d3e-4774-8313-022ece4a81e8"
+    },
+    {
+      "slug": "invincible-mumu-chapter-5",
+      "number": "5",
+      "date": "23/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "20512d30-0dd5-4317-a152-15f5de013f0a"
+    },
+    {
+      "slug": "invincible-mumu-chapter-6",
+      "number": "6",
+      "date": "23/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a7dd33f3-62d9-4fbd-8be9-6880cf057381"
+    },
+    {
+      "slug": "invincible-mumu-chapter-7",
+      "number": "7",
+      "date": "23/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "af47639f-379c-4f68-a46d-882e17a3913f"
+    }
+  ]
+}

@@ -1,186 +1,196 @@
 {
   "daily": [
     {
-      "manga_id": "c0f1d049-ff7f-474d-8c6a-3a55e4c44147",
-      "slug": "demonic-emperor",
-      "title": "Demonic Emperor",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/d00e4253-656d-481e-b3ef-701e4c6d451e.jpg",
-      "rank": 5,
-      "score": 9.60943560776511,
-      "latest_chapter": "939",
-      "total_chapters": 941
-    },
-    {
       "manga_id": "d3b05787-4c8e-42bb-ba9a-6b2fafd92f3c",
       "slug": "nano-machine",
       "title": "Nano Machine",
       "thumbnail": "https://cdn.shinigami.gg/assets/image/38e34bb8-29c2-43f6-a2cc-ec9d4991ff5a.jpg",
-      "rank": 6,
-      "score": 9.553850340989657,
+      "rank": 1,
+      "score": 9.550014543328077,
       "latest_chapter": "340",
       "total_chapters": 340
-    },
-    {
-      "manga_id": "05bbcbc4-56a6-47e6-ac36-1d482339a322",
-      "slug": "eleceed-2",
-      "title": "Eleceed",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/6c83f3db-948b-426f-a0ad-7074d8118632.jpg",
-      "rank": 4,
-      "score": 9.620057464380217,
-      "latest_chapter": "428",
-      "total_chapters": 429
-    },
-    {
-      "manga_id": "703f6c7a-ad78-4d50-b5cc-c768c0a12fdb",
-      "slug": "revenge-of-the-iron-blooded-sword-hound",
-      "title": "Revenge Of The Iron-Blooded Sword Hound",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/d96303ba-bada-4003-aba8-08192706a941.jpg",
-      "rank": 7,
-      "score": 9.616020858071032,
-      "latest_chapter": "190",
-      "total_chapters": 190
-    },
-    {
-      "manga_id": "f96af365-8bf3-4b23-ab53-7bb6994a375d",
-      "slug": "pick-me-up",
-      "title": "Pick Me Up",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/97526c67-93d8-48e2-a287-dfd4f21f9674.jpg",
-      "rank": 11,
-      "score": 9.709999531879026,
-      "latest_chapter": "229",
-      "total_chapters": 229
-    },
-    {
-      "manga_id": "f70af567-5f45-4859-8222-e41eb10ac169",
-      "slug": "swordmasters-youngest-son",
-      "title": "Swordmaster’s Youngest Son",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/9dadcd86-4ee5-4b94-90f3-be19955078a8.jpg",
-      "rank": 14,
-      "score": 9.60022732235461,
-      "latest_chapter": "222",
-      "total_chapters": 222
-    },
-    {
-      "manga_id": "ad6fa0a8-43b5-4dd1-aa89-1a1bbde66f65",
-      "slug": "solo-max-level-newbie-2",
-      "title": "Solo Max-Level Newbie",
-      "thumbnail": "https://cdn.shinigami.gg/assets/cover/banner_1771052268526_kne4py.jpg",
-      "rank": 20,
-      "score": 9.310409278341773,
-      "latest_chapter": "286",
-      "total_chapters": 287
-    },
-    {
-      "manga_id": "f166beb7-67d8-47ea-9fa2-54aea1df6dd7",
-      "slug": "the-villain-of-destiny-2",
-      "title": "The Villain Of Destiny",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/e6ba24d4fbd0.jpeg",
-      "rank": 42,
-      "score": 9.428601994190526,
-      "latest_chapter": "372",
-      "total_chapters": 372
-    },
-    {
-      "manga_id": "6193d77a-1470-4365-9663-33027409325f",
-      "slug": "the-greatest-estate-developer",
-      "title": "The Greatest Estate Developer",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/1fc811da-99f2-4fe8-9c34-c9d7f12185ec.jpg",
-      "rank": 63,
-      "score": 9.759672821987067,
-      "latest_chapter": "222",
-      "total_chapters": 243
-    },
-    {
-      "manga_id": "1aba726d-fb23-4e05-aafa-f6b5bb67c489",
-      "slug": "return-of-the-mount-hua-sect-2",
-      "title": "Return Of The Mount Hua Sect",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/5cb281ec-ee18-4ec1-9df3-08b661c80eea.jpg",
-      "rank": 8,
-      "score": 9.814211634155848,
-      "latest_chapter": "189",
-      "total_chapters": 195
-    },
-    {
-      "manga_id": "dd8ac0a4-b6ec-4f46-842c-98871ea3dc43",
-      "slug": "infinite-mage-2",
-      "title": "Infinite Mage",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/6119463c-3b63-4ec7-bab7-54bd76628000.jpg",
-      "rank": 16,
-      "score": 9.578773186212093,
-      "latest_chapter": "195",
-      "total_chapters": 195
-    },
-    {
-      "manga_id": "b80f7a1a-d572-417b-a5e0-9ac6097bf0be",
-      "slug": "mercenary-enrollment",
-      "title": "Mercenary Enrollment",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/c668834b4847.jpeg",
-      "rank": 105,
-      "score": 9.050223315259949,
-      "latest_chapter": "280",
-      "total_chapters": 281
-    },
-    {
-      "manga_id": "fc727dec-d1f5-43e8-a77d-37382f636659",
-      "slug": "the-return-of-the-disaster-class-hero",
-      "title": "The Return of The Disaster Class Hero",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/c2ea08e9-c81b-445b-b1c6-edc5daef0adb.jpg",
-      "rank": 30,
-      "score": 9.541304234038787,
-      "latest_chapter": "198",
-      "total_chapters": 199
     },
     {
       "manga_id": "799eb33b-c086-47a6-b4e0-4516cb87bc77",
       "slug": "omniscient-readers-viewpoint-2",
       "title": "Omniscient Reader’s Viewpoint",
       "thumbnail": "https://cdn.shinigami.gg/assets/image/93e85535-1327-49ed-8acd-afaaf4a18978.jpg",
-      "rank": 15,
-      "score": 9.823634636342826,
+      "rank": 2,
+      "score": 9.825418419476826,
       "latest_chapter": "317",
       "total_chapters": 318
+    },
+    {
+      "manga_id": "943af057-0f0d-4fcc-8d04-aa5988db65a2",
+      "slug": "the-worlds-greatest-jegal-academy-2",
+      "title": "The World's Greatest Jegal Academy",
+      "thumbnail": "https://cdn.shinigami.gg/thumbnail/cover/banner_1795443997261_xt5pfj.jpg",
+      "rank": 3,
+      "score": 8.5,
+      "latest_chapter": "15",
+      "total_chapters": 15
+    },
+    {
+      "manga_id": "6691f8d2-c7c5-4b44-8bd7-f05ef66a88b3",
+      "slug": "the-third-prince-of-the-fallen-kingdom-has-regressed",
+      "title": "The Third Prince Of The Fallen Kingdom has Regressed",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/dbbcdbed-996c-4030-9e22-4fdf0127c6f9.jpg",
+      "rank": 4,
+      "score": 8.614623305396327,
+      "latest_chapter": "78",
+      "total_chapters": 79
+    },
+    {
+      "manga_id": "f96af365-8bf3-4b23-ab53-7bb6994a375d",
+      "slug": "pick-me-up",
+      "title": "Pick Me Up",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/97526c67-93d8-48e2-a287-dfd4f21f9674.jpg",
+      "rank": 5,
+      "score": 9.711992540002564,
+      "latest_chapter": "229",
+      "total_chapters": 229
     },
     {
       "manga_id": "16778db0-17c0-43c4-aa4a-3a4a0df5ec0b",
       "slug": "overgeared",
       "title": "Overgeared",
       "thumbnail": "https://cdn.shinigami.gg/assets/image/4cb65129-5d7a-4960-847e-3337391b39f8.jpg",
-      "rank": 18,
+      "rank": 6,
       "score": 9.205576954152496,
       "latest_chapter": "349",
       "total_chapters": 350
     },
     {
-      "manga_id": "eefbdd4d-a794-43da-9725-180c98114d40",
-      "slug": "the-regressed-mercenarys-machinations",
-      "title": "The Regressed Mercenary’s Machinations",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/d0114782-58b8-4fe0-a573-0b4fe7e2d3ea.jpg",
-      "rank": 41,
-      "score": 9.698076024213698,
-      "latest_chapter": "115",
-      "total_chapters": 115
+      "manga_id": "05bbcbc4-56a6-47e6-ac36-1d482339a322",
+      "slug": "eleceed-2",
+      "title": "Eleceed",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/6c83f3db-948b-426f-a0ad-7074d8118632.jpg",
+      "rank": 7,
+      "score": 9.620057464380217,
+      "latest_chapter": "428",
+      "total_chapters": 429
+    },
+    {
+      "manga_id": "0ee5001f-242f-439a-838b-1505a1a49cb7",
+      "slug": "absolute-dominion",
+      "title": "Absolute Dominion",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/eddff826-dabb-4bbc-b61b-7cd901c31724.jpg",
+      "rank": 8,
+      "score": 9.159819804481675,
+      "latest_chapter": "118",
+      "total_chapters": 119
+    },
+    {
+      "manga_id": "935b0a6e-1fcb-4ea4-b9ae-dcf6540a9f10",
+      "slug": "solo-leveling-ragnarok",
+      "title": "Solo Leveling : Ragnarok",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/f7827375-d9c2-4ef5-a33c-38e79f568828.jpg",
+      "rank": 9,
+      "score": 8.951527521112824,
+      "latest_chapter": "74",
+      "total_chapters": 75
+    },
+    {
+      "manga_id": "f7adc379-9bb4-48d0-8cf5-3b1600fcc2de",
+      "slug": "the-martial-god-who-regressed-to-level-2",
+      "title": "The Martial God Who Regressed To Level 2",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/ca312e04-7494-46c0-bb80-3e2781890f5a.jpg",
+      "rank": 10,
+      "score": 8.652097797430187,
+      "latest_chapter": "136",
+      "total_chapters": 137
+    },
+    {
+      "manga_id": "79180172-90b5-41a9-a577-60b259e83026",
+      "slug": "world-extinction-war",
+      "title": "World Extinction War",
+      "thumbnail": "https://cdn.shinigami.gg/assets/cover/banner_1790938441352_ayaei5.jpg",
+      "rank": 11,
+      "score": 8.5,
+      "latest_chapter": "19",
+      "total_chapters": 19
+    },
+    {
+      "manga_id": "84561956-c987-491d-a189-ba1af3c22810",
+      "slug": "became-the-patron-of-villains",
+      "title": "Became The Patron Of Villains",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/f1e0bd9d-fa26-4d0b-88f0-2de2d2321f76.jpg",
+      "rank": 12,
+      "score": 9.419165878181992,
+      "latest_chapter": "63",
+      "total_chapters": 63
+    },
+    {
+      "manga_id": "0cfb4c3d-c7fc-4c9d-82ab-31222ecea6ba",
+      "slug": "talent-swallowing-magician",
+      "title": "Talent Swallowing Magician",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/e24c399c-dfa0-4a46-8b1a-a81a8bbc92ee.jpg",
+      "rank": 13,
+      "score": 8.774870048659462,
+      "latest_chapter": "152",
+      "total_chapters": 153
+    },
+    {
+      "manga_id": "bbccfb30-f05c-4b7d-ab20-1046e81ff1fd",
+      "slug": "the-academys-weapon-replicator",
+      "title": "The Academy’s Weapon Replicator",
+      "thumbnail": "https://cdn.shinigami.gg/assets/cover/banner_1790773007461_gbs7zx.jpg",
+      "rank": 14,
+      "score": 8.585716453915015,
+      "latest_chapter": "28",
+      "total_chapters": 28
+    },
+    {
+      "manga_id": "4bf6c017-842e-48a1-8a2a-f6160c1d8d44",
+      "slug": "star-embracing-swordmaster",
+      "title": "Star-Embracing Swordmaster",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/0be57d68-382d-4cc6-80bc-f72173243ae4.jpg",
+      "rank": 15,
+      "score": 9.437401414295433,
+      "latest_chapter": "147",
+      "total_chapters": 149
+    },
+    {
+      "manga_id": "fc727dec-d1f5-43e8-a77d-37382f636659",
+      "slug": "the-return-of-the-disaster-class-hero",
+      "title": "The Return of The Disaster Class Hero",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/c2ea08e9-c81b-445b-b1c6-edc5daef0adb.jpg",
+      "rank": 16,
+      "score": 9.546326672661923,
+      "latest_chapter": "198",
+      "total_chapters": 199
     }
   ],
   "weekly": [
     {
-      "manga_id": "c0f1d049-ff7f-474d-8c6a-3a55e4c44147",
-      "slug": "demonic-emperor",
-      "title": "Demonic Emperor",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/d00e4253-656d-481e-b3ef-701e4c6d451e.jpg",
-      "rank": 5,
-      "score": 9.60943560776511,
-      "latest_chapter": "939",
-      "total_chapters": 941
+      "manga_id": "943af057-0f0d-4fcc-8d04-aa5988db65a2",
+      "slug": "the-worlds-greatest-jegal-academy-2",
+      "title": "The World's Greatest Jegal Academy",
+      "thumbnail": "https://cdn.shinigami.gg/thumbnail/cover/banner_1795443997261_xt5pfj.jpg",
+      "rank": 1,
+      "score": 8.5,
+      "latest_chapter": "15",
+      "total_chapters": 15
     },
     {
-      "manga_id": "d3b05787-4c8e-42bb-ba9a-6b2fafd92f3c",
-      "slug": "nano-machine",
-      "title": "Nano Machine",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/38e34bb8-29c2-43f6-a2cc-ec9d4991ff5a.jpg",
-      "rank": 6,
-      "score": 9.553850340989657,
-      "latest_chapter": "340",
-      "total_chapters": 340
+      "manga_id": "799eb33b-c086-47a6-b4e0-4516cb87bc77",
+      "slug": "omniscient-readers-viewpoint-2",
+      "title": "Omniscient Reader’s Viewpoint",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/93e85535-1327-49ed-8acd-afaaf4a18978.jpg",
+      "rank": 2,
+      "score": 9.825418419476826,
+      "latest_chapter": "317",
+      "total_chapters": 318
+    },
+    {
+      "manga_id": "00e89c30-cf10-475c-8369-f44ab90f0673",
+      "slug": "invincible-mumu",
+      "title": "Invincible Mumu",
+      "thumbnail": "https://cdn.shinigami.gg/thumbnail/cover/banner_1795383666995_u5se3e.jpg",
+      "rank": 3,
+      "score": 8.5,
+      "latest_chapter": "7",
+      "total_chapters": 7
     },
     {
       "manga_id": "05bbcbc4-56a6-47e6-ac36-1d482339a322",
@@ -193,296 +203,124 @@
       "total_chapters": 429
     },
     {
-      "manga_id": "703f6c7a-ad78-4d50-b5cc-c768c0a12fdb",
-      "slug": "revenge-of-the-iron-blooded-sword-hound",
-      "title": "Revenge Of The Iron-Blooded Sword Hound",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/d96303ba-bada-4003-aba8-08192706a941.jpg",
-      "rank": 7,
-      "score": 9.616020858071032,
-      "latest_chapter": "190",
-      "total_chapters": 190
+      "manga_id": "d3b05787-4c8e-42bb-ba9a-6b2fafd92f3c",
+      "slug": "nano-machine",
+      "title": "Nano Machine",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/38e34bb8-29c2-43f6-a2cc-ec9d4991ff5a.jpg",
+      "rank": 5,
+      "score": 9.550014543328077,
+      "latest_chapter": "340",
+      "total_chapters": 340
     },
     {
-      "manga_id": "f96af365-8bf3-4b23-ab53-7bb6994a375d",
-      "slug": "pick-me-up",
-      "title": "Pick Me Up",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/97526c67-93d8-48e2-a287-dfd4f21f9674.jpg",
-      "rank": 11,
-      "score": 9.709999531879026,
-      "latest_chapter": "229",
-      "total_chapters": 229
-    },
-    {
-      "manga_id": "f70af567-5f45-4859-8222-e41eb10ac169",
-      "slug": "swordmasters-youngest-son",
-      "title": "Swordmaster’s Youngest Son",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/9dadcd86-4ee5-4b94-90f3-be19955078a8.jpg",
-      "rank": 14,
-      "score": 9.60022732235461,
-      "latest_chapter": "222",
-      "total_chapters": 222
-    },
-    {
-      "manga_id": "ad6fa0a8-43b5-4dd1-aa89-1a1bbde66f65",
-      "slug": "solo-max-level-newbie-2",
-      "title": "Solo Max-Level Newbie",
-      "thumbnail": "https://cdn.shinigami.gg/assets/cover/banner_1771052268526_kne4py.jpg",
-      "rank": 20,
-      "score": 9.310409278341773,
-      "latest_chapter": "286",
-      "total_chapters": 287
-    },
-    {
-      "manga_id": "f166beb7-67d8-47ea-9fa2-54aea1df6dd7",
-      "slug": "the-villain-of-destiny-2",
-      "title": "The Villain Of Destiny",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/e6ba24d4fbd0.jpeg",
-      "rank": 42,
-      "score": 9.428601994190526,
-      "latest_chapter": "372",
-      "total_chapters": 372
-    },
-    {
-      "manga_id": "6193d77a-1470-4365-9663-33027409325f",
-      "slug": "the-greatest-estate-developer",
-      "title": "The Greatest Estate Developer",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/1fc811da-99f2-4fe8-9c34-c9d7f12185ec.jpg",
-      "rank": 63,
-      "score": 9.759672821987067,
-      "latest_chapter": "222",
-      "total_chapters": 243
-    },
-    {
-      "manga_id": "1aba726d-fb23-4e05-aafa-f6b5bb67c489",
-      "slug": "return-of-the-mount-hua-sect-2",
-      "title": "Return Of The Mount Hua Sect",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/5cb281ec-ee18-4ec1-9df3-08b661c80eea.jpg",
-      "rank": 8,
-      "score": 9.814211634155848,
-      "latest_chapter": "189",
-      "total_chapters": 195
-    },
-    {
-      "manga_id": "dd8ac0a4-b6ec-4f46-842c-98871ea3dc43",
-      "slug": "infinite-mage-2",
-      "title": "Infinite Mage",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/6119463c-3b63-4ec7-bab7-54bd76628000.jpg",
-      "rank": 16,
-      "score": 9.578773186212093,
-      "latest_chapter": "195",
-      "total_chapters": 195
-    },
-    {
-      "manga_id": "b80f7a1a-d572-417b-a5e0-9ac6097bf0be",
-      "slug": "mercenary-enrollment",
-      "title": "Mercenary Enrollment",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/c668834b4847.jpeg",
-      "rank": 105,
-      "score": 9.050223315259949,
-      "latest_chapter": "280",
-      "total_chapters": 281
-    },
-    {
-      "manga_id": "fc727dec-d1f5-43e8-a77d-37382f636659",
-      "slug": "the-return-of-the-disaster-class-hero",
-      "title": "The Return of The Disaster Class Hero",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/c2ea08e9-c81b-445b-b1c6-edc5daef0adb.jpg",
-      "rank": 30,
-      "score": 9.541304234038787,
-      "latest_chapter": "198",
-      "total_chapters": 199
-    },
-    {
-      "manga_id": "799eb33b-c086-47a6-b4e0-4516cb87bc77",
-      "slug": "omniscient-readers-viewpoint-2",
-      "title": "Omniscient Reader’s Viewpoint",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/93e85535-1327-49ed-8acd-afaaf4a18978.jpg",
-      "rank": 15,
-      "score": 9.823634636342826,
-      "latest_chapter": "317",
-      "total_chapters": 318
+      "manga_id": "75fe04d8-b729-4801-86b6-90231bee01be",
+      "slug": "damn-reincarnation-2-2",
+      "title": "Damn Reincarnation 2",
+      "thumbnail": "https://cdn.shinigami.gg/assets/cover/banner_1794619163672_m37it6.jpg",
+      "rank": 6,
+      "score": 9.757184834220652,
+      "latest_chapter": "20",
+      "total_chapters": 20
     },
     {
       "manga_id": "16778db0-17c0-43c4-aa4a-3a4a0df5ec0b",
       "slug": "overgeared",
       "title": "Overgeared",
       "thumbnail": "https://cdn.shinigami.gg/assets/image/4cb65129-5d7a-4960-847e-3337391b39f8.jpg",
-      "rank": 18,
+      "rank": 7,
       "score": 9.205576954152496,
       "latest_chapter": "349",
       "total_chapters": 350
     },
     {
-      "manga_id": "eefbdd4d-a794-43da-9725-180c98114d40",
-      "slug": "the-regressed-mercenarys-machinations",
-      "title": "The Regressed Mercenary’s Machinations",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/d0114782-58b8-4fe0-a573-0b4fe7e2d3ea.jpg",
-      "rank": 41,
-      "score": 9.698076024213698,
-      "latest_chapter": "115",
-      "total_chapters": 115
-    }
-  ],
-  "all_time": [
+      "manga_id": "96146b21-e04c-43bf-8a41-45fb105eec52",
+      "slug": "damn-reincarnation",
+      "title": "Damn Reincarnation",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/10bdfe19-1a1c-4cc0-b321-b97dad9a12b6.jpg",
+      "rank": 8,
+      "score": 9.11421776771004,
+      "latest_chapter": "81.5",
+      "total_chapters": 82
+    },
+    {
+      "manga_id": "1aba726d-fb23-4e05-aafa-f6b5bb67c489",
+      "slug": "return-of-the-mount-hua-sect-2",
+      "title": "Return Of The Mount Hua Sect",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/5cb281ec-ee18-4ec1-9df3-08b661c80eea.jpg",
+      "rank": 9,
+      "score": 9.814795875031525,
+      "latest_chapter": "189",
+      "total_chapters": 195
+    },
+    {
+      "manga_id": "703f6c7a-ad78-4d50-b5cc-c768c0a12fdb",
+      "slug": "revenge-of-the-iron-blooded-sword-hound",
+      "title": "Revenge Of The Iron-Blooded Sword Hound",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/d96303ba-bada-4003-aba8-08192706a941.jpg",
+      "rank": 10,
+      "score": 9.62105143327995,
+      "latest_chapter": "190",
+      "total_chapters": 190
+    },
+    {
+      "manga_id": "4b42395f-8cb2-4e42-bddd-662f4d6683bd",
+      "slug": "legend-of-heavenly-chaos-demon",
+      "title": "Legend Of Heavenly Chaos Demon",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/6aee0a25-13c4-4789-87f4-a78fabca60e1.jpg",
+      "rank": 11,
+      "score": 9.674537025959777,
+      "latest_chapter": "126",
+      "total_chapters": 128
+    },
+    {
+      "manga_id": "f7adc379-9bb4-48d0-8cf5-3b1600fcc2de",
+      "slug": "the-martial-god-who-regressed-to-level-2",
+      "title": "The Martial God Who Regressed To Level 2",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/ca312e04-7494-46c0-bb80-3e2781890f5a.jpg",
+      "rank": 12,
+      "score": 8.652097797430187,
+      "latest_chapter": "136",
+      "total_chapters": 137
+    },
     {
       "manga_id": "c0f1d049-ff7f-474d-8c6a-3a55e4c44147",
       "slug": "demonic-emperor",
       "title": "Demonic Emperor",
       "thumbnail": "https://cdn.shinigami.gg/assets/image/d00e4253-656d-481e-b3ef-701e4c6d451e.jpg",
-      "rank": 5,
-      "score": 9.60943560776511,
+      "rank": 13,
+      "score": 9.611149439499268,
       "latest_chapter": "939",
       "total_chapters": 941
     },
     {
-      "manga_id": "d3b05787-4c8e-42bb-ba9a-6b2fafd92f3c",
-      "slug": "nano-machine",
-      "title": "Nano Machine",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/38e34bb8-29c2-43f6-a2cc-ec9d4991ff5a.jpg",
-      "rank": 6,
-      "score": 9.553850340989657,
-      "latest_chapter": "340",
-      "total_chapters": 340
-    },
-    {
-      "manga_id": "05bbcbc4-56a6-47e6-ac36-1d482339a322",
-      "slug": "eleceed-2",
-      "title": "Eleceed",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/6c83f3db-948b-426f-a0ad-7074d8118632.jpg",
-      "rank": 4,
-      "score": 9.620057464380217,
-      "latest_chapter": "428",
-      "total_chapters": 429
-    },
-    {
-      "manga_id": "703f6c7a-ad78-4d50-b5cc-c768c0a12fdb",
-      "slug": "revenge-of-the-iron-blooded-sword-hound",
-      "title": "Revenge Of The Iron-Blooded Sword Hound",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/d96303ba-bada-4003-aba8-08192706a941.jpg",
-      "rank": 7,
-      "score": 9.616020858071032,
-      "latest_chapter": "190",
-      "total_chapters": 190
-    },
-    {
-      "manga_id": "f96af365-8bf3-4b23-ab53-7bb6994a375d",
-      "slug": "pick-me-up",
-      "title": "Pick Me Up",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/97526c67-93d8-48e2-a287-dfd4f21f9674.jpg",
-      "rank": 11,
-      "score": 9.709999531879026,
-      "latest_chapter": "229",
-      "total_chapters": 229
-    },
-    {
-      "manga_id": "f70af567-5f45-4859-8222-e41eb10ac169",
-      "slug": "swordmasters-youngest-son",
-      "title": "Swordmaster’s Youngest Son",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/9dadcd86-4ee5-4b94-90f3-be19955078a8.jpg",
+      "manga_id": "2a6bd6e1-9afe-4242-8a77-58da7cb77b4f",
+      "slug": "absolute-regression",
+      "title": "Absolute Regression",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/1ab5dff2-e1ab-443a-a9f8-e5a5ba0d3b56.jpg",
       "rank": 14,
-      "score": 9.60022732235461,
-      "latest_chapter": "222",
-      "total_chapters": 222
+      "score": 9.607171946467325,
+      "latest_chapter": "129",
+      "total_chapters": 129
     },
     {
-      "manga_id": "ad6fa0a8-43b5-4dd1-aa89-1a1bbde66f65",
-      "slug": "solo-max-level-newbie-2",
-      "title": "Solo Max-Level Newbie",
-      "thumbnail": "https://cdn.shinigami.gg/assets/cover/banner_1771052268526_kne4py.jpg",
-      "rank": 20,
-      "score": 9.310409278341773,
-      "latest_chapter": "286",
-      "total_chapters": 287
-    },
-    {
-      "manga_id": "f166beb7-67d8-47ea-9fa2-54aea1df6dd7",
-      "slug": "the-villain-of-destiny-2",
-      "title": "The Villain Of Destiny",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/e6ba24d4fbd0.jpeg",
-      "rank": 42,
-      "score": 9.428601994190526,
-      "latest_chapter": "372",
-      "total_chapters": 372
-    },
-    {
-      "manga_id": "6193d77a-1470-4365-9663-33027409325f",
-      "slug": "the-greatest-estate-developer",
-      "title": "The Greatest Estate Developer",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/1fc811da-99f2-4fe8-9c34-c9d7f12185ec.jpg",
-      "rank": 63,
-      "score": 9.759672821987067,
-      "latest_chapter": "222",
-      "total_chapters": 243
-    },
-    {
-      "manga_id": "1aba726d-fb23-4e05-aafa-f6b5bb67c489",
-      "slug": "return-of-the-mount-hua-sect-2",
-      "title": "Return Of The Mount Hua Sect",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/5cb281ec-ee18-4ec1-9df3-08b661c80eea.jpg",
-      "rank": 8,
-      "score": 9.814211634155848,
-      "latest_chapter": "189",
-      "total_chapters": 195
-    },
-    {
-      "manga_id": "dd8ac0a4-b6ec-4f46-842c-98871ea3dc43",
-      "slug": "infinite-mage-2",
-      "title": "Infinite Mage",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/6119463c-3b63-4ec7-bab7-54bd76628000.jpg",
-      "rank": 16,
-      "score": 9.578773186212093,
-      "latest_chapter": "195",
-      "total_chapters": 195
-    },
-    {
-      "manga_id": "b80f7a1a-d572-417b-a5e0-9ac6097bf0be",
-      "slug": "mercenary-enrollment",
-      "title": "Mercenary Enrollment",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/c668834b4847.jpeg",
-      "rank": 105,
-      "score": 9.050223315259949,
-      "latest_chapter": "280",
-      "total_chapters": 281
-    },
-    {
-      "manga_id": "fc727dec-d1f5-43e8-a77d-37382f636659",
-      "slug": "the-return-of-the-disaster-class-hero",
-      "title": "The Return of The Disaster Class Hero",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/c2ea08e9-c81b-445b-b1c6-edc5daef0adb.jpg",
-      "rank": 30,
-      "score": 9.541304234038787,
-      "latest_chapter": "198",
-      "total_chapters": 199
-    },
-    {
-      "manga_id": "799eb33b-c086-47a6-b4e0-4516cb87bc77",
-      "slug": "omniscient-readers-viewpoint-2",
-      "title": "Omniscient Reader’s Viewpoint",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/93e85535-1327-49ed-8acd-afaaf4a18978.jpg",
+      "manga_id": "4bf6c017-842e-48a1-8a2a-f6160c1d8d44",
+      "slug": "star-embracing-swordmaster",
+      "title": "Star-Embracing Swordmaster",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/0be57d68-382d-4cc6-80bc-f72173243ae4.jpg",
       "rank": 15,
-      "score": 9.823634636342826,
-      "latest_chapter": "317",
-      "total_chapters": 318
+      "score": 9.437401414295433,
+      "latest_chapter": "147",
+      "total_chapters": 149
     },
     {
-      "manga_id": "16778db0-17c0-43c4-aa4a-3a4a0df5ec0b",
-      "slug": "overgeared",
-      "title": "Overgeared",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/4cb65129-5d7a-4960-847e-3337391b39f8.jpg",
-      "rank": 18,
-      "score": 9.205576954152496,
-      "latest_chapter": "349",
-      "total_chapters": 350
-    },
-    {
-      "manga_id": "eefbdd4d-a794-43da-9725-180c98114d40",
-      "slug": "the-regressed-mercenarys-machinations",
-      "title": "The Regressed Mercenary’s Machinations",
-      "thumbnail": "https://cdn.shinigami.gg/assets/image/d0114782-58b8-4fe0-a573-0b4fe7e2d3ea.jpg",
-      "rank": 41,
-      "score": 9.698076024213698,
-      "latest_chapter": "115",
-      "total_chapters": 115
+      "manga_id": "c1b09df6-001d-4eec-ba58-d74d97ca3a36",
+      "slug": "the-heavenly-demon-cant-live-a-normal-life",
+      "title": "The Heavenly Demon Can’t Live A Normal Life",
+      "thumbnail": "https://cdn.shinigami.gg/assets/image/fac73ec4-f5aa-4a5f-b070-d20001e3f21f.jpg",
+      "rank": 16,
+      "score": 9.479243672680886,
+      "latest_chapter": "216",
+      "total_chapters": 216
     }
   ]
 }

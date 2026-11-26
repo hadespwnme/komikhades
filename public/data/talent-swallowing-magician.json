@@ -1,0 +1,1398 @@
+{
+  "slug": "talent-swallowing-magician",
+  "title": "Talent Swallowing Magician",
+  "thumbnail": "https://cdn.shinigami.gg/assets/cover/banner_1794924386381_9mrmtu.jpg",
+  "alt_title": "The Mage Who Absorbs Abilities | Demon Devourer | 재능 삼킨 마법사 | Mago Traga-Talentos | Talent-Swallowing Magician | El Mago Devorador de Talentos | Jaeneung Samkin Mabeopsa | Le Dévoreur de démons | 才能を喰らった魔法使い | 有才能的魔法师",
+  "type": "Project",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Drama",
+    "Supernatural"
+  ],
+  "author": "Bread squirrel, YoungKeun",
+  "status": 1,
+  "synopsis": "Elric Melvinger Pewaris kekuasan dari keluarga sihir terkemuka Dia tidak memiliki Talent dari lahir sebagai akibatnya dia tidak bisa mempelajari ilmu sihir namun dia mendapatkan Blessing dari leluhurnya.  Makan Demon Telan Demon  Akan aku Kumpulkan Sebanyakbanyaknya demon dalam diriku dan dapatkan Sihir baru. Aku akan bertambah kuat.  Sangat kuat sampai tidak ada yang mampu mengalahkanku.",
+  "source": "shinigami",
+  "shinigami_manga_id": "0cfb4c3d-c7fc-4c9d-82ab-31222ecea6ba",
+  "chapters": [
+    {
+      "slug": "talent-swallowing-magician-chapter-0",
+      "number": "0",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b22289bf-8475-4257-83d3-d9dd364ebde2"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-1",
+      "number": "1",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "be6d7aeb-14a8-45dc-ada4-a5e626c06c71"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-2",
+      "number": "2",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e7f47a14-dbfa-4ec4-87b7-1672be4b2e69"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-3",
+      "number": "3",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "469316b5-3e36-4c41-a8b2-804d41b7a025"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-4",
+      "number": "4",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "213523c6-970b-44a5-b931-492d19190947"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-5",
+      "number": "5",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7595171d-49b3-4fef-9768-df8d2cf43c24"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-6",
+      "number": "6",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1718acf3-bfb0-4d58-9275-9164b0e7fdfb"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-7",
+      "number": "7",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c6ae64ce-d75a-44cf-bf22-f0f4d3a1d5f6"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-8",
+      "number": "8",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4c6f73a0-5f58-42c3-b4b6-d932d7b98488"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-9",
+      "number": "9",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6b943659-4f50-4ecc-9860-28a788144758"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-10",
+      "number": "10",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8ac77038-953b-44eb-ad30-759d0bcb657a"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-11",
+      "number": "11",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f4011d80-cbe4-4d6d-97aa-4b807c7bfdbe"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-12",
+      "number": "12",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9e7a3fd6-82d7-47d0-b171-1029e92068b8"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-13",
+      "number": "13",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "17bcf657-4091-40ed-a3fe-c93ada7b1317"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-14",
+      "number": "14",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5a1f8864-ab48-4465-9ef8-c85eb1a43b8a"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-15",
+      "number": "15",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d8144cb8-58ec-4bf0-a5f6-49e4ba0b7bdd"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-16",
+      "number": "16",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "966c98c5-28e1-4f21-9de0-020807c585dd"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-17",
+      "number": "17",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9ee214b2-b684-4edb-8952-e8aeafce0004"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-18",
+      "number": "18",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3c1e94e8-1eed-4ebf-895e-e233b0e6ccd7"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-19",
+      "number": "19",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c4ab0cba-61d0-4798-a186-cc47cc89f2ba"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-20",
+      "number": "20",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f088edc4-34e4-4b59-95a6-daff9abbcf88"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-21",
+      "number": "21",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c2ad21cc-7a3c-43ab-810d-a0d3bf662af3"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-22",
+      "number": "22",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2f38230c-88bd-4e4a-b2e0-ce3181cd5860"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-23",
+      "number": "23",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4ab0be60-4007-4743-a894-7dce7f7187ab"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-24",
+      "number": "24",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "522e5fc0-1afd-467d-8a90-a7b99755d311"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-25",
+      "number": "25",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "203b09a4-76f1-4546-81fc-d87a90cbac58"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-26",
+      "number": "26",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8ed41711-b3ad-4586-9cac-be3437733bf2"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-27",
+      "number": "27",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f1a7ee65-84ae-4f6f-abe9-2c6ce19e6fba"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-28",
+      "number": "28",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "33e450a9-2a5f-47ad-97e9-f33e375a77fd"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-29",
+      "number": "29",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7b4563d8-28a7-4c45-b190-e808e54ab4e3"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-30",
+      "number": "30",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "93cd6e39-1f52-4eb6-99b4-e76f85d6dd9f"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-31",
+      "number": "31",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e30a0d57-a82d-4468-b4a0-2114e80aa570"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-32",
+      "number": "32",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3bf97d60-96cc-4551-a9aa-c6e3cd37f581"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-33",
+      "number": "33",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f2785662-9f87-4ddd-80f3-5f1a4c28e1ab"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-34",
+      "number": "34",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6e5a9a3b-6e1b-46df-8537-f836a6777abd"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-35",
+      "number": "35",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "248ded38-63bd-4324-9246-cf16f762c5be"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-36",
+      "number": "36",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "dca9632f-4b2b-4e21-bc05-6c5a405a5346"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-37",
+      "number": "37",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "695fa96a-0134-4379-8b54-3a45ce9457b5"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-38",
+      "number": "38",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b3c35324-74f8-4edb-aabe-85368ad45d26"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-39",
+      "number": "39",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "43f72b81-76d3-4c71-a812-1c573234c2c3"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-40",
+      "number": "40",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9cc036ee-8b24-427e-8735-b73f09108eb2"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-41",
+      "number": "41",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9d17f7ea-5327-4c2b-99c1-566519f2c900"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-42",
+      "number": "42",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b3d190d3-9fad-4e4e-a6c5-a59d7878fdcf"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-43",
+      "number": "43",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "64fc163a-3f08-451e-ab0f-1245ce282f0a"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-44",
+      "number": "44",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6f8ea1dd-52a9-49a8-b1d5-b062ce9344e5"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-45",
+      "number": "45",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c8529060-07e0-48f0-84a5-7a1440668c6d"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-46",
+      "number": "46",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "aedb9ecf-6839-4727-93c2-59b95c314969"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-47",
+      "number": "47",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fa50bc40-a39f-4b81-9f4a-4c3071157035"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-48",
+      "number": "48",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4b0cbdef-2451-4bab-8ae1-038f7aedd92c"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-49",
+      "number": "49",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "694b7b84-0595-492d-8836-9ec01e487291"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-50",
+      "number": "50",
+      "date": "26/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ad804d8d-bc88-4b0d-b826-39f6d8a1c087"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-51",
+      "number": "51",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d08bf66b-5aed-41b8-a095-a12d0441fa33"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-52",
+      "number": "52",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e5da1fe5-0289-418d-9bf6-001c582b7201"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-53",
+      "number": "53",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "16668753-a9c3-4a4c-ba95-8df2770dea74"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-54",
+      "number": "54",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2a5fce3d-cb3c-414b-99f5-505721815074"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-55",
+      "number": "55",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "91acce12-f599-45e1-93d6-63f3a368c68e"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-56",
+      "number": "56",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1b2e81cf-50e0-47ba-b7f0-66a46ec13d0c"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-57",
+      "number": "57",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1d924a03-7cf4-4a5d-b6d3-220ac7f99ba4"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-58",
+      "number": "58",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7f65f48d-273d-442c-b36b-df3af433abed"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-59",
+      "number": "59",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8b8280d9-2e69-439b-a8a4-1b129f365c5a"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-60",
+      "number": "60",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3fc55314-83b9-4f50-96c6-95031184b937"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-61",
+      "number": "61",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "170beee8-df85-4682-b75b-97420a22bcbd"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-62",
+      "number": "62",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8f1ea71d-b7e7-4d26-990b-6e2d26ef39b3"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-63",
+      "number": "63",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b127b812-b4fb-4b33-ab18-c2742ee516d8"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-64",
+      "number": "64",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3f965a65-4b45-4bc7-b107-451790fb4406"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-65",
+      "number": "65",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7a8702c3-7880-45a4-ad56-9cb9fa3cd019"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-66",
+      "number": "66",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ea2eb0f1-184e-433e-8158-3274121ab6d6"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-67",
+      "number": "67",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b8166e46-f3a4-4432-8b27-79a44641e7d8"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-68",
+      "number": "68",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "176ae2e4-7c23-43fb-ab23-2de8cb7a9e04"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-69",
+      "number": "69",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "83c6c92b-5994-45d9-9d9f-10e38ca87ab8"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-70",
+      "number": "70",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "bc61a233-ba0a-4542-a946-0f79540c29e9"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-71",
+      "number": "71",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a0621120-c975-49cb-b951-b71c50959128"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-72",
+      "number": "72",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "23056276-a080-480c-bfea-fa5a963cdd77"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-73",
+      "number": "73",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "23e37c92-3a08-403c-993e-3aa27eb56929"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-74",
+      "number": "74",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "596c5df4-ceb0-4c40-afe3-75f31a774b0e"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-75",
+      "number": "75",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f9faa7a6-5c96-46ca-8b4e-e9b699afe308"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-76",
+      "number": "76",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ac4e9ce1-2680-42b7-8392-58cb758fa954"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-77",
+      "number": "77",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b040b840-9797-4b4f-9919-151668ed9b59"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-78",
+      "number": "78",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6d9e0aab-7d9e-4ac4-91cd-789fdb9789e1"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-79",
+      "number": "79",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "26f0ca6b-0910-4bdd-9a28-1c64138bb268"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-80",
+      "number": "80",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "cb09b53d-3dfb-40e0-af77-7fa310f4e4cf"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-81",
+      "number": "81",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "16f75fa3-3e66-4d15-bf4c-2a75c2223ea5"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-82",
+      "number": "82",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e4a795a5-ac09-485e-b99d-1b0cd61520d0"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-83",
+      "number": "83",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "da470986-85da-4abf-90e2-0bce71d7082e"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-84",
+      "number": "84",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e204a042-7680-44ee-b194-db90c7c80204"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-85",
+      "number": "85",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "65c85903-faa7-4304-a6e4-ea7767e371cc"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-86",
+      "number": "86",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "aea27e27-0bd5-4407-8a57-a64a6a7d3963"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-87",
+      "number": "87",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2c88c237-d273-4147-bb9b-6eb184306943"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-88",
+      "number": "88",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7e2f8304-7c59-4303-b9fe-c5325f0de4f6"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-89",
+      "number": "89",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a7231b7b-eddb-4214-9971-a0cea3a9b686"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-90",
+      "number": "90",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a8c6d2a8-3501-456d-a2c1-7b5d55907ac8"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-91",
+      "number": "91",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e3c4d02e-267f-4b95-9bcd-a40c46df16db"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-92",
+      "number": "92",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0df0f24e-b74d-4d02-bdb9-36892ce98015"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-93",
+      "number": "93",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8d544b01-52df-4cc7-beb2-9dc594682cf7"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-94",
+      "number": "94",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3fab8644-0a0f-4a6f-97d2-7c6c7e1c2aa0"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-95",
+      "number": "95",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "be138b49-fb34-404f-8006-3e0b3bcf2de6"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-96",
+      "number": "96",
+      "date": "28/11/2024",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fbfec146-8a19-4d26-adf9-caea63564a28"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-97",
+      "number": "97",
+      "date": "15/07/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "37422fae-3be4-4389-a3ac-17fe88e1e289"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-98",
+      "number": "98",
+      "date": "15/07/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d3453e64-1e51-4747-9366-05cd0d05ccbe"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-99",
+      "number": "99",
+      "date": "22/07/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7dba2652-373c-4424-910f-d57695d0daa0"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-100",
+      "number": "100",
+      "date": "29/07/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b4bc3dca-04f1-48d1-b5f6-b21920b72773"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-101",
+      "number": "101",
+      "date": "05/08/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e1eb340e-76e5-4225-bf93-abaa00ac9877"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-102",
+      "number": "102",
+      "date": "12/08/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1925046a-cbed-4a83-9c71-952881e012ea"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-103",
+      "number": "103",
+      "date": "19/08/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ce26e718-1e17-47ba-a1b4-cd53e8ebc1d7"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-104",
+      "number": "104",
+      "date": "27/08/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c7a986f8-2432-4799-9c80-b858f4235675"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-105",
+      "number": "105",
+      "date": "02/09/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2164df15-380c-46c3-852e-4956a7e6fd2a"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-106",
+      "number": "106",
+      "date": "09/09/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fb0acda4-0a05-46c8-a8e7-0fe4e560d314"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-107",
+      "number": "107",
+      "date": "16/09/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ae802a65-6300-4bc6-b5a8-beb41e450723"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-108",
+      "number": "108",
+      "date": "23/09/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "cc14d2fe-d375-423f-99a3-c538120f298c"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-109",
+      "number": "109",
+      "date": "01/10/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7946ab71-b27a-4fa3-893e-e23cdf93ad3f"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-110",
+      "number": "110",
+      "date": "07/10/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "dbda7883-a04e-46bc-aa45-afebe133173f"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-111",
+      "number": "111",
+      "date": "14/10/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0a6bc311-5fd6-4141-aa90-56cd63744b10"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-112",
+      "number": "112",
+      "date": "21/10/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ede9614b-3d9c-4dd4-9956-39100ba3421c"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-113",
+      "number": "113",
+      "date": "28/10/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0ed19264-d325-42d3-82bc-9b428ad9bb63"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-114",
+      "number": "114",
+      "date": "04/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9ec98cc8-1b5b-4d15-bb63-2b2e36347e1c"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-115",
+      "number": "115",
+      "date": "12/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1be15424-3aee-4bf7-96a6-1420e21f45da"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-116",
+      "number": "116",
+      "date": "19/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "453948e1-151e-48a8-aab1-57cddc0e2bcf"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-117",
+      "number": "117",
+      "date": "25/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b8f9dba3-00a8-4089-87d4-9992756f3ee7"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-118",
+      "number": "118",
+      "date": "02/12/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d6ec8656-5457-4eec-8f52-856463ef120f"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-119",
+      "number": "119",
+      "date": "09/12/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d10738fd-473a-42e5-abb4-05295f265f28"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-120",
+      "number": "120",
+      "date": "16/12/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6b3c6504-b797-401b-b2b3-004a5f010f57"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-121",
+      "number": "121",
+      "date": "24/12/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ec4bc97a-8759-4766-893f-720df084012b"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-122",
+      "number": "122",
+      "date": "30/12/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "54fcbb4d-3b85-4ae2-9e1e-05750167a7f8"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-123",
+      "number": "123",
+      "date": "06/01/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4775ad73-ae67-4b3e-8a6f-83fef84b0290"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-124",
+      "number": "124",
+      "date": "13/01/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "975b7d2c-2897-48fd-b14b-ac31b711e320"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-125",
+      "number": "125",
+      "date": "20/01/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "741bbc3f-b1dc-4352-b830-7d49920c47c5"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-126",
+      "number": "126",
+      "date": "27/01/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b89a2bf3-d031-49cd-bcc1-2b8c0b9cbe92"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-127",
+      "number": "127",
+      "date": "03/02/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0585ab36-0253-4a20-8dea-1f17b7a7c0a7"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-128",
+      "number": "128",
+      "date": "10/02/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b77e6c14-333b-45eb-a218-51ecd0ef7830"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-129",
+      "number": "129",
+      "date": "10/02/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "96539745-01c4-4691-974c-41ec1c94943f"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-130",
+      "number": "130",
+      "date": "17/02/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d7dbc049-0315-4c60-abad-98da9f9587b9"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-131",
+      "number": "131",
+      "date": "24/02/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "59c77fdd-bd30-4571-afc2-240ada18f67e"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-132",
+      "number": "132",
+      "date": "03/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "939cc2d4-39c1-467a-b1e2-f0da4fa72b69"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-133",
+      "number": "133",
+      "date": "10/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7edad71d-4c9e-43ac-a962-b327eef777c4"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-134",
+      "number": "134",
+      "date": "17/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5bf73a79-cb8d-45fd-beec-5ca8228dc14e"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-135",
+      "number": "135",
+      "date": "24/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "22b97719-7d2e-418c-a875-b5f216165ef0"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-136",
+      "number": "136",
+      "date": "31/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0cf7d8d7-f860-4971-b89a-53bc03c6d12d"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-137",
+      "number": "137",
+      "date": "07/04/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7e62d9bb-13f7-43dd-bf7f-45c2f923d2d0"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-138",
+      "number": "138",
+      "date": "14/04/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d230b3d1-6bd8-45bf-8c27-27013e7da03e"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-139",
+      "number": "139",
+      "date": "21/04/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7598ddc6-b831-43ae-ba1d-e9ef0648cfb9"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-140",
+      "number": "140",
+      "date": "28/04/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4ee671fd-5661-4c90-9bbf-d308d085b225"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-141",
+      "number": "141",
+      "date": "05/05/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7bb16f5a-cabb-4ced-bf30-4b6f45505058"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-142",
+      "number": "142",
+      "date": "12/05/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2e726219-1ccb-4091-8e2f-a813a2a69b59"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-143",
+      "number": "143",
+      "date": "19/05/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a35d1e82-819f-47af-be76-d96eac45707c"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-144",
+      "number": "144",
+      "date": "26/05/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5dc3894b-8046-4122-8f97-76236d23aefe"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-145",
+      "number": "145",
+      "date": "02/06/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "cca2475d-8b17-4e01-81eb-887dc6cf5b59"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-146",
+      "number": "146",
+      "date": "09/06/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "eac47a1b-c4c3-4580-8920-29783becdada"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-147",
+      "number": "147",
+      "date": "16/06/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d4969f1d-51eb-4949-b014-86ae7691e648"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-148",
+      "number": "148",
+      "date": "23/06/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6ec3c4fc-8836-4a20-bfe5-c9b03ce7467b"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-149",
+      "number": "149",
+      "date": "17/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f7728f6b-b1b3-4daa-af6e-31d5b2851c4b"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-150",
+      "number": "150",
+      "date": "17/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b09643b9-a677-48ca-a133-9c3613824e69"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-151",
+      "number": "151",
+      "date": "17/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "af47757b-1dff-4451-be12-37381fdd8634"
+    },
+    {
+      "slug": "talent-swallowing-magician-chapter-152",
+      "number": "152",
+      "date": "24/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f6d0f66e-65b3-4bb5-a189-e3cdc2a2653d"
+    }
+  ]
+}
