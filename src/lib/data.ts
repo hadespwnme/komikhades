@@ -44,8 +44,34 @@ export async function getChapterPages(
     return chapter.pages;
   }
 
-  // Use source field to determine which CDN to fetch from
   const source = (comic as Comic & { source?: string }).source ?? "komiku";
+
+  // Shinigami: fetch from API using stored chapter_id
+  if (source === "shinigami") {
+    const shinId = (chapter as Record<string, unknown>)["shinigami_chapter_id"] as string | undefined;
+    if (shinId) {
+      try {
+        const res = await fetch(`https://api.shinigami.io/v1/chapter/detail/${shinId}`, {
+          headers: {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+            "Origin": "https://s1.shinigami.mx",
+            "Referer": "https://s1.shinigami.mx/",
+          },
+          cache: "no-store",
+        });
+        if (res.ok) {
+          const data = await res.json();
+          const baseUrl: string = data?.data?.base_url ?? "https://cdn.shinigami.gg";
+          const ch = data?.data?.chapter ?? {};
+          const path: string = ch.path ?? "";
+          const files: string[] = ch.data ?? [];
+          if (files.length > 0) return files.map((f: string) => `${baseUrl}${path}${f}`);
+        }
+      } catch { /* ignore */ }
+    }
+    return [];
+  }
+
   return fetchChapterPagesLive(chapterSlug, source);
 }
 
@@ -78,35 +104,6 @@ async function fetchChapterPagesLive(chapterSlug: string, source = "komiku"): Pr
           }
         } catch { /* ignore */ }
       }
-    }
-    return [];
-  }
-
-  // If source is shinigami, fetch from shinigami API
-  if (source === "shinigami") {
-    // Find shinigami_chapter_id stored in the chapter data
-    const comic = await getComic(comicSlug);
-    const ch = comic?.chapters.find((c) => c.slug === chapterSlug) as Record<string, unknown> | undefined;
-    const shinId = ch?.["shinigami_chapter_id"] as string | undefined;
-    if (shinId) {
-      try {
-        const res = await fetch(`https://api.shinigami.io/v1/chapter/detail/${shinId}`, {
-          headers: {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-            "Origin": "https://s1.shinigami.mx",
-            "Referer": "https://s1.shinigami.mx/",
-          },
-          cache: "no-store",
-        });
-        if (res.ok) {
-          const data = await res.json();
-          const baseUrl: string = data?.data?.base_url ?? "https://cdn.shinigami.gg";
-          const chapter = data?.data?.chapter ?? {};
-          const path: string = chapter.path ?? "";
-          const files: string[] = chapter.data ?? [];
-          if (files.length > 0) return files.map((f: string) => `${baseUrl}${path}${f}`);
-        }
-      } catch { /* ignore */ }
     }
     return [];
   }
