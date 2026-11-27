@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, useCallback } from "react";
+import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 
 interface Props {
@@ -34,7 +35,10 @@ export default function FloatingDock({
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(2);
   const [searchVal, setSearchVal] = useState("");
+  const [mounted, setMounted] = useState(false);
   const rafRef = useRef<number | null>(null);
+
+  useEffect(() => setMounted(true), []);
 
   // ── Auto-scroll ──────────────────────────────────────────────────────────
   const autoScroll = useCallback(() => {
@@ -94,7 +98,9 @@ export default function FloatingDock({
 
   const speedLabels: Record<number, string> = { 1: "Lambat", 2: "Sedang", 3: "Cepat", 5: "Sangat Cepat" };
 
-  return (
+  if (!mounted) return null;
+
+  return createPortal(
     <>
       {/* ── Top floating bar ───────────────────────────────────────────── */}
       <div
@@ -142,7 +148,7 @@ export default function FloatingDock({
       </div>
 
       {/* ── Bottom dock container ──────────────────────────────────────── */}
-      <div data-dock className="fixed bottom-6 md:bottom-8 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center gap-2 md:gap-3"
+      <div data-dock className="fixed bottom-[max(1.5rem,env(safe-area-inset-bottom))] md:bottom-[max(2rem,env(safe-area-inset-bottom))] left-1/2 -translate-x-1/2 z-50 flex w-max max-w-[calc(100vw-1rem)] flex-col items-center gap-2 md:gap-3"
         style={{ fontFamily: "'Poppins', sans-serif" }}>
       {/* ── Pop-up panels ──────────────────────────────────────────────── */}
       {visible && activePanel === "search" && (
@@ -365,7 +371,8 @@ export default function FloatingDock({
           </svg>
         </button>
       </div>
-    </>
+    </>,
+    document.body
   );
 }
 
