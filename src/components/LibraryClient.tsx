@@ -37,7 +37,7 @@ export default function LibraryClient({ bookmarks, readlist, history }: Props) {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8" style={{ fontFamily: "'Poppins', sans-serif" }}>
+    <div className="max-w-4xl mx-auto px-4 md:px-6 lg:px-4 py-8 md:py-10" style={{ fontFamily: "'Poppins', sans-serif" }}>
       {/* Header */}
       <div className="mb-6">
         <h1 className="text-2xl text-text" style={{ fontFamily: "'Righteous', sans-serif" }}>
@@ -47,7 +47,7 @@ export default function LibraryClient({ bookmarks, readlist, history }: Props) {
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-1 p-1 bg-surface rounded-xl mb-6 w-fit">
+      <div className="flex flex-wrap gap-1 p-1 bg-surface rounded-xl mb-6 w-fit">
         {tabs.map((t) => (
           <button
             key={t.key}
@@ -107,7 +107,7 @@ function ComicList({
 }) {
   if (items.length === 0) return <EmptyState text={emptyText} hint={emptyHint} />;
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 md:gap-4">
       {items.map((item) => (
         <div key={item.comic_slug} className="relative group">
           <Link href={`/comic/${item.comic_slug}`}

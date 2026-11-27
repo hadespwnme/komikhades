@@ -51,7 +51,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-bg/80 backdrop-blur-md">
-      <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between gap-4">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-4 h-14 flex items-center justify-between gap-3 md:gap-5">
         {/* Logo + Search */}
         <div className="flex items-center gap-4 flex-1 min-w-0">
           <Link href="/" className="flex-shrink-0">
@@ -64,7 +64,7 @@ export default function Navbar() {
           </Link>
 
           {/* Search bar */}
-          <form onSubmit={handleSearch} className="flex-1 max-w-xs sm:max-w-md relative">
+          <form onSubmit={handleSearch} className="flex-1 max-w-xs sm:max-w-md md:max-w-lg relative">
             <input
               type="text"
               placeholder="Cari komik..."
@@ -82,11 +82,11 @@ export default function Navbar() {
         </div>
 
         {/* Right side */}
-        <div className="flex items-center gap-2 flex-shrink-0">
+        <div className="flex items-center gap-2 md:gap-3 flex-shrink-0">
           {user && (
             <Link
               href="/library"
-              className={`px-3 py-1.5 rounded-lg text-sm transition-all duration-150 ${
+              className={`min-h-11 px-3 py-1.5 rounded-lg text-sm transition-all duration-150 ${
                 pathname === "/library"
                   ? "text-accent bg-accent/10"
                   : "text-muted hover:text-text hover:bg-surface2"
@@ -103,7 +103,7 @@ export default function Navbar() {
             <div className="relative">
               <button
                 onClick={() => setMenuOpen((v) => !v)}
-                className="w-8 h-8 rounded-full overflow-hidden border-2 border-border hover:border-accent transition-colors focus:outline-none"
+                className="w-11 h-11 p-1 rounded-full overflow-hidden border-2 border-border hover:border-accent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent"
                 aria-label="Akun"
               >
                 {avatar ? (
@@ -145,7 +145,7 @@ export default function Navbar() {
           ) : (
             <button
               onClick={() => router.push("/login")}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg btn-gold text-sm"
+              className="min-h-11 flex items-center gap-1.5 px-3 py-1.5 rounded-lg btn-gold text-sm"
               style={{ fontFamily: "'Poppins', sans-serif" }}
             >
               <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">

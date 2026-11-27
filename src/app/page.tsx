@@ -27,14 +27,14 @@ export default async function HomePage() {
         <div className="absolute top-0 left-1/4 w-96 h-96 rounded-full bg-accent/5 blur-3xl pointer-events-none" />
         <div className="absolute top-0 right-1/4 w-64 h-64 rounded-full bg-accent/3 blur-3xl pointer-events-none" />
 
-        <div className="relative max-w-6xl mx-auto px-4 py-10">
+        <div className="relative max-w-6xl mx-auto px-4 md:px-6 lg:px-4 py-10 md:py-12">
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3">
             <div>
               <p className="text-xs text-accent font-semibold uppercase tracking-widest mb-2">
                 Koleksi Komik
               </p>
               <h1
-                className="text-3xl sm:text-4xl text-text"
+                className="text-3xl sm:text-4xl md:text-5xl text-text"
                 style={{ fontFamily: "'Righteous', sans-serif" }}
               >
                 Baca Komik
@@ -48,7 +48,7 @@ export default async function HomePage() {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 py-8">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-4 py-8 md:py-10">
         {/* Popular Today / Rankings */}
         <PopularToday rankings={rankings} />
 

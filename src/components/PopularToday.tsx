@@ -107,7 +107,7 @@ export default function PopularToday({ rankings }: Props) {
           <Link
             key={`${item.slug}-${idx}`}
             href={`/comic/${item.slug}`}
-            className="group flex-shrink-0 w-28 sm:w-32"
+          className="group flex-shrink-0 w-28 sm:w-32 md:w-36 lg:w-32"
           >
             <div className="relative aspect-[2/3] rounded-xl overflow-hidden bg-surface2 card-hover">
               {/* eslint-disable-next-line @next/next/no-img-element */}

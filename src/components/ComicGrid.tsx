@@ -61,9 +61,9 @@ export default function ComicGrid({ comics }: Props) {
   ];
 
   return (
-    <div style={{ fontFamily: "'Poppins', sans-serif" }}>
+    <div className="w-full" style={{ fontFamily: "'Poppins', sans-serif" }}>
       {/* Tab filter */}
-      <div className="flex gap-1 p-1 bg-surface rounded-xl mb-6 w-fit">
+      <div className="flex flex-wrap gap-1 p-1 bg-surface rounded-xl mb-6 w-fit">
         {tabs.map((t) => (
           <button
             key={t.key}
@@ -96,7 +96,7 @@ export default function ComicGrid({ comics }: Props) {
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-5 lg:gap-4">
           {paginated.map((comic) => (
             <ComicCard
               key={comic.slug}

@@ -100,7 +100,7 @@ export default function FloatingDock({
       <div
         data-dock
         onClick={stopProp}
-        className={`fixed top-3 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 bg-surface/95 backdrop-blur-md border border-border rounded-full px-2 py-1.5 shadow-2xl transition-all duration-300 w-[90vw] max-w-sm ${
+        className={`fixed top-3 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 md:gap-3 bg-surface/95 backdrop-blur-md border border-border rounded-full px-2 py-1.5 shadow-2xl transition-all duration-300 w-[90vw] max-w-sm md:max-w-lg ${
           visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"
         }`}
       >
@@ -142,7 +142,7 @@ export default function FloatingDock({
       </div>
 
       {/* ── Bottom dock container ──────────────────────────────────────── */}
-      <div data-dock className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center gap-2"
+      <div data-dock className="fixed bottom-6 md:bottom-8 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center gap-2 md:gap-3"
         style={{ fontFamily: "'Poppins', sans-serif" }}>
       {/* ── Pop-up panels ──────────────────────────────────────────────── */}
       {visible && activePanel === "search" && (
@@ -340,7 +340,7 @@ export default function FloatingDock({
       {/* ── Scroll buttons — fixed right side ─────────────────────────── */}
       <div
         data-dock
-        className={`fixed right-4 bottom-24 z-50 flex flex-col gap-2 transition-all duration-300 ${
+        className={`fixed right-4 md:right-6 bottom-24 md:bottom-28 z-50 flex flex-col gap-2 transition-all duration-300 ${
           visible ? "opacity-100 translate-x-0 pointer-events-auto" : "opacity-0 translate-x-4 pointer-events-none"
         }`}
       >
@@ -395,7 +395,7 @@ function DockBtn({
       title={label}
       aria-label={label}
       className={`rounded-full flex items-center justify-center transition-all duration-150 active:scale-90 shadow-lg backdrop-blur-md border ${
-        large ? "w-14 h-14" : "w-12 h-12"
+          large ? "w-14 h-14 md:w-16 md:h-16" : "w-12 h-12 md:w-14 md:h-14"
       } ${
         disabled
           ? "cursor-not-allowed bg-surface/80 border-border"

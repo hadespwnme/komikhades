@@ -58,7 +58,7 @@ export default async function ComicPage({ params }: Props) {
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-bg/60 via-bg/80 to-bg" />
 
-        <div className="relative max-w-4xl mx-auto px-4 py-8">
+        <div className="relative max-w-4xl mx-auto px-4 md:px-6 lg:px-4 py-8 md:py-10">
           {/* Breadcrumb */}
           <div className="flex items-center gap-2 text-xs text-muted mb-6"
             style={{ fontFamily: "'Poppins', sans-serif" }}>
@@ -67,9 +67,9 @@ export default async function ComicPage({ params }: Props) {
             <span className="text-text">{comic.title}</span>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-5 sm:gap-7">
+          <div className="flex flex-col md:flex-row gap-5 md:gap-8">
             {/* Cover */}
-            <div className="relative w-36 sm:w-40 flex-shrink-0 rounded-2xl overflow-hidden aspect-[2/3] shadow-2xl ring-1 ring-white/10 mx-auto sm:mx-0">
+            <div className="relative w-36 sm:w-40 md:w-44 flex-shrink-0 rounded-2xl overflow-hidden aspect-[2/3] shadow-2xl ring-1 ring-white/10 mx-auto md:mx-0">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={comic.thumbnail}
@@ -84,7 +84,7 @@ export default async function ComicPage({ params }: Props) {
             <div className="flex flex-col gap-3 flex-1 min-w-0 w-full">
               <div>
                 <h1
-                  className="text-2xl sm:text-3xl text-text leading-tight"
+                  className="text-2xl sm:text-3xl md:text-4xl text-text leading-tight"
                   style={{ fontFamily: "'Righteous', sans-serif" }}
                 >
                   {comic.title}
@@ -138,7 +138,7 @@ export default async function ComicPage({ params }: Props) {
                 )}
                 {latestChapter && (
                   <Link href={`/comic/${slug}/${latestChapter.slug}`}
-                    className="flex-1 sm:flex-none text-center px-4 py-2 rounded-xl bg-surface2 border border-border text-sm text-muted hover:text-text hover:border-accent/40 transition-all"
+                    className="min-h-11 flex-1 md:flex-none text-center px-4 py-2 rounded-xl bg-surface2 border border-border text-sm text-muted hover:text-text hover:border-accent/40 transition-all"
                     style={{ fontFamily: "'Poppins', sans-serif" }}>
                     Ch. Terbaru
                   </Link>
@@ -156,7 +156,7 @@ export default async function ComicPage({ params }: Props) {
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto px-4 py-8 space-y-8">
+      <div className="max-w-4xl mx-auto px-4 md:px-6 lg:px-4 py-8 md:py-10 space-y-8">
         {/* Synopsis */}
         {comic.synopsis && (
           <div className="bg-surface rounded-2xl p-5 border border-border">

@@ -27,7 +27,7 @@ export default function SearchClient({ comics, initialQuery }: Props) {
   }, [comics, query]);
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8" style={{ fontFamily: "'Poppins', sans-serif" }}>
+    <div className="max-w-6xl mx-auto px-4 md:px-6 lg:px-4 py-8 md:py-10" style={{ fontFamily: "'Poppins', sans-serif" }}>
       <h1 className="text-2xl text-text mb-6" style={{ fontFamily: "'Righteous', sans-serif" }}>
         {query ? `Hasil: "${query}"` : "Cari Komik"}
       </h1>
@@ -61,7 +61,7 @@ export default function SearchClient({ comics, initialQuery }: Props) {
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-5 lg:gap-4">
           {filtered.map((comic) => (
             <ComicCard
               key={comic.slug}
