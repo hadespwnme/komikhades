@@ -98,10 +98,14 @@ export default function PopularToday({ rankings }: Props) {
         ref={scrollRef}
         className="flex gap-3 overflow-x-auto pb-3 -mx-4 px-4"
         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
-        onMouseEnter={() => setPaused(true)}
-        onMouseLeave={() => setPaused(false)}
-        onTouchStart={() => setPaused(true)}
-        onTouchEnd={() => setTimeout(() => setPaused(false), 2000)}
+        onPointerEnter={(event) => {
+          if (event.pointerType === "mouse") setPaused(true);
+        }}
+        onPointerLeave={(event) => {
+          if (event.pointerType === "mouse") setPaused(false);
+        }}
+        onPointerDown={() => setPaused(true)}
+        onPointerUp={() => setPaused(false)}
       >
         {[...items, ...items].map((item, idx) => (
           <Link
