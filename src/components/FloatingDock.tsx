@@ -11,6 +11,8 @@ interface Props {
   nextChapterSlug?: string;
   /** chapter slugs list sorted ascending for search navigation */
   allChapters: { slug: string; number: string }[];
+  infinityOn: boolean;
+  onInfinityChange: (enabled: boolean) => void;
 }
 
 type Panel = "none" | "search" | "settings";
@@ -22,6 +24,8 @@ export default function FloatingDock({
   prevChapterSlug,
   nextChapterSlug,
   allChapters,
+  infinityOn,
+  onInfinityChange,
 }: Props) {
   const router = useRouter();
 
@@ -30,20 +34,9 @@ export default function FloatingDock({
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(2);
   const [searchVal, setSearchVal] = useState("");
-  // Infinity chapter
-  const [infinityOn, setInfinityOn] = useState(false);
-  const [infinityDelay, setInfinityDelay] = useState<"instant" | 3 | 5>("instant");
-  const infinityTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-
   const rafRef = useRef<number | null>(null);
 
   // ── Auto-scroll ──────────────────────────────────────────────────────────
-  const goNextChapter = useCallback(() => {
-    if (nextChapterSlug) {
-      router.push(`/comic/${comicSlug}/${nextChapterSlug}`);
-    }
-  }, [router, comicSlug, nextChapterSlug]);
-
   const autoScroll = useCallback(() => {
     window.scrollBy({ top: speed, behavior: "instant" });
 
@@ -53,67 +46,21 @@ export default function FloatingDock({
 
     if (atBottom) {
       setPlaying(false);
-      // Infinity chapter handled by scroll listener below
       return;
     }
     rafRef.current = requestAnimationFrame(autoScroll);
-  }, [speed, infinityOn, infinityDelay, nextChapterSlug, goNextChapter]);
+  }, [speed]);
 
   useEffect(() => {
     if (playing) {
       rafRef.current = requestAnimationFrame(autoScroll);
     } else {
       if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      if (infinityTimer.current) clearTimeout(infinityTimer.current);
     }
     return () => {
       if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      if (infinityTimer.current) clearTimeout(infinityTimer.current);
     };
   }, [playing, autoScroll]);
-
-  // ── Infinity chapter on manual scroll ───────────────────────────────────
-  useEffect(() => {
-    if (!infinityOn || !nextChapterSlug) return;
-
-    let triggered = false;
-
-    const handleScroll = () => {
-      const atBottom =
-        window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 80;
-
-      if (atBottom && !triggered) {
-        triggered = true;
-        if (infinityDelay === "instant") {
-          router.push(`/comic/${comicSlug}/${nextChapterSlug}`);
-        } else {
-          infinityTimer.current = setTimeout(() => {
-            router.push(`/comic/${comicSlug}/${nextChapterSlug}`);
-          }, infinityDelay * 1000);
-        }
-      }
-
-      if (!atBottom && triggered) {
-        triggered = false;
-        if (infinityTimer.current) {
-          clearTimeout(infinityTimer.current);
-          infinityTimer.current = null;
-        }
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    // Also check immediately in case page is already at bottom
-    handleScroll();
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      if (infinityTimer.current) {
-        clearTimeout(infinityTimer.current);
-        infinityTimer.current = null;
-      }
-    };
-  }, [infinityOn, infinityDelay, nextChapterSlug, comicSlug, router]);
 
   // ── Tap-to-toggle dock ───────────────────────────────────────────────────
   useEffect(() => {
@@ -285,7 +232,7 @@ export default function FloatingDock({
               {/* Toggle */}
               <button
                 data-dock
-                onClick={(e) => { e.stopPropagation(); setInfinityOn(v => !v); }}
+                onClick={(e) => { e.stopPropagation(); onInfinityChange(!infinityOn); }}
                 className="relative w-11 h-6 rounded-full transition-all duration-300 flex-shrink-0"
                 style={infinityOn ? {
                   background: "linear-gradient(135deg, #f97316, #f5c518)",
@@ -299,38 +246,6 @@ export default function FloatingDock({
               </button>
             </div>
 
-            {/* Delay options — only shown when infinity is on */}
-            {infinityOn && (
-              <div className="space-y-1">
-                <p className="text-[10px] text-muted uppercase tracking-wide mb-2">Jeda antar chapter</p>
-                {(["instant", 5, 3] as const).map((d) => (
-                  <button
-                    key={String(d)}
-                    data-dock
-                    onClick={(e) => { e.stopPropagation(); setInfinityDelay(d); }}
-                    className="w-full flex items-center justify-between px-3 py-2 rounded-xl text-sm transition-all border"
-                    style={infinityDelay === d ? {
-                      background: "linear-gradient(135deg, rgba(249,115,22,0.15), rgba(245,197,24,0.1))",
-                      borderColor: "#f5c518",
-                      color: "#f5c518",
-                    } : {
-                      background: "transparent",
-                      borderColor: "rgba(255,255,255,0.08)",
-                      color: "#8a8f98"
-                    }}
-                  >
-                    <span className="font-medium">
-                      {d === "instant" ? "⚡ Instan" : d === 5 ? "⏱ 5 detik" : "⏳ 3 detik"}
-                    </span>
-                    {infinityDelay === d && (
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                    )}
-                  </button>
-                ))}
-              </div>
-            )}
           </div>
         </div>
       )}
