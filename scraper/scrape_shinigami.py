@@ -157,8 +157,8 @@ def scrape_manga(manga_id: str, with_pages=False) -> Comic:
     taxonomy = manga.get("taxonomy", {})
     genres = [g["name"] for g in taxonomy.get("Genre", [])]
     authors = [a["name"] for a in taxonomy.get("Author", [])]
-    types = [t["name"] for t in taxonomy.get("Type", [])]
-    comic_type = types[0] if types else "Manga"
+    formats = [f["name"] for f in taxonomy.get("Format", [])]
+    comic_type = formats[0] if formats else "Manga"
 
     synopsis = manga.get("description", "")
     alt_title = manga.get("alternative_title", "")
