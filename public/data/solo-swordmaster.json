@@ -1,0 +1,272 @@
+{
+  "slug": "solo-swordmaster",
+  "title": "Solo Swordmaster",
+  "thumbnail": "https://cdn.shinigami.gg/assets/cover/banner_1790797318688_xcrzym.jpg",
+  "alt_title": "나 혼자 소드 마스터 | I'm the Only Sword Master | Solo Sword Master | The Lone Sword Master",
+  "type": "Project",
+  "genres": [
+    "Action",
+    "Fantasy",
+    "Drama",
+    "Supernatural"
+  ],
+  "author": "Yang Min-seok, Mu Yeongja, Kwak Do-Woo",
+  "status": 1,
+  "synopsis": "Di era saat semua orang mengandalkan kekuatan Konstelasi, hanya satu pria yang memercayai pedangnya.  Seorang pria yang mencapai puncak hanya dengan pedang di dunia diman skill menentukan kekuatan.  Sang Swordmaster terakhir, Rimon Asphelder.  Meski dunia telah melupakannya, perjalanan pedangnya masih jauh dari kata usai.  “Skill? Aku tidak membutuhkannya. Pedangku saja sudah cukup.”",
+  "source": "shinigami",
+  "shinigami_manga_id": "8d36d3f0-b356-45c3-a78a-695fbbde92db",
+  "chapters": [
+    {
+      "slug": "solo-swordmaster-chapter-1",
+      "number": "1",
+      "date": "30/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "cf7ee108-caba-4485-9502-ec79a5d76f08"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-2",
+      "number": "2",
+      "date": "30/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "18bbb881-c5c3-424f-b6ec-d98e5a6e92d1"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-3",
+      "number": "3",
+      "date": "30/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ed4448fa-2241-4772-9f2e-6f9d901b2ba6"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-4",
+      "number": "4",
+      "date": "30/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7bbe64bd-f1b9-4016-85bf-1d78efcf1a3b"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-5",
+      "number": "5",
+      "date": "30/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2ef524e6-2619-4344-a170-2c2c3df4858c"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-6",
+      "number": "6",
+      "date": "30/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e8a0bf7b-5cfe-4603-843c-3650c113e090"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-7",
+      "number": "7",
+      "date": "30/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8cb27eda-e5c3-4080-9a14-536e19c80eb5"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-8",
+      "number": "8",
+      "date": "30/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d30094f6-d535-42aa-ae02-6fa68c353ca4"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-9",
+      "number": "9",
+      "date": "30/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c656d9a5-275b-4248-9b5c-e9d500261f54"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-10",
+      "number": "10",
+      "date": "01/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e819f411-f28b-45d0-8e7d-dd3e9d81189a"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-11",
+      "number": "11",
+      "date": "01/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "01e9374e-8796-4023-b86d-1bafe843c9d7"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-12",
+      "number": "12",
+      "date": "01/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c96947f0-34c2-40fa-a49f-7ade22047db6"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-13",
+      "number": "13",
+      "date": "01/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "759d9c2c-ed66-4c9b-b300-0a114a98c18d"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-14",
+      "number": "14",
+      "date": "01/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "bd2b426b-b4bf-4513-b112-9120710c947c"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-15",
+      "number": "15",
+      "date": "01/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "304c43cd-55f4-41f2-b298-f7421a27dc49"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-16",
+      "number": "16",
+      "date": "01/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "bcd68d8f-888e-4f21-93f4-5c69c9924b24"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-17",
+      "number": "17",
+      "date": "01/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c26f60ff-5039-4a75-a580-16d2bd0cbb60"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-18",
+      "number": "18",
+      "date": "01/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "490b156e-30ad-40bf-a5c8-7d3467ed4c76"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-19",
+      "number": "19",
+      "date": "01/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "02ccc47d-52c9-41c4-978f-6fdefb434d59"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-20",
+      "number": "20",
+      "date": "01/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "88d2aa43-54db-4f02-a19b-6134878ebcb1"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-21",
+      "number": "21",
+      "date": "06/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c8c97998-ecce-4661-8063-4ecc146066a0"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-22",
+      "number": "22",
+      "date": "13/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c152e35e-0a76-48f1-bcaa-7272478f01c0"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-23",
+      "number": "23",
+      "date": "20/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "14e1ce46-dcd6-4395-9610-f7cc04a96772"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-24",
+      "number": "24",
+      "date": "27/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "29331735-f2e0-40f5-94f1-4619502d1d84"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-25",
+      "number": "25",
+      "date": "03/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e6ba16a6-202d-41ae-b552-0301c59d9a87"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-26",
+      "number": "26",
+      "date": "10/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "bd4a76a8-ac9f-4d70-a07a-52ce0eb18857"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-27",
+      "number": "27",
+      "date": "18/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "013814ee-a4d7-414d-8261-d218e5abd8fe"
+    },
+    {
+      "slug": "solo-swordmaster-chapter-28",
+      "number": "28",
+      "date": "25/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "871e594d-7b47-431e-a564-4046f6e2e2b0"
+    }
+  ]
+}

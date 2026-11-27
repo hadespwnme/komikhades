@@ -1,0 +1,525 @@
+{
+  "slug": "i-start-with-13-hidden-traits",
+  "title": "I Start With 13 Hidden Traits",
+  "thumbnail": "https://cdn.shinigami.gg/assets/image/016c54be-82d5-42a5-a4e0-f14f8c67e21b.jpg",
+  "alt_title": "히든 특성 13개 들고 시작한다 | Hidden Teukseong 13-gae Deulgo Sijakhanda | Começando com 13 Traços Oculto | Start With 13 Hidden Traits | Starting With 13 Hidden Traits | เริ่มเกมพร้อม 13 คุณสมบัติลับ | 开局自带13个隐藏特性 | 開局13項隱藏特性 | 隠し特性13個持ちの俺、今から消失寸前の世界を救済します | The Player with 13 Hidden Traits",
+  "type": "Project",
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Drama",
+    "Isekai"
+  ],
+  "author": "Final Inspection, Junyoung",
+  "status": 1,
+  "synopsis": "Dunia di mana permainan dan kenyataan menyatu.  Kisah seorang pria yang awalnya memiliki 13 sifat tersembunyi.",
+  "source": "shinigami",
+  "shinigami_manga_id": "15495a79-526d-4349-b23d-ba2fa866a6bd",
+  "chapters": [
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-1",
+      "number": "1",
+      "date": "20/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6db15ba8-509c-4534-ac60-92793c57b1f6"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-2",
+      "number": "2",
+      "date": "21/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "35df6c19-0fe6-4266-b1f2-1718d4b09beb"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-3",
+      "number": "3",
+      "date": "21/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "297c2435-19a5-4da7-b4e0-162320d2c047"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-4",
+      "number": "4",
+      "date": "21/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "881a0e46-2928-43d4-9040-86f2a978ffc0"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-5",
+      "number": "5",
+      "date": "21/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "82e11bd2-5354-41c7-b492-4bca81a49e50"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-6",
+      "number": "6",
+      "date": "21/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d5df1956-a6bb-42a6-9ce7-49f4bb7e950f"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-7",
+      "number": "7",
+      "date": "29/11/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fcecdf0a-04d4-40bf-a542-fe43ea1cfae5"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-8",
+      "number": "8",
+      "date": "05/12/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4973e1f9-38b7-4b1e-871d-616d3111ab38"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-9",
+      "number": "9",
+      "date": "13/12/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "315366eb-3201-40e7-a41a-0116588fb83e"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-10",
+      "number": "10",
+      "date": "19/12/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fa8ca278-a9fc-4662-b6e2-ea266bac9c47"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-11",
+      "number": "11",
+      "date": "26/12/2025",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ce7092a0-b04e-4d7b-9ec5-4322397b4b56"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-12",
+      "number": "12",
+      "date": "04/01/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "2c7b68ab-5862-47d4-93e6-a0aa9a85a792"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-13",
+      "number": "13",
+      "date": "11/01/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3c40b468-ca95-4a7c-be31-b132ce1d11a8"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-14",
+      "number": "14",
+      "date": "20/01/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d6a6e896-eb94-4b77-9835-94734561066f"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-15",
+      "number": "15",
+      "date": "29/01/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8ab5f892-2ca7-46d5-b8b8-89bf62987679"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-16",
+      "number": "16",
+      "date": "31/01/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "1656f870-fc77-4e0a-be88-4388a8f22fc6"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-17",
+      "number": "17",
+      "date": "10/02/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8a0b2dd2-79ec-49f3-b98d-195b83f8855f"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-18",
+      "number": "18",
+      "date": "17/02/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "f3cccd39-e463-4916-a72d-2e2930ab6ca1"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-19",
+      "number": "19",
+      "date": "23/02/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e74d38dd-5e00-4641-9b7a-3efe1b9e20eb"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-20",
+      "number": "20",
+      "date": "05/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "5965fb2a-5626-41f8-9e42-de7b08574f00"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-21",
+      "number": "21",
+      "date": "08/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "dcc8a6fb-f2c3-4d63-acce-ff0e174c5ecd"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-22",
+      "number": "22",
+      "date": "14/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "b3932323-9922-4f5a-b8d8-d959027496af"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-23",
+      "number": "23",
+      "date": "29/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "09465721-0083-4e46-ab80-2d64a9d6b94d"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-24",
+      "number": "24",
+      "date": "30/03/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "6dde40f2-b3ab-43be-a0a0-29fee3a2626d"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-25",
+      "number": "25",
+      "date": "05/04/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "94312363-c1c5-4dd1-80cc-df3d7733ce7f"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-26",
+      "number": "26",
+      "date": "11/04/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "bf41c4a6-cb52-415f-b6f5-fafaac03c1f1"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-27",
+      "number": "27",
+      "date": "30/04/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d4c32c09-a74a-485f-8478-8c3d7d832db3"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-28",
+      "number": "28",
+      "date": "02/05/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "eae90623-b780-4204-8277-7f0859bde556"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-29",
+      "number": "29",
+      "date": "10/05/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "7c45af33-24d6-40cb-bcb9-c723f1534fd8"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-30",
+      "number": "30",
+      "date": "16/05/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "71e8721d-f849-4f03-8053-ae58e9bb586c"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-31",
+      "number": "31",
+      "date": "23/05/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "62d82859-10ef-4a8f-9616-bb8e14665fe8"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-32",
+      "number": "32",
+      "date": "01/06/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "fe2d7773-dd52-4f5d-8c72-c780901d83cb"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-33",
+      "number": "33",
+      "date": "07/06/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "9d1ccf86-30c7-4313-86d5-a507398b9a18"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-34",
+      "number": "34",
+      "date": "13/06/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "234075a4-14e8-4df3-b04e-9c6a34e4e2ad"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-35",
+      "number": "35",
+      "date": "20/06/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "0b739798-2b48-4dec-ac30-ccdf05322c28"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-36",
+      "number": "36",
+      "date": "27/06/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "54351fc6-bac6-4038-a367-9d02f3fdf485"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-37",
+      "number": "37",
+      "date": "04/07/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "21daf124-5be9-416f-8ba2-1f2bf9a74e05"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-38",
+      "number": "38",
+      "date": "11/07/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "ac8fc07b-bb4e-435f-bcc4-930d56b738c0"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-39",
+      "number": "39",
+      "date": "18/07/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "615a59f2-9c68-4c46-b518-fc537bd59a08"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-40",
+      "number": "40",
+      "date": "25/07/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "71d7e0f3-4f98-4f67-b5f0-9f7fbeb50e41"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-41",
+      "number": "41",
+      "date": "31/07/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "cc4900f5-675e-4b16-bd31-f7b39c4c9405"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-42",
+      "number": "42",
+      "date": "08/08/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "02865e01-5131-4d0f-8a36-d2aa73c58c41"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-43",
+      "number": "43",
+      "date": "14/08/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "4010e8ef-cde4-4927-a9f1-42b6cf959a8b"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-44",
+      "number": "44",
+      "date": "21/08/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "8b7fa8d2-7a0d-483c-bdfa-a04d821bac5a"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-45",
+      "number": "45",
+      "date": "28/08/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "d2081512-ad24-4f8e-b905-0c42544169ce"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-46",
+      "number": "46",
+      "date": "04/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3cd81fe4-80d5-4b95-ab55-19d22fd3d7c9"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-47",
+      "number": "47",
+      "date": "10/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "15f5e845-c549-41c2-89e8-dbda22d80b0c"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-48",
+      "number": "48",
+      "date": "18/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "e4306aae-859b-40d1-bff2-be5f8ee4ddcd"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-49",
+      "number": "49",
+      "date": "25/09/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "04036a32-1a68-4522-abf2-81a6a130ae90"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-50",
+      "number": "50",
+      "date": "03/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "3b969937-4652-44cf-8dba-a81514691901"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-51",
+      "number": "51",
+      "date": "09/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a8621933-e41a-47f0-bb92-0eb346149f41"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-52",
+      "number": "52",
+      "date": "24/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "bc5778cf-9b6a-4a15-bf92-3b394d6da9a8"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-53",
+      "number": "53",
+      "date": "30/10/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a617b0e5-7720-4218-85da-fc28c7d9b210"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-54",
+      "number": "54",
+      "date": "06/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "25f2f96c-8ded-4e78-bb32-1024ad3e0773"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-55",
+      "number": "55",
+      "date": "14/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "c41b3f60-3c3a-4a2c-8c3d-e586b1666944"
+    },
+    {
+      "slug": "i-start-with-13-hidden-traits-chapter-56",
+      "number": "56",
+      "date": "22/11/2026",
+      "chapter_id": 0,
+      "page_count": 0,
+      "pages": [],
+      "shinigami_chapter_id": "a7704f60-fc01-433e-973a-ebe209d7285d"
+    }
+  ]
+}

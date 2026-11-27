@@ -14,23 +14,27 @@ interface RankItem {
 }
 
 interface Rankings {
+  recommendation: RankItem[];
   daily: RankItem[];
   weekly: RankItem[];
+  all_time: RankItem[];
 }
 
 interface Props {
   rankings: Rankings;
 }
 
-type Period = "daily" | "weekly";
+type Period = "recommendation" | "daily" | "weekly" | "all_time";
 
 const PERIOD_LABELS: Record<Period, string> = {
+  recommendation: "Rekomendasi",
   daily: "Harian",
   weekly: "Mingguan",
+  all_time: "All Time",
 };
 
 export default function PopularToday({ rankings }: Props) {
-  const [period, setPeriod] = useState<Period>("daily");
+  const [period, setPeriod] = useState<Period>("recommendation");
   const scrollRef = useRef<HTMLDivElement>(null);
   const [paused, setPaused] = useState(false);
 

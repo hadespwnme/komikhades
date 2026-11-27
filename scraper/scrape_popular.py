@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Fetch ranking from shinigami API (daily, weekly)
+Fetch recommendation and ranking data from shinigami API
 and save to public/data/rankings.json
 Auto-scrape any missing comics.
 """
@@ -60,6 +60,10 @@ def fetch_ranking(period, limit=16):
     return api_get(f"/v1/manga/top?filter={period}&limit={limit}")
 
 
+def fetch_recommendations():
+    return api_get("/v1/manga/recommendation/lists/home")["mangas"]
+
+
 def build_ranking_items(data, existing_ids):
     items = []
     for idx, m in enumerate(data):  # Use array index as rank position
@@ -84,8 +88,10 @@ if __name__ == "__main__":
     existing_ids = get_existing_manga_ids()
 
     rankings = {}
-    for period in ["daily", "weekly"]:
-        data = fetch_ranking(period, limit=16)
+    sources = [("recommendation", fetch_recommendations())]
+    sources.extend((period, fetch_ranking(period, limit=16))
+                   for period in ["daily", "weekly", "all_time"])
+    for period, data in sources:
         items = build_ranking_items(data, existing_ids)
 
         # Auto-scrape missing comics
