@@ -103,8 +103,11 @@ export default function PopularToday({ rankings }: Props) {
           if (event.key === "ArrowRight") move(1);
         }}
       >
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(249,115,22,0.28),_transparent_68%)]" />
-        <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-r from-surface via-transparent to-surface opacity-80" />
+        {/* Reuse the active Shinigami cover as a subtle, blurred hero background. */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={items[current].thumbnail} alt="" className="pointer-events-none absolute inset-0 h-full w-full scale-110 object-cover opacity-35 blur-2xl" />
+        <div className="pointer-events-none absolute inset-0 bg-black/45" />
+        <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-r from-surface via-transparent to-surface opacity-85" />
 
         {items.map((item, index) => {
           let offset = index - current;
