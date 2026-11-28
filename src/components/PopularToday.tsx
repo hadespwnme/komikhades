@@ -62,8 +62,8 @@ export default function PopularToday({ rankings }: Props) {
 
   const small = heroWidth > 0 && heroWidth < 640;
   const gap = small ? 118 : heroWidth < 900 ? 170 : 200;
-  const cardWidth = small ? 150 : 200;
-  const cardHeight = small ? 220 : 292;
+  const cardWidth = small ? 165 : 220;
+  const cardHeight = small ? 245 : 320;
   const move = (amount: number) => {
     setCurrent((index) => (index + amount + items.length) % items.length);
     setPaused(true);
