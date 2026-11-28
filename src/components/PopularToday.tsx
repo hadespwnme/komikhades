@@ -79,6 +79,10 @@ export default function PopularToday({ rankings }: Props) {
         <span className="text-xs text-muted">{current + 1}/{items.length}</span>
       </div>
 
+      <div className="mb-4 flex flex-wrap gap-2">
+        {(Object.keys(PERIOD_LABELS) as Period[]).map((option) => <button key={option} type="button" onClick={() => setPeriod(option)} className={`rounded-lg px-3.5 py-2 text-xs font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent ${period === option ? "bg-accent text-black shadow-[0_2px_12px_rgba(249,115,22,0.3)]" : "bg-surface text-muted hover:text-text"}`}>{PERIOD_LABELS[option]}</button>)}
+      </div>
+
       <section
         ref={heroRef}
         tabIndex={0}
@@ -145,9 +149,6 @@ export default function PopularToday({ rankings }: Props) {
         {items.map((item, index) => <button key={`${item.slug}-dot`} type="button" aria-label={`Buka ${item.title}`} aria-current={index === current} onClick={() => { setCurrent(index); setPaused(true); }} className={`h-2 rounded-full transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent ${index === current ? "w-7 bg-accent" : "w-2 bg-border hover:bg-muted"}`} />)}
       </div>
 
-      <div className="mt-6 flex flex-wrap gap-2">
-        {(Object.keys(PERIOD_LABELS) as Period[]).map((option) => <button key={option} type="button" onClick={() => setPeriod(option)} className={`rounded-lg px-3.5 py-2 text-xs font-semibold transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent ${period === option ? "bg-accent text-black shadow-[0_2px_12px_rgba(249,115,22,0.3)]" : "bg-surface text-muted hover:text-text"}`}>{PERIOD_LABELS[option]}</button>)}
-      </div>
     </section>
   );
 }
